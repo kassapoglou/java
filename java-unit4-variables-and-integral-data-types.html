@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Variables and Integral Data Types</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="java_style.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150900548-1');
+</script>
+
+</head>
+<body class="single-blog-post">
+    <div class="page-header">
+           <header class="site-header">
+            <div class="top-header-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                            <div class="header-bar-email d-flex align-items-center">
+                                <i class="fa fa-envelope"></i><a href="#">michail.kassapoglou@gmail.com</a>
+                            </div><!-- .header-bar-email -->
+
+                            <div class="header-bar-text lg-flex align-items-center">
+                              <!--  <p><i class="fa fa-phone"></i>001-1234-88888 </p> -->
+                            </div><!-- .header-bar-text -->
+                        </div><!-- .col -->
+
+                        <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                            <div class="header-bar-search">
+                                <form class="flex align-items-stretch">
+                                 <!--   <input type="search" placeholder="What would you like to learn?"> -->
+                                 <!--   <button type="submit" value="" class="flex justify-content-center align-items-center"><i class="fa fa-search"></i></button> -->
+                                </form>
+                            </div><!-- .header-bar-search -->
+
+                            <div class="header-bar-menu">
+                                <ul class="flex justify-content-center align-items-center py-2 pt-md-0">
+                                  <!--  <li><a href="#">Register</a></li> -->
+                                <!--    <li><a href="#">Login</a></li> -->
+                                </ul>
+                            </div><!-- .header-bar-menu -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                 </div>   <!-- .container-fluid -->
+            </div><!-- .top-header-bar -->
+
+            <div class="nav-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-9 col-lg-3">
+                            <div class="site-branding">
+                                <h1 class="site-title"><a href="https://kassapoglou.github.io/main/" rel="home">Kassa<span>poglou</span></a></h1>
+                            </div><!-- .site-branding -->
+                        </div><!-- .col -->
+
+                        <div class="col-3 col-lg-9 flex justify-content-end align-content-center">
+                            <nav class="site-navigation flex justify-content-end align-items-center">
+                                <ul class="flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                    <li class="current-menu-item"><a href="https://kassapoglou.github.io/main/">Home</a></li>
+                                  <li><a href="https://kassapoglou.github.io/main/forum.html">Forum</a></li>
+                                    <li><a href="https://kassapoglou.github.io/main/contact.html">Contact</a></li>
+                                </ul>
+
+                                <div class="hamburger-menu d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div><!-- .hamburger-menu -->
+
+                               
+                            </nav><!-- .site-navigation -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .nav-bar -->
+        </header><!-- .site-header -->
+
+        <div class="page-header-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <header class="entry-header">
+                            <h1 class="entry-title">ΕΝΟΤΗΤΑ 4 JAVA SE - Variables and Integral Data Types</h1>
+
+                            <div class="entry-meta flex justify-content-center align-items-center">
+                                <div class="post-author"><a href="#">Michail Kassapoglou </a></div>
+
+                              <!--  <div class="post-comments"><a href="#">02 Comments</a></div> -->
+                            </div><!-- .entry-meta -->
+                        </header><!-- .entry-header -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .page-header-overlay -->
+    </div><!-- .page-header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-10">
+                <div class="featured-image">
+                  <!--  <img src="images/single-post.jpg" alt=""> -->
+
+                    <div class="posted-date position-absolute">
+                        <div class="day">12</div>
+                        <div class="month">Nov</div>
+                    </div><!-- .posted-date -->
+                </div><!-- .featured-image -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-1" style="height:0">
+                <div class="post-share">
+                   
+
+                  
+                </div><!-- .post-share -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-lg-12">
+                <div class="single-post-wrap">
+                   
+                    <p>Ο κύριος λόγος που χρησιμοποιούμε όχι μόνο την Java αλλά
+                        και οποιαδήποτε γλώσσα προγραμματισμού, είναι
+                        για να μπορούμε να εκτελούμε αριθμητικές πράξεις πολύ γρήγορα. </p>
+               
+                    <p>Για να μπορέσουμε να πετύχουμε το επιθυμητό αποτέλεσμα,
+                        θα πρέπει πρωτίστως να περάσουμε στην 
+                        Java κατά κάποιο τρόπο τις τιμές που θέλουμε
+                        να συμπεριληφθούν στις πράξεις και δευτερευόντως 
+                        να ορίσουμε την μαθηματική φόρμουλα στην οποία θα 
+                        λάβουν μέρος οι αριθμοί. Για να μπορέσουμε να ορίσουμε 
+                        τιμές μέσα σε ένα πρόγραμμα Java, έχουμε δημιουργήσει 
+                        την έννοια της μεταβλητής (variable). </p>
+                    
+                    <p>Η γενική μορφή ορισμού μιας μεταβλητής 
+                        είναι: <strong>type var-name;</strong> όπου type είναι το 
+                        είδος της τιμής (integer, boolean, float, κτλ)
+                        που μπορεί να δεχτεί η μεταβλητή ενώ το var-name
+                         είναι το πως θα ονομάσουμε την μεταβλητή μας. 
+                        Φυσικά έχουμε την δυνατότητα να αρχικοποιήσουμε
+                        την μεταβλητή μας με κάποια τιμή ασχέτως αν αργότερα
+                        κατά την εκτέλεση της εφαρμογή μας η μεταβλητή μπορεί
+                        να δεχτεί διαφορετική τιμή. Η γενικότερη φόρμουλα για 
+                        να ορίσουμε αρχική τιμή είναι:<strong> type var = value;</strong> </p>
+                    
+                    <p>Πριν δούμε ένα συγκεκριμένο παράδειγμα, πρέπει να αναλύσουμε
+                        λίγο περισσότερο την έννοια του type. Τα data types
+                         στην Java είναι πολύ σημαντικά γιατί πολύ απλά η Java 
+                        θεωρείται strongly typed γλώσσα προγραμματισμού. Αυτό σημαίνει
+                        ότι πρέπει αρχικά να ορίσουμε τις μεταβλητές και τις
+                        τιμές που θα δέχονται πριν ακόμα τις καλέσουμε μέσα 
+                        στην εφαρμογή μας. </p>
+                    
+                    <p>Η Java αποτελείται από δύο μεγάλες κατηγορίες data types: 
+                        εκείνες των αντικειμένων και εκείνες των μη
+                        αντικειμένων. Στη σημερινή ενότητα, και σε
+                        μερικές επόμενες, θα ασχοληθούμε με την κατηγορία 
+                        των μη-αντικειμένων data types που αλλιώς ονομάζονται
+                         primitive. Ονομάζονται έτσι γιατί κυρίως χρησιμοποιούνται σαν
+                        local μεταβλητές και όχι σαν μεταβλητές αντικειμένων.
+                        Η έννοια αυτή θα είναι πιο ξεκάθαρη όταν μιλήσουμε 
+                        για αντικείμενα. Συνολικά λοιπόν έχουμε οκτών
+                        διαφορετικά είδη primitive data types όπως δείχνει και ο πιο κάτω πίνακας. </p>
+                    
+                    
+                    
+                     <img  src="java-unit4/java-unit4-1.JPG"  alt="" class="center">
+                        <p></p>
+                        
+                        <p>Για την εφαρμογή της θεωρίας, ας δημιουργήσουμε ένα καινούργιο 
+                            Java Project με το όνομα IntegerTheory που θα περιέχει ένα
+                            πακέτο με το όνομα com.mycompany και μια κλάση με το όνομα
+                            IntegerDemo. Μέσα στην κλάση θα πρέπει να δημιουργήσετε και 
+                            την main μέθοδο έτσι ώστε να μπορεί το πρόγραμμα μας να είναι
+                            εκτελέσιμο. Μπορείτε επίσης να προσθέσετε ένα μήνυμα σε μια 
+                            println( ) μέθοδο για να το δοκιμάστε.  Όταν τελειώσετε το 
+                            project σας και ο κώδικας σας θα πρέπει να είναι παρόμοιος 
+                            με αυτό της εικόνας και του κώδικα αντίστοιχα.</p>
+                        
+                        
+                        
+                           <img  src="java-unit4/java-unit4-2.JPG"  alt="" class="center">
+                        <p></p>
+                     <p><strong>IntegerDemo.java</strong></p>
+                     <pre class="prettyprint">
+package com.mycompany;
+
+public class IntegerDemo {
+    public static void main(String []args ){
+        System.out.println("This is an Integer Demo application");
+    }
+}
+
+</pre>
+                     
+                     <p>Ένα χρήσιμο στοιχείο που κάθε επαγγελματικός κώδικας πρέπει
+                         να περιέχει είναι τα σχόλια. Τα comments όπως αναφέρονται 
+                         στην Java δεν εμφανίζονται κατά την εκτέλεση του 
+                         προγράμματος. Η χρησιμότητα τους όμως είναι σημαντική 
+                         γιατί εξηγούν τις βασικές λειτουργίες του κώδικα και
+                         δίνουν βοήθεια σε έναν προγραμματιστή να εξοικειωθεί 
+                         με τον κώδικα σε μικρό χρονικό διάστημα. Αν θέλουμε
+                         να προσθέσουμε ένα σχόλιο σε μία μόνο γραμμή κάθε φορά 
+                         τότε χρησιμοποιούμε τα σύμβολα //, ενώ για να γράψουμε 
+                         πχ μια παράγραφο που δίνει μια συνοπτική εικόνα του 
+                         προγράμματος τότε ξεκινάμε το σχόλιο μας με /* και 
+                         το κλείνουμε με */. Ας προσθέσουμε μερικά σχόλια
+                         στον κώδικα μας.</p>
+                        
+                                         <p><strong>IntegerDemo.java</strong></p>
+                     <pre class="prettyprint">
+/*
+Αυτό το πρόγραμμα μας δείχνει την σωστή χρήση
+των Integer μεταβλητών
+*/
+package com.mycompany;
+
+public class IntegerDemo {  //κύρια κλάση του προγράμματος
+    public static void main(String []args ){ // Αρχή εκτελέσιμου κώδικα
+        System.out.println("This is an Integer Demo application"); //Μήνυμα στην κονσόλα
+    }
+}
+</pre>
+                                         
+                                         
+             <p>Στην σημερινή δωρεάν ενότητα της 
+             Java θα μιλήσουμε για τα integer data types. Αλλά πριν
+             από αυτό πρέπει να δούμε ποιος είναι ο σωστός τρόπος να ορίσουμε μια 
+             μεταβλητή. Βασικά στην Java ένα όνομα στο οποίο αναθέτουμε τιμές μπορεί 
+             να θεωρηθεί σαν μεταβλητή. Τα ονόματα των μεταβλητών μπορούν να έχουν
+             όσους χαρακτήρες θέλουμε. Ο πρώτος χαρακτήρας επιτρέπεται να είναι γράμμα,
+             underscore ( _ ) ή το σύμβολο του δολαρίου ( $ ),  ενώ από τον δεύτερο 
+             χαρακτήρα και μετά μπορούμε να χρησιμοποιήσουμε και αριθμούς.</p> 
+             
+             <p>Αυτά είναι μερικά παραδείγματα ονομάτων που είναι έγκυρα στην Java:</p>
+             <p>Welcome, _welcome, $Welcome, Welcome1</p>
+             <p>ενώ δεν μπορούμε να έχουμε ονόματα όπως:</p>
+             <p>my name, 1Welcome</p>
+             
+             <p>Στην Java υπάρχουν μερικές λέξεις-κλειδιά που έχουν προκαθορισμένη 
+                 σημασία και λειτουργία οπότε δεν μπορούμε να τις χρησιμοποιήσουμε
+                 σαν ονόματα των δικών μας μεταβλητών. </p>
+             
+              <img  src="java-unit4/java-unit4-3.JPG"  alt="" class="center">
+                        <p></p>
+             
+                        <p>Οι δύο λέξεις κλειδιά <strong>const</strong> και <strong>goto</strong> δεν 
+                            χρησιμοποιούντα επί του παρόντος αν και ανήκουν στις reserve λέξεις της Java.</p>
+                        
+                        <p>Με την εισαγωγή του module system στην Java 9, 
+                            εμφανίστηκαν ακόμα 10 καινούργιες λέξεις κλειδιά ( ή reserved keywords 
+                            όπως τα λέμε συνήθως) τις οποίες δεν μπορούμε να χρησιμοποιήσουμε σαν 
+                            ονόματα μεταβλητών και είναι οι εξής:</p>
+                        <p><strong>open, module, requires, transitive, exports, opens, to, 
+                                uses, provides</strong>, και <strong>with</strong>.</p>
+                        
+                        <p>Τώρα που ορίσαμε τι είναι μεταβλητή και ποια ονόματα
+                            μπορούμε να χρησιμοποιήσουμε για να την ορίσουμε,
+                            μπορούμε να μιλήσουμε για τους ακέραιους αριθμούς 
+                            στην Java. Υπάρχουν τέσσερα διαφορετικά είδη τα οποία είναι:</p>
+                        
+                        
+              <img  src="java-unit4/java-unit4-4.JPG"  alt="" class="center">
+                        <p></p>
+                        
+                        <p>Όπως παρατηρούμε στον πίνακα, το εύρος των 
+                            αριθμών που καλύπτει κάθε data type περιέχει
+                            και αρνητικούς και θετικούς αριθμούς. Η Java 
+                            δεν υποστηρίζει (unsigned) θετικούς μόνο αριθμούς 
+                            όπως ίσως συμβαίνει σε άλλες γλώσσες προγραμματισμού. 
+</p>
+             
+<p>Το πιο συνηθισμένο integer data type είναι το int. Βασικά δεν
+    είναι μόνο το πιο συνηθισμένο αλλά είναι και το default data 
+    type της Java στους ακέραιους. Αυτό σημαίνει ότι η Java πάντα 
+    προσπαθεί να μετατρέψει τους ακέραιους αριθμούς σε int εκτός και
+    αν εμείς ορίσουμε κάποιο άλλο data type. Αυτή την συμπεριφορά θα 
+    την δούμε σε λίγο με ένα παράδειγμα.</p>
+
+<p>Όσο αφορά τους long ακέραιους, αυτοί εκτός από το 
+    οριστούν σαν long χρειάζονται επιπλέον και το γράμμα <strong>L</strong> να 
+    προστεθεί στο τέλος του αριθμού.</p>
+
+<p>Αυτό που έχει απομείνει είναι να δούμε πως ορίζουμε μια
+    μεταβλητή με integer data type. Χρειάζεται λοιπόν
+    πρώτα να ορίσουμε το data type, μετά το όνομα της
+    μεταβλητής και τέλος είτε κατά τον ορισμό είτε μέσα 
+    στον κώδικα να της αναθέσουμε μια τιμή με το = σύμβολο.</p>
+<p>Έχουμε την δυνατότητα λοιπόν να πούμε:</p>
+<p><strong>int x;</strong></p>
+<p><strong>x = 5;</strong></p>
+<p>ή να δώσουμε την τιμή στην ίδια γραμμή που δηλώνουμε την μεταβλητή:</p>
+<p><strong>int x = 5;</strong></p>
+<p>Επίσης έχουμε την δυνατότητα να ορίσουμε πολλαπλές μεταβλητές του ίδιου είδους στην ίδια γραμμή:</p>
+<p><strong>int x1 = 5, x2 = 10;</strong></p>
+
+<p>Μην ξεχάσετε να τελειώνετε την δήλωση των μεταβλητών με semicolon 
+    ( ; ) γιατί αυτό απαιτεί η Java. Ας δούμε λοιπόν ένα ολοκληρωμένο πρόγραμμα.</p>
+
+
+<p><strong>IntegerDemo.java</strong></p>
+                     <pre class="prettyprint">
+package com.mycompany;
+
+public class IntegerDemo {
+
+    public static void main(String[] args) {
+        int x = 250;
+        System.out.println("x is " + x);
+        
+        short a, b, c;
+        c = 21;
+        b = 9;
+        a = (short) (b + c);
+        System.out.println("a is " + a);
+        
+        long y = 12345678987654321L; //notice the “L”
+        System.out.println("y is " + y);
+        
+        int max = Integer.MAX_VALUE; // Assigns maximum int value to max
+        int min = Integer.MIN_VALUE; // Assigns minimum int value to min
+        System.out.println("The maximum value is: " + max);
+        System.out.println("The minimum value is: " + min);
+    }
+}
+</pre>
+                                         
+      <p><strong>Console Output</strong></p>
+                     <pre class="prettyprint">
+x is 250
+a is 30
+y is 12345678987654321
+The maximum value is: 2147483647
+The minimum value is: -2147483648
+</pre>     
+      
+      
+      <p>Ας δούμε τώρα αναλυτικά τον κώδικα μας. Εξ αρχής ορίζουμε
+          μια μεταβλητή με το όνομα x να είναι είδος int
+          και της αναθέτουμε την τιμή 250. Στην αμέσως επόμενη
+          γραμμή ζητάμε να δούμε την τιμή της μεταβλητής x. 
+          Όπως παρατηρείτε στην println( ) μέθοδο, έχουμε
+          συνδυάσει ένα μήνυμα (“x is”) με  μια μεταβλητή
+          x είδος int. Εδώ το σύμβολο + δεν δηλώνει πρόσθεση 
+          αλλά concatenation δηλαδή θα “κολλήσει” δίπλα στο 
+          μήνυμα την τιμή με την οποία ισούται η μεταβλητή.
+          Για αυτό και έχουμε αφήσει ένα κενό ανάμεσα στο
+          is και τα double quotes.</p>
+      
+      <p>Έπειτα ορίσουμε τρεις μεταβλητές a, b και c 
+          να είναι είδος short. Ενώ θα περιμέναμε το 
+          αποτέλεσμα της πρόσθεσης να είναι short στην 
+          πραγματικότητα δεν είναι. Ο λόγος είναι γιατί 
+          η Java δεν γνωρίζει ότι η πρόσθεση του αριθμού 
+          21 και του αριθμού 9 είναι μέσα στα όρια του 
+          short (16 bit) οπότε, για να προστατέψει το 
+          πρόγραμμα και να μην χάσει σε ακρίβεια, αυξάνει 
+          αυτόματα το data type του αποτελέσματος σε int.
+          Η μεταβλητή a όμως περιμένει short αποτέλεσμα
+          οπότε το πρόγραμμα μας δεν θα τρέξει. Αυτό που
+          χρειάζεται να κάνουμε είναι να ενημερώσουμε την
+          Java ότι θα πάρουμε εμείς την ευθύνη και θα κάνουμε 
+          casting το αποτέλεσμα της πρόσθεσης πίσω σε short. 
+          Τώρα έχουμε ένα short αποτέλεσμα που το αναθέτουμε 
+          σε short μεταβλητή.</p>
+                     
+      <p>Μετά ορίζουμε μια Long μεταβλητή. Απλά προσέξτε στο τέλος του αριθμού
+          ότι έχει προστεθεί το L έτσι ώστε να μην
+          προσπαθήσει η Java να το μετατρέψει σε int.</p>
+      
+      <p>Τέλος αν και δεν χρησιμοποιείται πολύ συχνά, 
+          υπάρχουν για κάθε data type και οι αντίστοιχες
+          κλάσεις όπως Integer, Double κτλ. Αυτές οι κλάσεις 
+          μας προσφέρουν κάποιες ιδιότητες για τις οποίες θα 
+          μιλήσουμε αργότερα αλλά όσο αφορά τους int, long, 
+          byte και short αριθμούς μπορούμε να αναθέσουμε αυτόματα
+          την μέγιστη τιμή του καθ έκαστου data type καλώντας το 
+          MAX_VALUE ή το MIN_VALUE.
+</p>
+      
+      
+      
+      
+      
+
+
+           
+
+          <div class="author-box">
+                    <div class="author-info flex flex-wrap">
+                        <div class="author-avatar">
+                            <img src="images/michail.jpg" alt="">
+
+                           
+                        </div><!-- .author-avatar -->
+
+                        <div class="author-details">
+                            <h3 class="author-name">Michail Kassapoglou <span>Admin</span></h3>
+
+                            <div class="entry-content mt-3">
+                               <p>Γεια σας, είμαι ο Μιχάλης Κασάπογλου και θα σας διδάξω με τον ποιο απλό 
+                                  τρόπο να προγραμματίζετε σε Java. Ασχολούμαι με την τεχνική εκπαίδευση 
+                                    σε διάφορες πλατφόρμες, λειτουργικά συστήματα και γλώσσες προγραμματισμού 
+                                    πάνω από 20 έτη. Κατέχω έναν αρκετά μεγάλο αριθμό πιστοποιήσεων Microsoft και Oracle 
+                                    και σαν Τraining Lead στην Intrasoft έχω την δυνατότητα να αναβαθμίζω συνεχώς 
+                                    τις γνώσεις μου και να έχω άμεση επαφή με αληθινά projects και εξειδικευμένες μεθόδους 
+                                    ανάπτυξης εφαρμογών που έχουν υψηλές απαιτήσεις.  
+                                    Για τυχόν ερωτήσεις σας μπορείτε να επικοινωνήσετε μαζί μου 
+                                    στο <font color="#0000CC">Michail.Kassapoglou@gmail.com </font></p>
+                             <p>   Σας ευχαριστώ που επισκεφτήκατε την ιστοσελίδα μου.</p>
+                            </div><!-- .entry-content -->
+                        </div><!-- .author-details -->
+                    </div><!-- .author-info -->
+                </div><!-- .author-box -->
+
+                
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+
+ 
+
+  
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>
