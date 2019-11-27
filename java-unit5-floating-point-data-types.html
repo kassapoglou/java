@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Floating Point Data Types</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="java_style.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150900548-1');
+</script>
+
+</head>
+<body class="single-blog-post">
+    <div class="page-header">
+           <header class="site-header">
+            <div class="top-header-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                            <div class="header-bar-email d-flex align-items-center">
+                                <i class="fa fa-envelope"></i><a href="#">michail.kassapoglou@gmail.com</a>
+                            </div><!-- .header-bar-email -->
+
+                            <div class="header-bar-text lg-flex align-items-center">
+                              <!--  <p><i class="fa fa-phone"></i>001-1234-88888 </p> -->
+                            </div><!-- .header-bar-text -->
+                        </div><!-- .col -->
+
+                        <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                            <div class="header-bar-search">
+                                <form class="flex align-items-stretch">
+                                 <!--   <input type="search" placeholder="What would you like to learn?"> -->
+                                 <!--   <button type="submit" value="" class="flex justify-content-center align-items-center"><i class="fa fa-search"></i></button> -->
+                                </form>
+                            </div><!-- .header-bar-search -->
+
+                            <div class="header-bar-menu">
+                                <ul class="flex justify-content-center align-items-center py-2 pt-md-0">
+                                  <!--  <li><a href="#">Register</a></li> -->
+                                <!--    <li><a href="#">Login</a></li> -->
+                                </ul>
+                            </div><!-- .header-bar-menu -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                 </div>   <!-- .container-fluid -->
+            </div><!-- .top-header-bar -->
+
+            <div class="nav-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-9 col-lg-3">
+                            <div class="site-branding">
+                                <h1 class="site-title"><a href="https://kassapoglou.github.io/main/" rel="home">Kassa<span>poglou</span></a></h1>
+                            </div><!-- .site-branding -->
+                        </div><!-- .col -->
+
+                        <div class="col-3 col-lg-9 flex justify-content-end align-content-center">
+                            <nav class="site-navigation flex justify-content-end align-items-center">
+                                <ul class="flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                    <li class="current-menu-item"><a href="https://kassapoglou.github.io/main/">Home</a></li>
+                                  <li><a href="https://kassapoglou.github.io/main/forum.html">Forum</a></li>
+                                    <li><a href="https://kassapoglou.github.io/main/contact.html">Contact</a></li>
+                                </ul>
+
+                                <div class="hamburger-menu d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div><!-- .hamburger-menu -->
+
+                               
+                            </nav><!-- .site-navigation -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .nav-bar -->
+        </header><!-- .site-header -->
+
+        <div class="page-header-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <header class="entry-header">
+                            <h1 class="entry-title">ΕΝΟΤΗΤΑ 5 JAVA SE - Floating Point Data Types</h1>
+
+                            <div class="entry-meta flex justify-content-center align-items-center">
+                                <div class="post-author"><a href="#">Michail Kassapoglou </a></div>
+
+                              <!--  <div class="post-comments"><a href="#">02 Comments</a></div> -->
+                            </div><!-- .entry-meta -->
+                        </header><!-- .entry-header -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .page-header-overlay -->
+    </div><!-- .page-header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-10">
+                <div class="featured-image">
+                  <!--  <img src="images/single-post.jpg" alt=""> -->
+
+                    <div class="posted-date position-absolute">
+                        <div class="day">27</div>
+                        <div class="month">Nov</div>
+                    </div><!-- .posted-date -->
+                </div><!-- .featured-image -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-1" style="height:0">
+                <div class="post-share">
+                   
+
+                  
+                </div><!-- .post-share -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-lg-12">
+                <div class="single-post-wrap">
+                    
+                    <p>Εκτός από τους ακέραιους αριθμούς, μπορούμε να ορίσουμε
+                        μια Java μεταβλητή να δέχεται και δεκαδικούς αριθμούς. 
+                        Δύο από τα οκτώ primitive types χρησιμοποιούνται για δεκαδικούς
+                        αριθμούς: float και double. </p>
+                    
+                    <p> Η μόνη και βασική διαφορά ανάμεσά τους είναι 
+                        το εύρος των αριθμών που μπορούν να καλύψουν αφού 
+                        ένας float αριθμός περιγράφεται από 32 bits ενώ 
+                        ένας double από 64 bits. </p>
+                    
+                    <p>Στην προηγούμενη ενότητα είχαμε περιγράψει ότι η
+                         default συμπεριφορά της Java με τους ακέραιους 
+                        αριθμούς ήταν να προσπαθήσει να τους μετατρέψει
+                        όλους σε int εκτός και αν βάλουμε το L στον τέλος
+                        του αριθμού χαρακτηρίζοντας τον σαν Long. Στους
+                        δεκαδικούς η default συμπεριφορά είναι το double data type. 
+                        Αν θέλουμε να ορίσουμε έναν αριθμό να είναι float, 
+                        εκτός από το float data type μπροστά από το όνομα της 
+                        μεταβλητής, πρέπει να προσθέσουμε και ένα F στο τέλος 
+                        του αριθμού. </p>
+                    
+                    <p>Γενικότερα το double είναι εκείνο που χρησιμοποιούμε
+                        πιο πολύ αφού έτσι και αλλιώς όλες οι μαθηματικές 
+                        βιβλιοθήκες της Java χρησιμοποιούν και επιστρέφουν 
+                        double αριθμούς.</p>
+                    
+                    <p>Ας δούμε όμως ένα παράδειγμα στο οποίο μπορούμε 
+                        να δούμε ξεκάθαρα την χρήση των δύο αυτών data types
+                         και που πρέπει να προσέχουμε όταν τα χρησιμοποιούμε
+                        σε αριθμητικές πράξεις. Προσέξτε και έναν καινούργιο
+                        τρόπο που μας επιτρέπει η Java να ορίσουμε double αλλά
+                        και int αριθμούς με την χρήση του underscore ( _ )που
+                        μας επιτρέπει να ξεχωρίζουμε γρήγορα τις δεκάδες, τις 
+                        εκατοντάδες, χιλιάδες κτλ αντί να χρησιμοποιήσουμε κόμμα ( , ). Το underscore δεν το λαμβάνει 
+                        υπόψη η Java όταν το πρόγραμμα γίνεται compile. Απλά είναι
+                        μια γρήγορη βοήθεια στο να ορίζουμε μεγάλους αριθμούς.
+                        Η αλήθεια είναι ότι δεν έχω δει ποτέ κανέναν να χρησιμοποιεί
+                        αυτό τον τρόπο εγγραφής μεγάλων αριθμών.</p>
+                    
+                    <p>Δημιουργούμε ένα καινούργιο project και το 
+                        ονομάζουμε FloatDemo. Μέσα στο project,
+                        δημιουργούμε ένα πακέτο με το όνομα com.mycompany
+                        και μέσα στο πακέτο μια κλάση με το όνομα FloatDemo 
+                        που περιέχει τον εξής κώδικα:</p>
+                    
+                    <p><strong>FloatDemo.java</strong></p>
+                     <pre class="prettyprint">
+package com.mycompany;
+
+public class FloatDemo {
+    public static void main(String []args){
+        double pi = 3.14159;
+        float f = 2.7F;
+        System.out.println("pi = " + pi);
+        System.out.println("f = " + f);
+        int n = 15, d = 4;
+        f = n / d;
+        System.out.println("15/4 = " + f);
+        int radius = 10;
+        double area = pi * radius * radius;
+        System.out.println("area = " + area);
+        double num = 9_324_794_268.0;
+        System.out.println("num = " + num);
+    }
+}
+
+</pre>
+                    
+ 
+                    <p><strong>Output</strong></p>
+                     <pre class="prettyprint">
+pi = 3.14159
+f = 2.7
+15/4 = 3.0
+area = 314.159
+num = 9.324794268E9
+
+</pre>        
+                    
+                    <p>Στο πιο πάνω πρόγραμμα, αν και ο Java κώδικας είναι
+                        σωστά γραμμένος, το αποτέλεσμα είναι λάθος. Ας
+                        το αναλύσουμε γραμμή προς γραμμή και θα δούμε
+                        πως μπορούμε να το διορθώσουμε.</p>
+                    
+                    <p>Ορίζουμε εξ αρχής δύο μεταβλητές pi και f 
+                        με την pi να είναι double και την f να είναι
+                         float. Παρατηρήστε το F στο τέλος του αριθμού
+                        2.7 που είναι η τιμή που αναθέσαμε στην μεταβλητή f.</p>
+                    
+                    <p>Αμέσως μετά τον ορισμό των μεταβλητών, απλά 
+                        ζητάμε να δούμε τις τιμές που τους έχουμε αναθέσει 
+                        στο default output.</p>
+                    
+                    <p>Στην συνέχεια, ορίζουμε δύο int μεταβλητές την n και
+                        την d με τιμές 15 και 4 αντίστοιχα. Και στο επόμενο 
+                        βήμα εκτελούμε την διαίρεση 15/4 και ζητάμε να δούμε 
+                        το αποτέλεσμα στο terminal. Όμως παρατηρούμε ότι το 
+                        αποτέλεσμα είναι λάθος. Τι έγινε? Η απάντηση είναι απλή:
+                        Η διαίρεση μεταξύ δύο int αριθμών μας δίνει αποτέλεσμα
+                         int δηλαδή 3. Επειδή όμως η μεταβλητή f έχει οριστεί
+                        σαν float, η Java πριν αναθέσει την int τιμή στην μεταβλητή
+                         f την μετατρέπει σε float. Οπότε το 3 μετατρέπεται σε 
+                        3.0. Για να λάβουμε το σωστό αποτέλεσμα πρέπει πολύ απλά 
+                        να μετατρέψουμε τον ένα από τους δύο int σε float με 
+                        την διαδικασία του casting. </p>
+                    
+                    <p><strong> f = (float) n / d;</strong></p>
+                    
+                    <p>Τότε αυτόματα και ο δεύτερο int αριθμός θα 
+                        μετατραπεί σε float και η διαίρεση θα μας δώσει
+                        το σωστό αποτέλεσμα.</p>
+                    
+                    <p>Τέλος ορίζουμε μια μεταβλητή num να είναι double
+                        και της αναθέτουμε την τιμή 9_324_794_268.0 
+                        στην οποία χρησιμοποιούμε underscore ( _ ) αντί
+                        για κόμμα ( , ) για να ξεχωρίζουν καλύτερα οι 
+                        ομάδες των αριθμών. Όταν ζητάμε να δούμε με τι 
+                        ισούται η μεταβλητή num, θα πάρουμε τον αριθμό 
+                        9.324794268E9. Τα underscore έχουν εξαφανιστεί 
+                        ενώ το τελικό αποτέλεσμα η Java μας το δίνει σε
+                        συνδυασμό με την δύναμη του 10. Το Ε9 αντιπροσωπεύει 
+                        με το 109. </p>
+                    
+                     <p><strong>FloatDemo.java</strong></p>
+                     <pre class="prettyprint">
+package com.mycompany;
+
+public class FloatDemo {
+    public static void main(String []args){
+        double pi = 3.14159;
+        float f = 2.7F;
+        System.out.println("pi = " + pi);
+        System.out.println("f = " + f);
+        int n = 15, d = 4;
+        f = (float) n / d;
+        System.out.println("15/4 = " + f);
+        int radius = 10;
+        double area = pi * radius * radius;
+        System.out.println("area = " + area);
+        double num = 9_324_794_268.0;
+        System.out.println("num = " + num);
+    }
+}
+
+</pre>
+                    
+ 
+                    <p><strong>Output</strong></p>
+                     <pre class="prettyprint">
+pi = 3.14159
+f = 2.7
+15/4 = 3.75
+area = 314.159
+num = 9.324794268E9
+
+</pre>        
+                    
+                    <p>Τώρα το αποτέλεσμα της διαίρεσης είναι σωστό.</p>
+                   
+      
+
+
+           
+
+          <div class="author-box">
+                    <div class="author-info flex flex-wrap">
+                        <div class="author-avatar">
+                            <img src="images/michail.jpg" alt="">
+
+                           
+                        </div><!-- .author-avatar -->
+
+                        <div class="author-details">
+                            <h3 class="author-name">Michail Kassapoglou <span>Admin</span></h3>
+
+                            <div class="entry-content mt-3">
+                               <p>Γεια σας, είμαι ο Μιχάλης Κασάπογλου και θα σας διδάξω με τον ποιο απλό 
+                                  τρόπο να προγραμματίζετε σε Java. Ασχολούμαι με την τεχνική εκπαίδευση 
+                                    σε διάφορες πλατφόρμες, λειτουργικά συστήματα και γλώσσες προγραμματισμού 
+                                    πάνω από 20 έτη. Κατέχω έναν αρκετά μεγάλο αριθμό πιστοποιήσεων Microsoft και Oracle 
+                                    και σαν Τraining Lead στην Intrasoft έχω την δυνατότητα να αναβαθμίζω συνεχώς 
+                                    τις γνώσεις μου και να έχω άμεση επαφή με αληθινά projects και εξειδικευμένες μεθόδους 
+                                    ανάπτυξης εφαρμογών που έχουν υψηλές απαιτήσεις.  
+                                    Για τυχόν ερωτήσεις σας μπορείτε να επικοινωνήσετε μαζί μου 
+                                    στο <font color="#0000CC">Michail.Kassapoglou@gmail.com </font></p>
+                             <p>   Σας ευχαριστώ που επισκεφτήκατε την ιστοσελίδα μου.</p>
+                            </div><!-- .entry-content -->
+                        </div><!-- .author-details -->
+                    </div><!-- .author-info -->
+                </div><!-- .author-box -->
+
+                
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+
+ 
+
+  
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>
