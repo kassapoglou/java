@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Μαθαίνω Δωρεάν Java Προγραμματισμό</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων στην γλώσσα προγραμματισμού Java"> 
+    <meta name="robots" content="index, follow">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="java_style.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150900548-1');
+</script>
+
+</head>
+<body class="single-blog-post">
+    <div class="page-header">
+           <header class="site-header">
+            <div class="top-header-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                            <div class="header-bar-email d-flex align-items-center">
+                                <i class="fa fa-envelope"></i><a href="#">michail.kassapoglou@gmail.com</a>
+                            </div><!-- .header-bar-email -->
+
+                            <div class="header-bar-text lg-flex align-items-center">
+                              <!--  <p><i class="fa fa-phone"></i>001-1234-88888 </p> -->
+                            </div><!-- .header-bar-text -->
+                        </div><!-- .col -->
+
+                        <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                            <div class="header-bar-search">
+                                <form class="flex align-items-stretch">
+                                 <!--   <input type="search" placeholder="What would you like to learn?"> -->
+                                 <!--   <button type="submit" value="" class="flex justify-content-center align-items-center"><i class="fa fa-search"></i></button> -->
+                                </form>
+                            </div><!-- .header-bar-search -->
+
+                            <div class="header-bar-menu">
+                                <ul class="flex justify-content-center align-items-center py-2 pt-md-0">
+                                  <!--  <li><a href="#">Register</a></li> -->
+                                <!--    <li><a href="#">Login</a></li> -->
+                                </ul>
+                            </div><!-- .header-bar-menu -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                 </div>   <!-- .container-fluid -->
+            </div><!-- .top-header-bar -->
+
+            <div class="nav-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-9 col-lg-3">
+                            <div class="site-branding">
+                                <h1 class="site-title"><a href="https://kassapoglou.github.io/main/" rel="home">Kassa<span>poglou</span></a></h1>
+                            </div><!-- .site-branding -->
+                        </div><!-- .col -->
+
+                        <div class="col-3 col-lg-9 flex justify-content-end align-content-center">
+                            <nav class="site-navigation flex justify-content-end align-items-center">
+                                <ul class="flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                    <li class="current-menu-item"><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                                    <!-- <li><a href="https://kassapoglou.github.io/main/forum.html">Forum</a></li>-->
+                                           <li><a href="https://kassapoglou.github.io/main/contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                                </ul>
+
+                                <div class="hamburger-menu d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div><!-- .hamburger-menu -->
+
+                               
+                            </nav><!-- .site-navigation -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .nav-bar -->
+        </header><!-- .site-header -->
+
+        <div class="page-header-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <header class="entry-header">
+                            <h1 class="entry-title">ΕΝΟΤΗΤΑ 10 JAVA SE - Arrays</h1>
+
+                            <div class="entry-meta flex justify-content-center align-items-center">
+                                <div class="post-author"><a href="#">Michail Kassapoglou </a></div>
+
+                              <!--  <div class="post-comments"><a href="#">02 Comments</a></div> -->
+                            </div><!-- .entry-meta -->
+                        </header><!-- .entry-header -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .page-header-overlay -->
+    </div><!-- .page-header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-10">
+                <div class="featured-image">
+                  <!--  <img src="images/single-post.jpg" alt=""> -->
+
+                    <div class="posted-date position-absolute">
+                        <div class="day">19</div>
+                        <div class="month">Mar</div>
+                    </div><!-- .posted-date -->
+                </div><!-- .featured-image -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-1" style="height:0">
+                <div class="post-share">
+                   
+
+                  
+                </div><!-- .post-share -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-lg-12">
+                <div class="single-post-wrap">
+                    <p><h3>ΔΩΡΕΑΝ ΜΑΘΗΜΑΤΑ JAVA</h3></p>
+<p>Στο σημερινό δωρεάν μάθημα Java θα ασχοληθούμε με τους <strong>arrays</strong>. 
+Θα δούμε τους ποιο συχνούς τρόπους για να ορίσουμε σωστά έναν array ενώ ταυτόχρονα 
+θα δούμε πολλά αλλά απλά παραδείγματα για να κατανοήσουμε καλύτερα την θεωρία. 
+Τι είναι όμως ένας array?</p>
+
+<p>Για να μπορέσουμε να κατανοήσουμε καλύτερα το πως μας διευκολύνει 
+ένας array, ας αναλύσουμε ένα θεωρητικό παράδειγμα. Σκεφτείτε λοιπόν ότι 
+μας έχουν αναθέσει την ανάπτυξη ενός java προγράμματος που σκοπός του 
+είναι η καταγραφή των μαθητών. Υπάρχουν αρκετοί τρόποι να προσεγγίσετε 
+αυτό το πρόβλημα και να το λύσετε, αλλά με βάση αυτά που γνωρίζουμε μέχρι 
+τώρα από τις προηγούμενες ενότητες η απάντηση δεν είναι και τόσο εύκολη. 
+Ας πούμε ότι θεωρείτε ότι κάθε τάξη δεν μπορεί να έχει περισσότερους από 
+20 μαθητές, οπότε αποφασίζετε να δημιουργήσετε 20 διαφορετικές μεταβλητές 
+που κάθε μια θα αντιστοιχεί σε έναν μαθητή. Και αν η τάξη είχε 50 μαθητές 
+τότε θα έπρεπε να δημιουργήσετε 50 διαφορετικές μεταβλητές. Αν νομίζετε 
+ότι μπορείτε να διαχειριστείτε αυτό τον αριθμό των μεταβλητών, τότε πως 
+θα αντιμετωπίζατε το πελατολόγιο μιας τράπεζας? Θα γράφατε 5 ή ακόμα 
+50 χιλιάδες μεταβλητές? Δεν νομίζω. Αλλά αν ακόμα τις γράφατε η κατανάλωση 
+μνήμης του υπολογιστή στον οποίο θα έτρεχε το πρόγραμμα σας θα ήταν πολύ 
+μεγάλη. Εδώ λοιπόν είναι που χρειαζόμαστε την λογική του array.</p>
+
+<p>Σαν array ονομάζουμε μια συλλογή στοιχείων, σε συνεχόμενες 
+διευθύνσεις στην μνήμη, του ίδιου τύπου δεδομένων που αντιπροσωπεύονται 
+από ένα μόνο όνομα. Κάθε στοιχείο του array πρέπει να είναι ενός συγκεκριμένου, 
+και εξ αρχής ορισμένου, είδος δεδομένων. Το ένα στοιχείο από το άλλο ξεχωρίζει 
+από την θέση που κατέχει μέσα στον array και χαρακτηρίζεται από έναν αριθμό 
+που ονομάζεται <strong>index</strong>. Η αρίθμηση του index ξεκινάει από το 0. 
+Στην ουσία για να δημιουργήσουμε έναν array πρέπει να ακολουθήσουμε δύο βήματα:</p>
+
+<p>1. Να δώσουμε ένα όνομα στον array</p>
+<p>2. Να δημιουργήσουμε τον array χρησιμοποιώντας την λέξη κλειδί new και ορίζοντας το μέγεθος του</p>
+
+<p>Στην java, τα δεδομένα θα ανήκουν είτε στα primitive types ή 
+θα είναι είναι αντικείμενα. Οι arrays είναι αντικείμενα για αυτό και 
+δεν δημιουργούμε στην ουσία μεταβλητή αλλά reference για να μπορέσουμε 
+να τους διαχειριστούμε. Μην ανησυχείτε αν δεν καταλαβαίνετε την έννοια 
+του αντικειμένου. Ακόμα δεν έχουμε μιλήσει για αυτά. Για τώρα απλά δεχτείτε 
+το συντακτικό δημιουργίας ενός array όπως έχει.</p>
+
+<p>Πως λοιπόν ορίζουμε έναν array? Πρώτα δηλώνουμε το είδος των δεδομένων 
+που θα δέχεται ο array όπως int, float, string κτλ. Αμέσως μετά γράφουμε 
+τα square brackets σύμβολα [ ] με το όνομα του array. Μην ξεχάσατε να κλείσετε 
+το statement με semicolon ( ; ) στο τέλος.</p>
+
+<p><strong>int [ ]students;</strong></p>
+
+<p>Η java μας επιτρέπει να γράφουμε τα brackets μετά από το όνομα 
+σαν δεύτερη εναλλακτική δήλωση του array. Και οι δύο δηλώσεις είναι σωστές 
+και οι δύο χρησιμοποιούνται συχνά.</p>
+
+<p><strong>int students[ ];</strong></p>
+
+<p>Μέχρι τώρα έχουμε απλά ορίσει το reference του array με το όνομα students. 
+Αλλά μας λείπει ακόμα να ορίσουμε το μέγεθος του πριν μπορέσουμε να το 
+χρησιμοποιήσουμε. Σαν δεύτερη δήλωση λοιπόν ορίζουμε το μέγεθος του array 
+με την λέξη κλειδί <strong>new</strong> και με τον αριθμό των δεδομένων 
+που μπορεί να δέχεται. Ας ορίσουμε λοιπόν έναν array που θα δέχεται 20 μαθητές.</p>
+
+<p><strong>students = new int[20];</strong></p>
+
+<p>Εννοείται ότι έχουμε την δυνατότητα να ορίσουμε το reference (το όνομα του array) 
+όπως και το μέγεθος του στην ίδια γραμμή κώδικα.</p>
+<p><strong>int students[] = new int[20];</strong></p>
+
+<p>Η παραπάνω εντολή δημιουργεί έναν array που δέχεται 20 
+ακέραιους αριθμούς. Αυτό που απομένει τώρα είναι να μάθουμε πως μπορούμε 
+να τοποθετήσουμε τους αριθμούς μας σε κάθε μια από αυτές τις 20 θέσεις. 
+Ευτυχώς ο array μας προσφέρει έναν απλό τρόπο για αυτό και ονομάζεται index. 
+Ο array εσωτερικά δίνει έναν αριθμό σε κάθε μια από τις θέσεις του ξεκινώντας 
+την αρίθμηση από το 0. Οπότε για έναν array που δέχεται 20 ακέραιους αριθμούς 
+σαν δεδομένα, η αρίθμηση του index θα είναι από 0 έως 19. Πάντα θα 
+υπολογίζουμε -1 από τον ολικό αριθμό των δεδομένων που δέχεται ο array.</p>
+
+<p>Αν θέλαμε λοιπόν να βάλουμε την βαθμολογία του πρώτου μαθητή στον 
+array, θα πρέπει να γράψουμε το εξής</p>
+<p><strong>students[0] = 78;</strong></p>
+
+<p>Ενώ για τον δεύτερο μαθητή θα μπορούσαμε να βάλουμε την 
+βαθμολογία στην αμέσως επόμενη θέση που είναι</p>
+<p><strong>students[1] = 99;</strong></p>
+
+<p>Στην ουσία έχουμε δημιουργήσει αυτό</p>
+
+<img  src="java-unit10/java-unit10-1.jpg"  alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+<p></p>
+
+<p>Μια ερώτηση που συχνά γεννιέται όταν βλέπουμε ένα τέτοιο παράδειγμα 
+είναι τι τιμές έχουν οι υπόλοιπες θέσεις του array στις οποίες ακόμα 
+δεν έχουμε βάλει κάποια τιμή. Ένας array δεν είναι primitive 
+type (όπως π.χ int, float, char) αλλά είναι αντικείμενο. Για αυτό άλλωστε 
+και χρησιμοποιούμε την λέξη κλειδί new κατά την δημιουργία του. Ακόμα 
+δεν έχουμε μιλήσει για αντικείμενα και ούτε χρειάζεται να μπούμε σε 
+περισσότερες λεπτομέρειες. Όμως, λόγω της ιδιότητας του, ο array για 
+όσες θέσεις του δεν έχει δεχτεί από εμάς κάποια τιμή, θα τις αρχικοποιήσει 
+με την τιμή 0. Αν τώρα αντί για int είχαμε ορίσει τον array να δέχεται double 
+τιμές τότε ο array θα τοποθετούσε 0.0 στις θέσεις εκείνες που δεν 
+έχουν τιμές από εμάς.</p>
+
+<p>Αν πάλι επιθυμούσατε να γεμίσετε τον array με κάποια άλλη αρχική 
+τιμή εκτός από το 0 θα μπορούσατε να χρησιμοποιήσετε ένα for loop για να 
+γεμίσετε τον array γρήγορα με την τιμή που θέλετε.</p>
+
+<p>Και πως διαβάζουμε τις τιμές από έναν array? Ακριβώς με τον ίδιο τρόπο 
+με τον οποίο εισάγατε τις τιμές με βάση το index. Και πάλι θα μπορούσατε 
+να χρησιμοποιήσετε ένα for loop για να διαβάσετε γρήγορα τις τιμές που περιέχει. 
+Ας δούμε ένα απλό παράδειγμα που μας δείχνει όλα όσα μάθαμε μέχρι τώρα.</p>
+
+<p>Δημιουργούμε ένα project με το όνομα BasicArray. Έπειτα δημιουργούμε 
+ένα πακέτο με το όνομα com.mycompany και μέσα στον πακέτο δημιουργούμε μια 
+κλάση με το όνομα BasicArray.</p>
+
+<p><strong>BasicArray.java</strong></p>
+<pre class="prettyprint">
+    package com.mycompany;
+
+    public class BasicArray {
+        public static void main(String[] args) {
+            int students[] = new int[5];
+            System.out.println("####### Array without input values #######");
+            
+            for (int i = 0; i < 5; i++) {
+                System.out.println("Current value of index "+i+" is "+students[i]);
+            }
+            
+            students[2]=78;
+            students[4]=99;
+            
+            System.out.println("####### Array with input values #######");
+            
+            for (int i = 0; i < 5; i++) {
+                System.out.println("Current value of index "+i+" is "+students[i]);
+            }
+        }
+    }
+</pre>
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+    ####### Array without input values #######
+    Current value of index 0 is 0
+    Current value of index 1 is 0
+    Current value of index 2 is 0
+    Current value of index 3 is 0
+    Current value of index 4 is 0
+    ####### Array with input values #######
+    Current value of index 0 is 0
+    Current value of index 1 is 0
+    Current value of index 2 is 78
+    Current value of index 3 is 0
+    Current value of index 4 is 99
+</pre>
+
+<p>Το παράδειγμα μας ήταν πολύ απλό. Όριζε εξ αρχής έναν array που θα 
+μπορούσε να δεχτεί μέχρι και 5 ακέραιους αριθμούς. Αμέσως μετά ζητάμε με ένα 
+for loop να δούμε τις default τιμές που έχει δώσει η java στον array. Μετά ερχόμαστε 
+να βάλουμε εμείς τις δικές μας τιμές. Δεν είναι απαραίτητο να βάζετε τις τιμές 
+με την σειρά στον array. Μπορείτε να τις τοποθετήσετε όπου θέλετε μέσα στον 
+array. Αυτό άλλωστε δείχνει και ο κώδικας μας. Και τέλος ερχόμαστε να εκτυπώσουμε 
+τις τιμές που περιέχει ο array για άλλη μια φορά για να δούμε αν όντως οι 
+τιμές είναι αποθηκευμένες στον array. Προσέξτε λίγο στην συνθήκη του for 
+loop. Έχουμε ορίσει να είναι μικρότερη του 5 γιατί το index ξεκινάει από το μηδέν 
+και στο συγκεκριμένο παράδειγμα φτάνει μέχρι το 4. Αν προσπαθήσετε να βάλετε 
+τιμή ή να διαβάσετε τιμή από έναν index που δεν υπάρχει (π.χ students[5]) τότε 
+θα λάβετε το μήνυμα λάθους <strong>ArrayIndexOutOfBounds</strong> από το 
+runtime περιβάλλον της java. Ας δούμε ένα απλό παράδειγμα. Δημιουργείστε μια 
+καινούργια κλάση με το όνομα ArrayError και εκτελέστε τον παρακάτω κώδικα.</p>
+
+<p><strong>ArrayError.java</strong></p>
+<pre class="prettyprint">
+    package com.mycompany;
+
+    public class ArrayError {
+        public static void main(String[] args) {
+            int students[] = new int[5];
+           
+            students[2]=78;
+            students[4]=99;
+            students[5]=63;
+            
+        }
+    }
+</pre>
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out 
+    of bounds for length 5 at com.mycompany.ArrayError.main(BasicArray.java:10)
+</pre>
+
+<strong>Ένα μέρος στο οποίο συχνά κάνουμε το λάθος να ζητάμε ένα index που δεν 
+υπάρχει στον array είναι το for loop με το οποίο διαβάζουμε τις τιμές του array. 
+Για αυτό ακριβώς το λόγο πρέπει να προσέχουμε πολύ με την συνθήκη την οποία 
+ορίζουμε. Όμως επειδή ένας array είναι αντικείμενο, η java έχει φροντίσει να 
+το επενδύσει με αρκετές ιδιότητες οι οποίες μπορούν να μας βοηθήσουμε να 
+αποφύγουμε λογικά λάθη. Μια τέτοια ιδιότητα (ή attribute όπως ονομάζεται) είναι 
+η <strong>length</strong>. Αντί λοιπόν να γράφουμε <strong>i < 5</strong>
+ μπορούμε να γράψουμε </strong>students.length</strong> αποφεύγοντας τυχόν 
+ ArrayIndexOutOfBounds λάθη. Ας δούμε πως μπορούμε να γράψουμε το προηγούμενο 
+ πρόγραμμα μας χρησιμοποιώντας την length attribute.</p>
+
+ <p><strong>BasicArray.java</strong></p>
+ <pre class="prettyprint">
+    package com.mycompany;
+
+    public class BasicArray {
+        public static void main(String[] args) {
+            int students[] = new int[5];
+            System.out.println("####### Array without input values #######");
+            
+            for (int i = 0; i < students.length; i++) {
+                System.out.println("Current value of index "+i+" is "+students[i]);
+            }
+            
+            students[2]=78;
+            students[4]=99;
+            
+            System.out.println("####### Array with input values #######");
+            
+            for (int i = 0; i < students.length; i++) {
+                System.out.println("Current value of index "+i+" is "+students[i]);
+            }
+        }
+    }
+    
+ </pre>
+ <p><strong>Output</strong></p>
+ <pre class="prettyprint">
+    ####### Array without input values #######
+Current value of index 0 is 0
+Current value of index 1 is 0
+Current value of index 2 is 0
+Current value of index 3 is 0
+Current value of index 4 is 0
+####### Array with input values #######
+Current value of index 0 is 0
+Current value of index 1 is 0
+Current value of index 2 is 78
+Current value of index 3 is 0
+Current value of index 4 is 99
+ </pre>
+
+<p>Η java μας επιτρέπει, εφόσον έχουμε μόνο λίγα δεδομένα να περάσουμε 
+στον array, να ορίσουμε τον array και να του δώσουμε τις τιμές στην ίδια 
+γραμμή κώδικα και χωρίς μάλιστα να χρησιμοποιήσουμε την λέξη κλειδί new. Αυτός 
+είναι ένας εύκολος και σύντομος τρόπος αν έχουμε έναν μικρό αριθμό 
+δεδομένων. Ο τρόπος που ορίζουμε έναν τέτοιο array είναι ο εξής:</p>
+<p><strong>int [ ]students = { 67, 49, 72, 83, 99};</strong></p>
+
+<p>Ορίζουμε έναν array με το όνομα του και το είδος των δεδομένων 
+που δέχεται. Μέσα σε άγκιστρα δηλώνουμε τις τιμές που θα περάσουμε στον 
+array. Ο τρόπος όπως βλέπετε είναι απλός αλλά πρέπει να γίνει η δήλωση του 
+ονόματος του array και η ανάθεση τιμών στην ίδια γραμμή κώδικα. Ας δούμε 
+ένα ολοκληρωμένο πρόγραμμα. Δημιουργείστε μια καινούργια κλάση με το 
+όνομα ArrayInit και γράψτε τον παρακάτω κώδικα:</p>
+
+<p><strong>ArrayInit.java</strong></p>
+<pre class="prettyprint">
+    package com.mycompany;
+
+    public class ArrayInit {
+    
+        public static void main(String[] args) {
+            int[] odds = {1, 3, 5, 7, 9};
+            System.out.println("odds.length = " + odds.length);
+    
+            for (int i = 0; i < odds.length; i++) {
+                System.out.println("odds[" + i + "] = " + odds[i]);
+            }
+    
+            String[] daysOfWeek = {"Saturday", "Sunday", "Monday","Tuesday", 
+                "Wednesday", "Thursday", "Friday"};
+            System.out.println ("daysOfWeek.length = " + daysOfWeek.length);
+        
+            for(int i = 0;i< daysOfWeek.length ;i++)
+            {
+                System.out.println("daysOfWeek[" + i + "] = "+ daysOfWeek[i]);
+            }
+    
+        }
+    }
+    
+   
+</pre>
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+    odds.length = 5
+    odds[0] = 1
+    odds[1] = 3
+    odds[2] = 5
+    odds[3] = 7
+    odds[4] = 9
+    daysOfWeek.length = 7
+    daysOfWeek[0] = Saturday
+    daysOfWeek[1] = Sunday
+    daysOfWeek[2] = Monday
+    daysOfWeek[3] = Tuesday
+    daysOfWeek[4] = Wednesday
+    daysOfWeek[5] = Thursday
+    daysOfWeek[6] = Friday
+</pre>
+
+<p>Εκτός από το for loop έχουμε έναν ακόμα πιο γρήγορο τρόπο για 
+διαβάζουμε τις τιμές από έναν array και ονομάζεται <strong>for-each</strong> loop. Η 
+δομή του είναι πολύ απλή. Δηλώνουμε μια τοπική μεταβλητή στο for-each loop με ότι 
+όνομα επιθυμούμε και ορίζουμε πιο είναι το data type της μεταβλητής. Μετά 
+χρησιμοποιούμε το colon ( : ) και αμέσως μετά ακολουθεί το όνομα του array. Ας 
+δούμε ένα απλό παράδειγμα. Δημιουργείστε μια καινούργια κλάση με το όνομα ForEach 
+και γράψτε τον παρακάτω κώδικα:</p>
+
+<p><strong>ForEach.java</strong></p>
+<pre class="prettyprint">
+    package com.mycompany;
+
+public class ForEach {
+
+    public static void main(String[] args) {
+
+        String[] daysOfWeek = {"Saturday", "Sunday", "Monday","Tuesday", 
+            "Wednesday", "Thursday", "Friday"};
+
+    
+        for(String days : daysOfWeek)
+        {
+            System.out.println(days);
+        }
+
+    }
+}
+
+   
+</pre>
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+    Saturday
+    Sunday
+    Monday
+    Tuesday
+    Wednesday
+    Thursday
+    Friday
+</pre>
+
+<p>Όλα τα παραδείγματα που έχουμε αναλύσει μέχρι τώρα περιέχουν arrays 
+μιας διάστασης. Πως θα μπορούσαμε να ορίσουμε έναν array δύο ή και περισσοτέρων 
+διαστάσεων? Ο τρόπος ξανά είναι απλός.   Προσθέτουμε τόσα brackets ( [ ] ) όσες 
+είναι οι διαστάσεις που θέλουμε να έχει ο array. Ας δούμε πως ορίζεται ένας array 
+με δύο διαστάσεις:</p>
+
+<p><strong>int [ ] [ ]courses = new int[3] [2];</strong></p>
+
+<p>Στην ουσία έχουμε δημιουργήσει αυτό:</p>
+
+<img  src="java-unit10/java-unit10-2.jpg"  alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+<p></p>
+
+<p>Ας δούμε ένα απλό παράδειγμα στο οποίο ορίζουμε έναν array 
+με δύο διαστάσεις και προσθέτουμε μερικές τιμές. Δημιουργείστε μια 
+καινούργια κλάση με το όνομα ArrayDim και γράψτε τον παρακάτω κώδικα:</p>
+
+<p><strong>ArrayDim.java</strong></p>
+<pre class="prettyprint">
+    package com.mycompany;
+
+public class ArrayDim {
+
+    public static void main(String[] args) {
+        int[][] courses = new int[3][2];
+        courses[1][1] = 10;
+        courses[2][0] = 20;
+
+        for (int row = 0; row < courses.length; row++) {
+            for (int col = 0; col < courses[row].length; col++) {
+                System.out.println(courses[row][col]);
+}
+System.out.println();
+        }
+    }
+}
+
+
+   
+</pre>
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+    0
+    0
+    
+    0
+    10
+    
+    20
+    0
+</pre>
+
+<img  src="java-unit10/java-unit10-3.jpg"  alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+<p></p>
+
+<p>Οι array είναι πολύ χρήσιμοι στην καθημερινότητα μας σαν προγραμματιστές 
+όμως παρουσιάζουν μια μεγάλη αδυναμία – το μέγεθος τους δεν μπορεί να αλλάξει 
+εφόσον οριστεί. Αυτό είναι ένα μεγάλο μειονέκτημα. Σκεφτείτε πάλι το παράδειγμα 
+με τους πελάτες μια τράπεζας. Πόσο μεγάλο θα ορίσετε εξ αρχής τον array 
+σας? 10,000 πελάτες, 500,000 πελάτες? Και αν σε ένα χρόνο ή δύο διπλασιαστούν 
+οι πελάτες θα πρέπει να αλλάξετε τον κώδικα? Και αν δεν διπλασιαστούν, τότε θα 
+έχετε δεσμεύσει αρκετή μνήμη από το σύστημα χωρίς να χρησιμοποιείται. Εκτός 
+από αυτό το πρόβλημα υπάρχουν και άλλα προβλήματα όπως ταυτόχρονη πρόσβαση 
+στα δεδομένα από διαφορετικά αντικείμενα και προβλήματα απόδοσης και 
+ταχύτητας. Οπότε κάποια στιγμή αργότερα, όταν μάθουμε την έννοια των 
+αντικειμένων, θα μπορέσουμε να μιλήσουμε για τα collections και πως αυτά 
+έχουν λύσει τα προβλήματα που αντιμετωπίζουμε με τον array σε μεγάλο 
+όγκο δεδομένων.</p>
+
+
+    
+<a><a href="https://kassapoglou.github.io/java/java-programming.html"><font color="#0000CC">Πίσω στις δωρεάν ενότητες Java Programming</font> </a></a>
+<img src="images/java-logo.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">                    
+
+          <div class="author-box">
+                    <div class="author-info flex flex-wrap">
+                        <div class="author-avatar">
+                            <img src="images/michail.jpg" alt="">
+
+                           
+                        </div><!-- .author-avatar -->
+
+                        <div class="author-details">
+                            <h3 class="author-name">Michail Kassapoglou <span>Admin</span></h3>
+
+                            <div class="entry-content mt-3">
+                               <p>Γεια σας, είμαι ο Μιχάλης Κασάπογλου και θα σας διδάξω με τον ποιο απλό 
+                                  τρόπο να προγραμματίζετε σε Java. Ασχολούμαι με την τεχνική εκπαίδευση 
+                                    σε διάφορες πλατφόρμες, λειτουργικά συστήματα και γλώσσες προγραμματισμού 
+                                    πάνω από 20 έτη. Κατέχω έναν αρκετά μεγάλο αριθμό πιστοποιήσεων
+                                    και σαν Τraining Lead στην Intrasoft έχω την δυνατότητα να αναβαθμίζω συνεχώς 
+                                    τις γνώσεις μου και να έχω άμεση επαφή με αληθινά projects και εξειδικευμένες μεθόδους 
+                                    ανάπτυξης εφαρμογών που έχουν υψηλές απαιτήσεις.  
+                                    Για τυχόν ερωτήσεις σας μπορείτε να επικοινωνήσετε μαζί μου 
+                                    στο <font color="#0000CC">Michail.Kassapoglou@gmail.com </font></p>
+                                    <p>Σας ευχαριστώ που επισκεφτήκατε τα δωρεάν μαθήματα προγραμματισμού JAVA.</p>
+                            </div><!-- .entry-content -->
+                        </div><!-- .author-details -->
+                    </div><!-- .author-info -->
+                </div><!-- .author-box -->
+
+                
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+
+ 
+
+  
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>
