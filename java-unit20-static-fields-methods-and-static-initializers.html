@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Μαθαίνω Δωρεάν Java Προγραμματισμό</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων στην γλώσσα προγραμματισμού Java">
+    <meta name="robots" content="index, follow">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="java_style.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-150900548-1');
+    </script>
+
+</head>
+
+<body class="single-blog-post">
+    <div class="page-header">
+        <header class="site-header">
+            <div class="top-header-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div
+                            class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                            <div class="header-bar-email d-flex align-items-center">
+                                <i class="fa fa-envelope"></i><a href="#">michail.kassapoglou@gmail.com</a>
+                            </div><!-- .header-bar-email -->
+
+                            <div class="header-bar-text lg-flex align-items-center">
+                                <!--  <p><i class="fa fa-phone"></i>001-1234-88888 </p> -->
+                            </div><!-- .header-bar-text -->
+                        </div><!-- .col -->
+
+                        <div
+                            class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                            <div class="header-bar-search">
+                                <form class="flex align-items-stretch">
+                                    <!--   <input type="search" placeholder="What would you like to learn?"> -->
+                                    <!--   <button type="submit" value="" class="flex justify-content-center align-items-center"><i class="fa fa-search"></i></button> -->
+                                </form>
+                            </div><!-- .header-bar-search -->
+
+                            <div class="header-bar-menu">
+                                <ul class="flex justify-content-center align-items-center py-2 pt-md-0">
+                                    <!--  <li><a href="#">Register</a></li> -->
+                                    <!--    <li><a href="#">Login</a></li> -->
+                                </ul>
+                            </div><!-- .header-bar-menu -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div> <!-- .container-fluid -->
+            </div><!-- .top-header-bar -->
+
+            <div class="nav-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-9 col-lg-3">
+                            <div class="site-branding">
+                                <h1 class="site-title"><a href="https://kassapoglou.github.io/main/"
+                                        rel="home">Kassa<span>poglou</span></a></h1>
+                            </div><!-- .site-branding -->
+                        </div><!-- .col -->
+
+                        <div class="col-3 col-lg-9 flex justify-content-end align-content-center">
+                            <nav class="site-navigation flex justify-content-end align-items-center">
+                                <ul class="flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                    <li class="current-menu-item"><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                                    <!-- <li><a href="https://kassapoglou.github.io/main/forum.html">Forum</a></li>-->
+                                    <li><a href="https://kassapoglou.github.io/main/contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                                </ul>
+
+                                <div class="hamburger-menu d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div><!-- .hamburger-menu -->
+
+
+                            </nav><!-- .site-navigation -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .nav-bar -->
+        </header><!-- .site-header -->
+
+        <div class="page-header-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <header class="entry-header">
+                            <h1 class="entry-title">ΕΝΟΤΗΤΑ 20 JAVA SE - Static fields and methods, and static
+                                initializers</h1>
+
+                            <div class="entry-meta flex justify-content-center align-items-center">
+                                <div class="post-author"><a href="#">Michail Kassapoglou </a></div>
+
+                                <!--  <div class="post-comments"><a href="#">02 Comments</a></div> -->
+                            </div><!-- .entry-meta -->
+                        </header><!-- .entry-header -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .page-header-overlay -->
+    </div><!-- .page-header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-10">
+                <div class="featured-image">
+                    <!--  <img src="images/single-post.jpg" alt=""> -->
+
+                    <div class="posted-date position-absolute">
+                        <div class="day">10</div>
+                        <div class="month">Apr</div>
+                    </div><!-- .posted-date -->
+                </div><!-- .featured-image -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-1" style="height:0">
+                <div class="post-share">
+
+
+
+                </div><!-- .post-share -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-lg-12">
+                <div class="single-post-wrap">
+                    <p>
+                        <h3>ΔΩΡΕΑΝ ΜΑΘΗΜΑΤΑ JAVA</h3>
+                    </p>
+                    <p>Στο σημερινό δωρεάν μάθημα java θα δούμε τους τρόπους με τους οποίους η
+                        java χρησιμοποιεί την λέξη κλειδί <strong>static</strong>. Θα ξεκινήσουμε πρώτα με
+                        την ανάλυση της θεωρίας και μετά θα δούμε παραδείγματα στα οποία
+                        χρησιμοποιούνται <strong>static μεταβλητές</strong>, <strong>static μέθοδοι</strong> και
+                        <strong>static initializers</strong>.</p>
+
+                    <p>Όπως ήδη έχουμε αναφέρει σε προηγούμενες ενότητες, όταν δημιουργούμε
+                        μεταβλητές και μεθόδους σε μια κλάση, αυτά τα στοιχεία δεν ανήκουν στην
+                        κλάση αλλά στο αντικείμενο και σε κάθε αντικείμενο που πρόκειται να
+                        δημιουργηθεί από αυτή την κλάση. Για αυτό άλλωστε και δεν έχει νόημα
+                        να αρχικοποιήσουμε αυτές τις μεταβλητές με κάποια τιμή, γιατί όλα τα
+                        αντικείμενα που θα δημιουργηθούν θα έχουν λάβει την ίδια τιμή για
+                        την συγκεκριμένη μεταβλητή ή μεταβλητές. Μερικές φορές όμως θα ήταν
+                        επιθυμητό μια μεταβλητή ή μια μέθοδο να μην ανήκει στο αντικείμενο
+                        αλλά να ανήκει στην ίδια την κλάση. Δηλαδή να έχει έναν global ρόλο
+                        μεταβλητής ή μεθόδου. Αυτό σημαίνει ότι δεν θα χρειάζεται να
+                        δημιουργήσουμε αντικείμενο (αφού ανήκουν στην κλάση) αλλά θα
+                        μπορούμε άμεσα να τα καλέσουμε και να τα χρησιμοποιήσουμε. Εδώ
+                        βασικά φαίνεται τώρα και ο διαχωρισμός που γίνεται όταν
+                        αναφερόμαστε σε static και non-static. Όταν έχουμε non-static
+                        μεταβλητές ή μεθόδους, επίσημα αυτά στην γενική τους μορφή
+                        ονομάζονται <strong>instance members</strong>. Ενώ οι μεταβλητές και
+                        οι μέθοδοι που είναι static (δηλαδή ανήκουν στην κλάση)
+                        ονομάζονται <strong>class members</strong>.</p>
+
+                    <p> Τώρα αν απορείτε γιατί μαθαίνουμε μια τέτοια θεωρία ενώ υπάρχουν άλλα
+                        πιο σημαντικά θέματα να μάθουμε, η απάντηση είναι απλή – γιατί την χρησιμοποιεί
+                        η ίδια η java. Μάλιστα την λογική αυτή την έχετε χρησιμοποιήσει πολλαπλές φορές
+                        μέχρι τώρα χωρίς να το καταλάβετε.</p>
+
+                    <p>Ας πάρουμε για παράδειγμα την κλάση EmployeeDemo που είχαμε
+                        δημιουργήσει σε προηγούμενη ενότητα.</p>
+
+                    <p><strong>EmployeeDemo.java</strong></p>
+                    <pre class="prettyprint">
+    package com.mycompany;
+
+    public class EmployeeDemo {
+        public static void main(String []args){
+            Employee michail = new Employee();
+    
+            michail.vacationCalc(22, 5);
+            System.out.println("You still have "+ michail.remainingDays +" of vacation days left");
+            
+            
+        }
+    }
+</pre>
+
+                    <p>Στο παραπάνω πρόγραμμα, συναντάμε την λογική του static στον ορισμό της
+                        main() μεθόδου. Αυτό δίνει την δυνατότητα στο JVM περιβάλλον να καλέσει την
+                        μέθοδο main( ) και να ξεκινήσει η εκτέλεση του προγράμματος χωρίς να είναι
+                        απαραίτητο να δημιουργηθεί πρώτα ένα αντικείμενο από την κλάση EmployeeDemo. </p>
+
+                    <p>Στο ίδιο πρόγραμμα, χρησιμοποιούμε την λογική static, χωρίς
+                        να είναι άμεσα ορατή όταν καλούμε την println( ) μέθοδο αφού την καλούμε
+                        χωρίς πρώτα να έχουμε δημιουργήσει κάποιο αντικείμενο. Καλούμε απλά μια
+                        static κλάση που ονομάζεται System η οποία εσωτερικά δημιουργεί ένα
+                        αντικείμενο out είδος PrintStream στο οποίο ανήκει η μέθοδος println( ).</p>
+
+                    <p>Θα ξεκινήσουμε την θεωρία μας πρώτα από τις static μεταβλητές. Θα
+                        χρησιμοποιήσουμε το παράδειγμα του Employee, που είχαμε χρησιμοποιήσει σε
+                        προηγούμενη ενότητα. Ο καινούργιος κώδικας, στον οποίο έχει προστεθεί η static
+                        μεταβλητή, είναι ο εξής:</p>
+
+                    <p><strong>Employee.java</strong></p>
+                    <pre class="prettyprint">
+    package com.mycompany;
+
+    class Employee{
+        private String name;
+        private int AFM;
+        private double salary;
+        private String department;
+        private int remainingDays;
+        private int employeeId;
+        public static int counter;
+    
+        public Employee(String name, double salary, String department)
+        {
+            System.out.println("Constructing an Employee");
+            this.name = name;
+            this.salary = salary;
+            this.department = department;
+            this.employeeId = ++counter;
+    }
+    
+        public int getEmployeeId() {
+            return employeeId;
+        }
+    
+        public void setEmployeeId(int employeeId) {
+            this.employeeId = employeeId;
+        }
+        
+        public String getName() {
+            return name;
+        }
+    
+        public void setName(String name) {
+            this.name = name;
+        }
+    
+        public int getAFM() {
+            return AFM;
+        }
+    
+        public void setAFM(int AFM) {
+            this.AFM = AFM;
+        }
+    
+        public double getSalary() {
+            return salary;
+        }
+    
+        public void setSalary(double salary) {
+            this.salary = salary;
+        }
+    
+        public String getDepartment() {
+            return department;
+        }
+    
+        public void setDepartment(String department) {
+            this.department = department;
+        }
+    
+        public int getRemainingDays() {
+            return remainingDays;
+        }
+    
+        public void setRemainingDays(int remainingDays) {
+            this.remainingDays = remainingDays;
+        }
+    
+        public void mailCheck(){
+            System.out.println("Mailing a check to " + this.name);
+        }
+    
+        public double payment(){
+            return this.salary/52.0;
+        }
+    
+        public void vacationCalc(int daysTotal, int daysRequested){
+        this.remainingDays = daysTotal - daysRequested;
+        System.out.println("You have requested " + daysRequested + " days of vacation");
+        }
+    }
+    
+</pre>
+
+                    <p>Στην κλάση Employee έχουμε προσθέσει μια static μεταβλητή που ονομάζεται
+                        counter. Κάθε φορά που δημιουργούμε ένα αντικείμενο είδος Employee μέσα από
+                        τον constructor που έχουμε εμείς δημιουργήσει, αυξάνεται η τιμή του counter
+                        κατά ένα και αναθέτουμε την τιμή στην employeeId του αντικειμένου που
+                        δημιουργήσαμε. Κάθε αντικείμενο που δημιουργείται θα καλεί την ίδια static
+                        μεταβλητή και για όσο τρέχει το πρόγραμμα μας, η μεταβλητή αυτή θα διατηρεί
+                        την τιμή της. Το υπόλοιπο πρόγραμμα αποτελείται από getter και setter μεθόδους
+                        οι οποίες μας είναι απαραίτητες για να έχουμε πρόσβαση στις private instance
+                        μεταβλητές. Υπάρχει επίσης η vacationCalc( ) μέθοδος την οποία χρησιμοποιούμε
+                        για να μάθουμε πόσες μέρες διακοπών μας έχουν απομείνει.</p>
+
+                    <p>Το ενδιαφέρον σημείο του κώδικα είναι στην EmployeeDemo μέσα από
+                        την οποία δημιουργούμε τα αντικείμενα είδος Employee. Ας δούμε τον κώδικα, και
+                        θα αναλύσουμε την θεωρία αμέσως μετά.</p>
+
+                    <p><strong>EmployeeDemo.java</strong></p>
+                    <pre class="prettyprint">
+    package com.mycompany;
+
+        public class EmployeeDemo {
+            public static void main(String []args){
+            Employee.counter=100;
+            Employee michail = new Employee("Michail", 20000, "Development");
+            System.out.println(michail.getName()+", your new employee id is: " + Employee.counter);
+            Employee john = new Employee("John", 30000, "HR");
+            System.out.println(john.getName()+", your new employee id is: " + Employee.counter);
+            }
+    }
+    </pre>
+
+                    <p><strong>Output</strong></p>
+                    <pre class="prettyprint">
+        Constructing an Employee
+        Michail, your new employee id is: 101
+        Constructing an Employee
+        John, your new employee id is: 102
+</pre>
+
+                    <p>Όπως ήδη έχουμε αναφέρει, μια static μεταβλητή δεν ανήκει σε
+                        κάποιο αντικείμενο αλλά στην ίδια την κλάση. Για να αποκτήσουμε πρόσβαση στην
+                        μεταβλητή λοιπόν και να τις αναθέσουμε μια αρχική τιμή δεν έχουμε παρά να
+                        καλέσουμε το όνομα της κλάσης, τελεία, και το όνομα της μεταβλητής.</p>
+                    <p><strong>Employee.counter = 100;</strong></p>
+
+                    <p>Η μεταβλητή αυτή, λόγω της static ιδιότητας της, θεωρείστε την σαν
+                        ένα είδος global μεταβλητής. Κάθε φορά που δημιουργούμε ένα καινούργιο
+                        αντικείμενο, επηρεάζουμε, δια μέσω του constructor, και την τιμή του
+                        counter. Αρχικοποιήσαμε λοιπόν την μεταβλητή counter στην τιμή 100, και
+                        αφού δημιουργήσαμε δύο αντικείμενα, η τιμή του counter αυξήθηκε κατά δύο.</p>
+
+                    <p>Έχουμε επίσης την δυνατότητα να ορίσουμε και μια static μέθοδο. Η λογική
+                        κάτω από την οποία λειτουργεί είναι ακριβώς η ίδια όπως με την μεταβλητή. Όμως
+                        υπάρχει ένας πολύ αυστηρός περιορισμός – μια static μέθοδο μπορεί να καλέσει
+                        μόνο static μεταβλητές. Αν προσπαθήσετε να καλέσετε μια instance μεταβλητή
+                        μέσα από μια static μέθοδο o compiler της java θα σας επιστρέψει λάθος. Ας
+                        προσθέσουμε λοιπόν μια static μέθοδο στην Employee κλάση, η οποία μέθοδο θα
+                        επιστρέφει την τιμή του static counter.</p>
+
+                    <p><strong>Employee.Java</strong></p>
+                    <pre class="prettyprint">
+package com.mycompany;
+
+class Employee{
+    private String name;
+    private int AFM;
+    private double salary;
+    private String department;
+    private int remainingDays;
+    private int employeeId;
+    public static int counter;
+
+    public Employee(String name, double salary, String department)
+    {
+        System.out.println("Constructing an Employee");
+        this.name = name;
+        this.salary = salary;
+        this.department = department;
+        this.employeeId = ++counter;
+}
+    
+    public static int getCounter()
+    {
+        System.out.println("Inside getCounter");
+        return counter;
+    }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
+    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAFM() {
+        return AFM;
+    }
+
+    public void setAFM(int AFM) {
+        this.AFM = AFM;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public int getRemainingDays() {
+        return remainingDays;
+    }
+
+    public void setRemainingDays(int remainingDays) {
+        this.remainingDays = remainingDays;
+    }
+
+    public void mailCheck(){
+        System.out.println("Mailing a check to " + this.name);
+    }
+
+    public double payment(){
+        return this.salary/52.0;
+    }
+
+    public void vacationCalc(int daysTotal, int daysRequested){
+    this.remainingDays = daysTotal - daysRequested;
+    System.out.println("You have requested " + daysRequested + " days of vacation");
+    }
+}
+                            
+    </pre>
+
+                    <p>Τώρα στην EmployeeDemo κλάση μπορούμε να δούμε την τιμή της counter
+                        καλώντας την static μέθοδο getCounter( ). </p>
+
+                    <p>
+                        <p><strong>EmployeeDemo.java</strong></p>
+                        <pre class="prettyprint">
+package com.mycompany;
+
+public class EmployeeDemo {
+    public static void main(String []args){
+        Employee.counter=100;
+        Employee michail = new Employee("Michail", 20000, "Development");
+        System.out.println(michail.getName()+", your new employee id is: " + Employee.getCounter());
+        Employee john = new Employee("John", 30000, "HR");
+        System.out.println(john.getName()+", your new employee id is: " + Employee.getCounter());
+    }
+}
+    
+</pre>
+                    </p>
+
+                    <p>
+                        <p><strong>Output</strong></p>
+                        <pre class="prettyprint">
+Constructing an Employee
+Inside getCounter
+Michail, your new employee id is: 101
+Constructing an Employee
+Inside getCounter
+John, your new employee id is: 102
+    
+</pre>
+                    </p>
+
+                    <p>Η χρήση της λέξης static δεν σταματάει όμως εδώ. Μπορούμε να
+                        χρησιμοποιήσουμε την λέξη static σε συνδυασμό με τα αντικείμενα έτσι
+                        ώστε να τρέξουμε κάποια tasks πριν δημιουργηθεί το αντικείμενο. Αυτό το
+                        είδος χρήσης του static ονομάζεται <strong>static initializer</strong> και ο
+                        τρόπος που το γράφουμε είναι να γράψουμε την λέξη static και μέσα σε
+                        άγκιστρα ( { } ) που ακολουθούν να γράψουμε τον κώδικα που θέλουμε να
+                        εκτελεστεί πριν δημιουργηθεί το αντικείμενο. Ας προσθέσουμε στην κλάση
+                        Employee και έναν static initializer. Ο κώδικας του είναι πολύ απλός
+                        απλά για να δείξουμε ότι εκτελείται πριν την δημιουργία του αντικειμένου.</p>
+
+                    <p><strong>Employee.java</strong></p>
+                    <pre class="prettyprint">
+package initializers;
+
+class Employee{
+    private String name;
+    private int AFM;
+    private double salary;
+    private String department;
+    private int remainingDays;
+    private int employeeId;
+    public static int counter;
+
+    public Employee(String name, double salary, String department)
+    {
+        System.out.println("Constructing an Employee");
+        this.name = name;
+        this.salary = salary;
+        this.department = department;
+        this.employeeId = ++counter;
+}
+    
+    static
+    {
+        System.out.println("Static initializer running before object creation");
+    }
+    
+    public static int getCounter()
+    {
+        System.out.println("Inside getCounter");
+        return counter;
+    }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
+    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAFM() {
+        return AFM;
+    }
+
+    public void setAFM(int AFM) {
+        this.AFM = AFM;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public int getRemainingDays() {
+        return remainingDays;
+    }
+
+    public void setRemainingDays(int remainingDays) {
+        this.remainingDays = remainingDays;
+    }
+
+    public void mailCheck(){
+        System.out.println("Mailing a check to " + this.name);
+    }
+
+    public double payment(){
+        return this.salary/52.0;
+    }
+
+    public void vacationCalc(int daysTotal, int daysRequested){
+    this.remainingDays = daysTotal - daysRequested;
+    System.out.println("You have requested " + daysRequested + " days of vacation");
+    }
+}
+                            
+    </pre>
+
+                    <p><strong>EmployeeDemo.java</strong></p>
+                    <pre class="prettyprint">
+package initializers;
+
+public class EmployeeDemo {
+    public static void main(String []args){
+        Employee.counter=100;
+        Employee michail = new Employee("Michail", 20000, "Development");
+        System.out.println(michail.getName()+", your new employee id is: " + Employee.getCounter());
+        Employee john = new Employee("John", 30000, "HR");
+        System.out.println(john.getName()+", your new employee id is: " + Employee.getCounter());
+    }
+}
+</pre>
+
+                    <p><strong>Output</strong></p>
+                    <pre class="prettyprint">
+Static initializer running before object creation
+Constructing an Employee
+Inside getCounter
+Michail, your new employee id is: 101
+Constructing an Employee
+Inside getCounter
+John, your new employee id is: 102
+</pre>
+
+                    <p>Όπως παρατηρείτε στο output, πριν δημιουργηθεί το πρώτο
+                        αντικείμενο, έτρεξε πρώτα ο static initializer. Όμως έτρεξε μια φορά, για
+                        το πρώτο αντικείμενο. Αν και είναι πολύ χρήσιμη μια τέτοια ιδιότητα, θα
+                        ήταν ακόμα πιο χρησιμότερη αν έτρεχε για κάθε αντικείμενο που
+                        δημιουργούσαμε. Αυτό είναι πολύ εύκολο να γίνει – αφαιρούμε απλά
+                        την λέξη static και αφήνουμε μόνο τα άγκιστρα. Ας δούμε τώρα πως
+                        αλλάζει ο κώδικας στο πρόγραμμα μας και το τελικό αποτέλεσμα.</p>
+
+                    <p><strong>MyAccount.java</strong></p>
+                    <pre class="prettyprint">
+package initializers;
+
+class Employee{
+    private String name;
+    private int AFM;
+    private double salary;
+    private String department;
+    private int remainingDays;
+    private int employeeId;
+    public static int counter;
+
+    public Employee(String name, double salary, String department)
+    {
+        System.out.println("Constructing an Employee");
+        this.name = name;
+        this.salary = salary;
+        this.department = department;
+        this.employeeId = ++counter;
+}
+    
+    
+    {
+        System.out.println("Static initializer running before object creation");
+    }
+    
+    public static int getCounter()
+    {
+        System.out.println("Inside getCounter");
+        return counter;
+    }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
+    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAFM() {
+        return AFM;
+    }
+
+    public void setAFM(int AFM) {
+        this.AFM = AFM;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public int getRemainingDays() {
+        return remainingDays;
+    }
+
+    public void setRemainingDays(int remainingDays) {
+        this.remainingDays = remainingDays;
+    }
+
+    public void mailCheck(){
+        System.out.println("Mailing a check to " + this.name);
+    }
+
+    public double payment(){
+        return this.salary/52.0;
+    }
+
+    public void vacationCalc(int daysTotal, int daysRequested){
+    this.remainingDays = daysTotal - daysRequested;
+    System.out.println("You have requested " + daysRequested + " days of vacation");
+    }
+}
+                        
+</pre>
+
+                    <p><strong>EmployeeDemo.java</strong></p>
+                    <pre class="prettyprint">
+package initializers;
+
+public class EmployeeDemo {
+    public static void main(String []args){
+        Employee.counter=100;
+        Employee michail = new Employee("Michail", 20000, "Development");
+        System.out.println(michail.getName()+", your new employee id is: " + Employee.getCounter());
+        Employee john = new Employee("John", 30000, "HR");
+        System.out.println(john.getName()+", your new employee id is: " + Employee.getCounter());
+    }
+}
+</pre>
+
+                    <p><strong>Output</strong></p>
+                    <pre class="prettyprint">
+Static initializer running before object creation
+Constructing an Employee
+Inside getCounter
+Michail, your new employee id is: 101
+Static initializer running before object creation
+Constructing an Employee
+Inside getCounter
+John, your new employee id is: 102
+</pre>
+
+
+                    <a><a href="https://kassapoglou.github.io/java/java-programming.html">
+                            <font color="#0000CC">Πίσω στις δωρεάν ενότητες Java Programming</font>
+                        </a></a>
+                    <img src="images/java-logo.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+
+                    <div class="author-box">
+                        <div class="author-info flex flex-wrap">
+                            <div class="author-avatar">
+                                <img src="images/michail.jpg" alt="">
+
+
+                            </div><!-- .author-avatar -->
+
+                            <div class="author-details">
+                                <h3 class="author-name">Michail Kassapoglou <span>Admin</span></h3>
+
+                                <div class="entry-content mt-3">
+                                    <p>Γεια σας, είμαι ο Μιχάλης Κασάπογλου και θα σας διδάξω με τον ποιο απλό
+                                        τρόπο να προγραμματίζετε σε Java. Ασχολούμαι με την τεχνική εκπαίδευση
+                                        σε διάφορες πλατφόρμες, λειτουργικά συστήματα και γλώσσες προγραμματισμού
+                                        πάνω από 20 έτη. Κατέχω έναν αρκετά μεγάλο αριθμό πιστοποιήσεων
+                                        και σαν Τraining Lead στην Intrasoft έχω την δυνατότητα να αναβαθμίζω συνεχώς
+                                        τις γνώσεις μου και να έχω άμεση επαφή με αληθινά projects και εξειδικευμένες
+                                        μεθόδους
+                                        ανάπτυξης εφαρμογών που έχουν υψηλές απαιτήσεις.
+                                        Για τυχόν ερωτήσεις σας μπορείτε να επικοινωνήσετε μαζί μου
+                                        στο <font color="#0000CC">Michail.Kassapoglou@gmail.com </font>
+                                    </p>
+                                    <p>Σας ευχαριστώ που επισκεφτήκατε τα δωρεάν μαθήματα προγραμματισμού JAVA.</p>
+                                </div><!-- .entry-content -->
+                            </div><!-- .author-details -->
+                        </div><!-- .author-info -->
+                    </div><!-- .author-box -->
+
+
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+
+
+
+
+
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/swiper.min.js'></script>
+        <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+        <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+        <script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+
+</html>
