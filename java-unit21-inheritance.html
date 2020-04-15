@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Μαθαίνω Δωρεάν Java Προγραμματισμό</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων στην γλώσσα προγραμματισμού Java">
+    <meta name="robots" content="index, follow">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="java_style.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-150900548-1');
+    </script>
+
+</head>
+
+<body class="single-blog-post">
+    <div class="page-header">
+        <header class="site-header">
+            <div class="top-header-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div
+                            class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                            <div class="header-bar-email d-flex align-items-center">
+                                <i class="fa fa-envelope"></i><a href="#">michail.kassapoglou@gmail.com</a>
+                            </div><!-- .header-bar-email -->
+
+                            <div class="header-bar-text lg-flex align-items-center">
+                                <!--  <p><i class="fa fa-phone"></i>001-1234-88888 </p> -->
+                            </div><!-- .header-bar-text -->
+                        </div><!-- .col -->
+
+                        <div
+                            class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                            <div class="header-bar-search">
+                                <form class="flex align-items-stretch">
+                                    <!--   <input type="search" placeholder="What would you like to learn?"> -->
+                                    <!--   <button type="submit" value="" class="flex justify-content-center align-items-center"><i class="fa fa-search"></i></button> -->
+                                </form>
+                            </div><!-- .header-bar-search -->
+
+                            <div class="header-bar-menu">
+                                <ul class="flex justify-content-center align-items-center py-2 pt-md-0">
+                                    <!--  <li><a href="#">Register</a></li> -->
+                                    <!--    <li><a href="#">Login</a></li> -->
+                                </ul>
+                            </div><!-- .header-bar-menu -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div> <!-- .container-fluid -->
+            </div><!-- .top-header-bar -->
+
+            <div class="nav-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-9 col-lg-3">
+                            <div class="site-branding">
+                                <h1 class="site-title"><a href="https://kassapoglou.github.io/main/"
+                                        rel="home">Kassa<span>poglou</span></a></h1>
+                            </div><!-- .site-branding -->
+                        </div><!-- .col -->
+
+                        <div class="col-3 col-lg-9 flex justify-content-end align-content-center">
+                            <nav class="site-navigation flex justify-content-end align-items-center">
+                                <ul class="flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                    <li class="current-menu-item"><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                                    <!-- <li><a href="https://kassapoglou.github.io/main/forum.html">Forum</a></li>-->
+                                    <li><a href="https://kassapoglou.github.io/main/contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                                </ul>
+
+                                <div class="hamburger-menu d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div><!-- .hamburger-menu -->
+
+
+                            </nav><!-- .site-navigation -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .nav-bar -->
+        </header><!-- .site-header -->
+
+        <div class="page-header-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <header class="entry-header">
+                            <h1 class="entry-title">ΕΝΟΤΗΤΑ 21 JAVA SE - Inheritance</h1>
+
+                            <div class="entry-meta flex justify-content-center align-items-center">
+                                <div class="post-author"><a href="#">Michail Kassapoglou </a></div>
+
+                                <!--  <div class="post-comments"><a href="#">02 Comments</a></div> -->
+                            </div><!-- .entry-meta -->
+                        </header><!-- .entry-header -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .page-header-overlay -->
+    </div><!-- .page-header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-10">
+                <div class="featured-image">
+                    <!--  <img src="images/single-post.jpg" alt=""> -->
+
+                    <div class="posted-date position-absolute">
+                        <div class="day">15</div>
+                        <div class="month">Apr</div>
+                    </div><!-- .posted-date -->
+                </div><!-- .featured-image -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-1" style="height:0">
+                <div class="post-share">
+
+
+
+                </div><!-- .post-share -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-lg-12">
+                <div class="single-post-wrap">
+                    <p>
+                        <h3>ΔΩΡΕΑΝ ΜΑΘΗΜΑΤΑ JAVA</h3>
+                    </p>
+                    <p>Στο σημερινό δωρεάν μάθημα Java θα μιλήσουμε για την
+                        κληρονομικότητα (<strong>inheritance</strong>) και θα εξηγήσουμε γιατί
+                        είναι το πιο σημαντικό στοιχείο του αντικειμενοστραφή
+                        προγραμματισμού (Object-Oriented Programming). Αν και η έννοια είναι
+                        πολύ απλή, τόσο στην κατανόηση της όσο και στην υλοποίηση της, δυσκολεύει
+                        τους αρχάριους προγραμματιστές γιατί προσπαθούν να την μάθουν μέσα από
+                        πολύπλοκα παραδείγματα. Για αυτόν ακριβώς το λόγο, θα αναλύσουμε ένα απλό
+                        παράδειγμα από την αρχή ως το τέλος, όπως θα έκανε κάποιος που ακόμα δεν
+                        έχει πολλή εμπειρία στον προγραμματισμό.</p>
+
+                    <p>Πριν ξεκινήσουμε, πρέπει να εξηγήσουμε το σενάριο με το οποίο θα
+                        έχουμε σαν βάση της συζήτησης μας. Σε προηγούμενη ενότητα είχαμε δημιουργήσει
+                        την κλάση Employee για να περιγράψουμε προγραμματιστικά τον εργαζόμενο μιας
+                        εταιρείας. Επίσης, είχαμε προσθέσει στην κλάση την έννοια του
+                        encapsulation (αλλάζοντας τους access specifiers από public σε
+                        private μπροστά από τις instance μεταβλητές) όπως και δημιουργήσαμε
+                        getter και setter μεθόδους για να έχουμε πρόσβαση στις instance
+                        μεταβλητές. Τέλος, είχαμε δημιουργήσει κάποιες μεθόδους δίνοντας
+                        ιδιότητες και δυνατότητες στο αντικείμενο. Θα έχουμε λοιπόν αυτήν
+                        την απλή κλάση Employee σαν βάση της συζήτησης μας μόνο που θα
+                        μικρύνουμε τον κώδικα χρησιμοποιώντας public instance μεταβλητές οπότε
+                        δεν χρειάζονται οι getter και setter μέθοδοι. Θα κρατήσουμε όμως δύο
+                        μεθόδους που θα δώσουν κάποιες ιδιότητες στο αντικείμενο. Ας δούμε λοιπόν
+                        τον απλοποιημένο κώδικα της κλάσης Employee. Μπορείτε για αυτή την ενότητα
+                        να δημιουργήσετε ένα καινούργιο project και ένα πακέτο με το όνομα
+                        inheritance μέσα στο οποίο θα γράψετε την κλάση σας.</p>
+
+                    <p><strong>Employee.java</strong></p>
+                    <pre class="prettyprint">
+package inheritance;
+
+class Employee{
+    public String name;
+    public int AFM;
+    public double salary;
+    public String department;
+    public int employeeId;
+
+
+    public void mailCheck(){
+        System.out.println("Mailing a check to " + this.name);
+    }
+
+    public double payment(){
+        return this.salary/52.0;
+    }
+}
+    </pre>
+
+                    <p>Για να έχουμε ένα ολοκληρωμένο πρόγραμμα, ας γράψουμε και
+                        μια κλάση EmployeeDemo μέσα από την οποία δημιουργούμε αντικείμενα είδος
+                        Employee και καλούμε τις μεταβλητές του για να ορίσουμε κάποιες τιμές.</p>
+
+                    <p><strong>Employee.java</strong></p>
+                    <pre class="prettyprint">
+package inheritance;
+
+public class EmployeeDemo {
+    public static void main(String []args){
+        
+        Employee michail = new Employee();
+        michail.employeeId = 100;
+        michail.department = "Development";
+        System.out.println("The employee number "+ michail.employeeId + 
+                " is a team member of the " + michail.department + " department");
+        
+    }
+}
+    </pre>
+
+                    <p><strong>Output</strong></p>
+                    <pre class="prettyprint">
+The employee number 100 is a team member of the Development department
+</pre>
+
+                    <p>Τώρα που έχουμε την πιο απλή του προγράμματός μας, ας δούμε
+                        ποιες είναι οι καινούργιες απαιτήσεις της εφαρμογής μας. Η εταιρεία, για
+                        την οποία δημιουργούμε το πρόγραμμα, μας ενημέρωσε ότι υπάρχουν τουλάχιστον
+                        δύο κατηγορίες εργαζόμενων – εκείνοι που είναι πλήρης απασχόλησης και οι
+                        εξωτερικοί συνεργάτες. Οι πρώτοι έχουν σταθερό μηνιαίο μισθό, ενώ οι δεύτεροι
+                        πληρώνονται με τις ώρες που έχουν δουλέψει. Αν μάλιστα ξεπεράσουν τις 40 ώρες
+                        τότε πληρώνονται και υπερωρίες. Εκτός από τον υπολογισμό του μισθού που
+                        είναι διαφορετικός για κάθε κατηγορία, οι υπόλοιπες
+                        πληροφορίες (name, department, AFM, κτλ) θα πρέπει να υπάρχουν
+                        για όλους τους εργαζόμενους.</p>
+
+                    <p>Με βάση τα όσα γνωρίζετε μέχρι τώρα, και από την ανάλυση του
+                        προβλήματος, θα πρέπει να δημιουργήσουμε δύο ακόμα κλάσεις – μια κλάση
+                        που περιγράφει τους σταθερούς εργαζόμενους της εταιρείας και μια ακόμα
+                        κλάση για τους εξωτερικούς συνεργάτες. Ας ονομάσουμε την πρώτη κλάση
+                        <strong>Salary</strong> και την δεύτερη <strong>Outsourcing</strong>. Aς γράψουμε
+                        τον κώδικα για τις
+                        καινούργιες κλάσεις που προέκυψαν.</p>
+
+                    <p><strong>Salary.java</strong></p>
+                    <pre class="prettyprint">
+package inheritance;
+
+public class Salary {
+public String name;
+public int AFM;
+public double salary;
+public String department;
+public int employeeId;
+
+
+    public void mailCheck(){
+        System.out.println("Mailing a check to " + this.name);
+    }
+
+    public double payment(){
+        return this.salary/52.0;
+    }
+}  
+    </pre>
+
+                    <p><strong>Outsourcing.java</strong></p>
+                    <pre class="prettyprint">
+package inheritance;
+
+public class Outsourcing {
+    public String name;
+    public int AFM;
+    public double salary;
+    public String department;
+    public int employeeId;
+    public float hourlyRate;	
+    public float hoursWorked;
+
+
+    public void mailCheck(){
+        System.out.println("Mailing a check to " + this.name);
+    }
+
+    public float payment(){
+        System.out.println("Computing hourly pay for " + name);
+
+        float pay = 0.0F;
+        if(hoursWorked <= 40)
+        {
+                    pay = hourlyRate * hoursWorked;
+        }
+        else
+        {
+                    pay = (hourlyRate * 40) + (hourlyRate * (hoursWorked - 40) * 1.5F);
+        }
+        return pay;
+    }
+}
+                        
+</pre>
+
+                    <p>Αν παρατηρήσετε προσεκτικά, θα δείτε ότι η αρχική μας κλάση Employee, με
+                        την Salary και την Outsourcing έχουν πολλά κοινά στοιχεία. Στην ουσία επαναλαμβάνουμε
+                        πολλές φορές τον ίδιο κώδικα. Αν συγκρίνουμε την κλάση Employee και την κλάση Salary
+                        θα δείτε ότι είναι ο ίδιος ακριβώς κώδικα. Ενώ αν συγκρίνετε την Employee με την
+                        Outsourcing θα δείτε ότι εκτός από δύο έξτρα instance μεταβλητές που
+                        προστέθηκαν ( hourlyRate και hoursWorked), όλες οι άλλες μεταβλητές
+                        είναι ακριβώς οι ίδιες όπως και η mailCheck( ) μέθοδο. Η μέθοδος
+                        payment( ) στην κλάση Outsourcing χρησιμοποιεί έναν απλό αλγόριθμό για
+                        να υπολογίσει την πληρωμή του εργαζόμενου ανάλογα με τις ώρες εργασίας
+                        του. Αυτά τα πολλά κοινά στοιχεία ανάμεσα στις κλάσεις δεν είναι βασικά
+                        μια απλή παρατήρηση μόνο αλλά και ένα σοβαρό πρόβλημα. Αν χρειαστεί
+                        αργότερα να προσθέσετε μια ακόμα instance μεταβλητή ή να αλλάξετε τον
+                        κώδικα της mailcheck( ) τότε θα πρέπει να το κάνετε για όλες τις
+                        κλάσεις. Θα πρέπει να ξοδευτεί άσκοπα πολύ χρόνος και σίγουρα μπορεί
+                        να ξεχάσετε κάποια αλλαγή που θα προκαλέσει πρόβλημα στον
+                        κώδικα. Οπότε, πως προσεγγίζουμε μια τέτοια κατάσταση? Πριν
+                        απαντήσουμε ας δούμε με την χρήση του UML πως απεικονίζονται οι
+                        κλάσεις μας μέχρι τώρα.
+                    </p>
+
+                    <img src="java-unit21/java-unit21-1.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+                    <p></p>
+                    <p>Το όλο μυστικό είναι η παρατήρηση που μόλις κάναμε, δηλαδή ο
+                        εντοπισμός κοινών στοιχείων. Αυτό που θα μπορούσαμε θεωρητικά να κάνουμε
+                        είναι να βάλουμε αυτά τα κοινά στοιχεία σε μια κλάση έτσι ώστε οποιαδήποτε
+                        άλλη κλάση να τα κληρονομεί χωρίς να χρειάζεται να τα ξαναγράψει. Η κάθε
+                        καινούργια κλάση που δημιουργείται απλά θα προσθέτει τα καινούργια στοιχεία
+                        που χρειάζεται. Αυτή η θεωρία πρακτικά και προγραμματιστικά ονομάζεται
+                        inheritance και υποστηρίζεται από την java αν προσθέσουμε την λέξη extends
+                        στην κλάση. Αν για παράδειγμα η Salary κληρονομεί από την Employee τότε θα γράψουμε:</p>
+                    <p><strong>public class Salary extends Employee</strong></p>
+
+                    <p>Με αυτή την πράξη, αν κάνουμε αντικείμενο από την κλάση Salary θα
+                        δούμε ότι το αντικείμενο από την Salary περιέχει και τα στοιχεία του
+                        Employee και του Salary, ενώ ένα αντικείμενο από την κλάση Employee θα
+                        περιέχει στοιχεία μόνο από την κλάση Employee. Ας δούμε τώρα στην πράξη
+                        πως μπορούμε να αλλάξουμε τον κώδικα των κλάσεων έτσι ώστε να ακολουθήσουμε
+                        την λογική της κληρονομικότητας. </p>
+
+                    <p>Η αρχή πάντα γίνεται από την πιο γενική κλάση από την οποία θα
+                        κληρονομήσουν όλες οι υπόλοιπες κλάσεις. Στο δικό μας παράδειγμα αυτή η κλάση
+                        είναι η Employee. Όλες οι instance μεταβλητές της κλάσης Employee, εκτός από
+                        την salary, και η μέθοδος mailCheck( ) πρέπει να υπάρχουν σε όλες τις
+                        κλάσεις, οπότε λογικά μπορούμε να τα αφήσουμε στην κλάση Employee. Η
+                        μέθοδος payment( ), μαζί με την instance μεταβλητή salary δεν έχει νόημα
+                        να παραμείνει στην γενική κλάση Employee αφού μας ενδιαφέρει να ξέρουμε
+                        πιο συγκεκριμένα αν είναι Salary ή Outsourcing οπότε δεν θα συμπεριλάβουμε
+                        την payment( ) μέθοδο στην κλάση Employee ούτε και την instance μεταβλητή
+                        salary. Ο τελικός κώδικας της κλάσης Employee θα είναι:</p>
+
+                    <p><strong>Employee.java</strong></p>
+                    <pre class="prettyprint">
+package inheritance;
+
+class Employee{
+    public String name;
+    public int AFM;
+    public String department;
+    public int employeeId;
+
+    public void mailCheck(){
+        System.out.println("Mailing a check to " + this.name);
+    }
+}
+    </pre>
+
+                    <p>Η κλάση Salary χρειάζεται όλα τα στοιχεία που περιέχει η κλάση Employee
+                        και πρέπει να προσθέσει και μια instance μεταβλητή salary η οποία θα
+                        χρησιμοποιηθεί στην μέθοδο payment( ) που υπολογίζει τον μισθό του
+                        εργαζόμενου ανά εβδομάδα. Η κλάση της Salary, εφόσον κληρονομεί από
+                        την κλάση Employee, απλοποιείται και μετατρέπεται στον εξής κώδικα:</p>
+
+                    <p><strong>Salary.java</strong></p>
+                    <pre class="prettyprint">
+    package inheritance;
+
+    public class Salary extends Employee{
+    
+    public float salary;
+
+    public double payment(){
+        return this.salary/52.0;
+    }
+}
+</pre>
+
+                    <p>Τέλος, ακολουθώντας ακριβώς την ίδια λογική όπως κάναμε με
+                        την κλάση Salary, η κλάση Outsourcing θα περιέχει και εκείνη
+                        μια payment( ) μέθοδο που όμως θα περιέχει διαφορετικό κώδικα ο
+                        οποίος θα υπολογίζει τον μισθό του εργαζόμενου ανάλογα με τις ώρες
+                        που εργάστηκε. Η συγκεκριμένη κλάση θα χρειαστεί δύο έξτρα instance
+                        μεταβλητές να οριστούν για να μπορέσουμε να κάνουμε σωστά τους
+                        υπολογισμούς. Αυτές οι μεταβλητές είναι η hourlyRate και η hoursWorked. Ο
+                        κώδικας της κλάσης Outsourcing αλλάζει στον εξής:</p>
+
+                    <p><strong>Outsourcing.java</strong></p>
+                    <pre class="prettyprint">
+    package inheritance;
+
+    public class Outsourcing extends Employee{
+    
+        public float hourlyRate;	
+        public float hoursWorked;
+    
+        public float payment(){
+            float pay = 0.0F;
+            if(hoursWorked <= 40)
+            {
+                pay = hourlyRate * hoursWorked;
+            }
+            else
+            {
+                pay = (hourlyRate * 40) + (hourlyRate * (hoursWorked - 40) * 1.5F);
+            }
+            return pay;
+        }
+    }
+</pre>
+
+                    <p>Πως έχει αλλάξει τώρα το UML διάγραμμα μας?</p>
+
+                    <img src="java-unit21/java-unit21-2.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+                    <p></p>
+
+                    <p>Τώρα είναι ώρα να δημιουργήσουμε μερικά αντικείμενα μέσα
+                        από την EmployeeDemo για να δούμε τι ακριβώς έχουμε καταφέρει. Ας δούμε
+                        πρώτα την δημιουργία ενός αντικειμένου είδος Employee</p>
+
+
+                    <p><strong>EmployeeDemo.java</strong></p>
+                    <pre class="prettyprint">
+package inheritance;
+
+public class EmployeeDemo {
+    public static void main(String []args){
+        Employee e1 = new Employee();
+        e1.name="Michail";
+        e1.mailCheck();
+        System.out.println("The name of the "
+                + "employee is " + e1.name);
+    }
+}
+    </pre>
+                    <p><strong>Output</strong></p>
+                    <pre class="prettyprint">
+Mailing a check to Michail
+The name of the employee is Michail
+</pre>
+
+                    <p>Δημιουργήσαμε ένα αντικείμενο e1 (στην ουσία είναι reference αλλά
+                        καταλαβαίνετε τι εννοώ) και καλέσαμε την instance μεταβλητή για να
+                        δώσουμε ένα όνομα και την μέθοδο mailCheck( ) για να εκτυπώσουμε το
+                        μήνυμα ότι στείλαμε ένα τσεκ στον εργαζόμενο. Έχει όμως νόημα να
+                        κάνουμε αντικείμενο από την κλάση Employee? Όχι δεν έχει, γιατί είναι
+                        πολύ γενική και δεν μας επιτρέπει να κάνουμε υπολογισμό μισθού. Για αυτό
+                        ακριβώς τον λόγο, σε μελλοντική ενότητα δεν θα επιτρέπουμε να παράγονται
+                        αντικείμενα είδος Employee. Όμως, για λόγους σύγκρισης, ας δούμε τι
+                        χαρακτηριστικά και ιδιότητες έχει το αντικείμενο e1.</p>
+
+                    <img src="java-unit21/java-unit21-3.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+                    <p></p>
+
+                    <p>Βλέπουμε τις τέσσερις μεταβλητές και την mailCheck( ) μέθοδο. Ας
+                        κάνουμε τώρα ένα αντικείμενο είδος Salary.</p>
+
+                    <p><strong>EmployeeDemo.java</strong></p>
+                    <pre class="prettyprint">
+    package inheritance;
+
+    public class EmployeeDemo {
+        public static void main(String []args){
+            Salary s1 = new Salary();
+            s1.name = "Michail";
+            s1.salary = 30000;
+            s1.mailCheck();
+            System.out.println("Your weekly payment is: " + s1.payment());
+        }
+    }
+</pre>
+
+                    <p><strong>Output</strong></p>
+                    <pre class="prettyprint">
+Mailing a check to Michail
+Your weekly payment is: 576.9230769230769
+</pre>
+
+                    <p>Εδώ, λόγω της κληρονομικότητας, το αντικείμενο s1 έχει όλες
+                        τις ιδιότητες του Employee και προσθέτει και την ιδιότητα του
+                        υπολογισμού του μισθού. Έχει περισσότερο νόημα να κάνουμε
+                        αντικείμενο από την Salary γιατί το αντικείμενο μας θα είναι πιο
+                        ολοκληρωμένο όσον αφορά τις πληροφορίες του. Μπορούμε να δούμε
+                        όλα τα στοιχεία που έχει κληρονομήσει.</p>
+
+                    <img src="java-unit21/java-unit21-4.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+                    <p></p>
+
+                    <p>Με την ίδια ακριβώς λογική θα ήταν πιο χρήσιμο ένα αντικείμενο
+                        είδος Outsourcing παρά ένα αντικείμενο Employee.</p>
+
+                    <p><strong>EmployeeDemo.java</strong></p>
+                    <pre class="prettyprint">
+package inheritance;
+
+public class EmployeeDemo {
+    public static void main(String []args){
+        Salary s1 = new Salary();
+        s1.name = "Michail";
+        s1.salary = 30000;
+        s1.mailCheck();
+        System.out.println("Your weekly payment is: " + s1.payment());
+        
+        Outsourcing out1 = new Outsourcing();
+        out1.name = "John";
+        out1.hourlyRate = 20;
+        out1.hoursWorked = 43;
+        out1.mailCheck();
+        System.out.println("Your payment is: " + out1.payment());
+    }
+}
+                        
+</pre>
+
+                    <p><strong>Output</strong></p>
+                    <pre class="prettyprint">
+    Mailing a check to Michail
+    Your weekly payment is: 576.9230769230769
+    Mailing a check to John
+    Your payment is: 890.0
+</pre>
+
+                    <p>Αν δούμε όλες τις ιδιότητες και χαρακτηριστικά που έχει το
+                        αντικείμενο out1 τότε θα δείτε ότι περιέχει όλα όσα περιέχει η
+                        Employee συν δύο έξτρα instance μεταβλητές και την μέθοδο payment( ).</p>
+
+                    <img src="java-unit21/java-unit21-4.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+                    <p></p>
+
+                    <p>Νομίζω, τώρα που φτάσαμε στο τέλος της ενότητας, ότι η έννοια
+                        της κληρονομικότητας (inheritance) σας είναι ξεκάθαρη και δεν σας
+                        μπερδεύει πια.</p>
+
+                    <p>Πριν κλείσουμε πρέπει να αναφέρουμε τον αυστηρό κανόνα με
+                        τον οποίο μας περιορίζει η java όταν χρησιμοποιούμε
+                        κληρονομικότητα – <strong>μπορούμε να κληρονομήσουμε μόνο από μια άλλη κλάση</strong>. Δεν
+                        μπορεί δηλαδή η κλάση Salary να κληρονομήσει και από την Employee και από
+                        την Outsourcing ταυτόχρονα. Αυτό δεν επιτρέπεται. Θα δούμε όμως
+                        σε μελλοντική ενότητα πως
+                        μπορούμε να ξεπεράσουμε αυτό το όριο.</p>
+
+
+
+                    <a><a href="https://kassapoglou.github.io/java/java-programming.html">
+                            <font color="#0000CC">Πίσω στις δωρεάν ενότητες Java Programming</font>
+                        </a></a>
+                    <img src="images/java-logo.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+
+                    <div class="author-box">
+                        <div class="author-info flex flex-wrap">
+                            <div class="author-avatar">
+                                <img src="images/michail.jpg" alt="">
+
+
+                            </div><!-- .author-avatar -->
+
+                            <div class="author-details">
+                                <h3 class="author-name">Michail Kassapoglou <span>Admin</span></h3>
+
+                                <div class="entry-content mt-3">
+                                    <p>Γεια σας, είμαι ο Μιχάλης Κασάπογλου και θα σας διδάξω με τον ποιο απλό
+                                        τρόπο να προγραμματίζετε σε Java. Ασχολούμαι με την τεχνική εκπαίδευση
+                                        σε διάφορες πλατφόρμες, λειτουργικά συστήματα και γλώσσες προγραμματισμού
+                                        πάνω από 20 έτη. Κατέχω έναν αρκετά μεγάλο αριθμό πιστοποιήσεων
+                                        και σαν Τraining Lead στην Intrasoft έχω την δυνατότητα να αναβαθμίζω συνεχώς
+                                        τις γνώσεις μου και να έχω άμεση επαφή με αληθινά projects και εξειδικευμένες
+                                        μεθόδους
+                                        ανάπτυξης εφαρμογών που έχουν υψηλές απαιτήσεις.
+                                        Για τυχόν ερωτήσεις σας μπορείτε να επικοινωνήσετε μαζί μου
+                                        στο <font color="#0000CC">Michail.Kassapoglou@gmail.com </font>
+                                    </p>
+                                    <p>Σας ευχαριστώ που επισκεφτήκατε τα δωρεάν μαθήματα προγραμματισμού JAVA.</p>
+                                </div><!-- .entry-content -->
+                            </div><!-- .author-details -->
+                        </div><!-- .author-info -->
+                    </div><!-- .author-box -->
+
+
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+
+
+
+
+
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/swiper.min.js'></script>
+        <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+        <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+        <script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+
+</html>
