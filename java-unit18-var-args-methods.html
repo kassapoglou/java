@@ -1,212 +1,221 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <title>Μαθαίνω Δωρεάν Java Προγραμματισμό</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Δωρεάν Μαθήματα Java</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		  content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων στην γλώσσα προγραμματισμού Java">
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="Java, Back-end development,
+              backend development, back-end programmer, back-end programming,
+              java programming, δωρεάν,
+               προγραμματισμός, δωρεάν μαθήματα, δωρεάν σεμινάρια, μαθήματα java, σεμινάρια java" />
+	<meta name="author" content="Michail Kassapoglou" />
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων στην γλώσσα προγραμματισμού Java">
-    <meta name="robots" content="index, follow">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sunburst"></script>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <!-- ElegantFonts CSS -->
-    <link rel="stylesheet" href="css/elegant-fonts.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- themify-icons CSS -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
 
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="java_style.css">
-    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-        gtag('config', 'UA-150900548-1');
-    </script>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-150900548-1');
+	</script>
 </head>
+<body>
 
-<body class="single-blog-post">
-    <div class="page-header">
-        <header class="site-header">
-            <div class="top-header-bar">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div
-                            class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
-                            <div class="header-bar-email d-flex align-items-center">
-                                <i class="fa fa-envelope"></i><a href="#">michail.kassapoglou@gmail.com</a>
-                            </div><!-- .header-bar-email -->
+	<div class="colorlib-loader"></div>
 
-                            <div class="header-bar-text lg-flex align-items-center">
-                                <!--  <p><i class="fa fa-phone"></i>001-1234-88888 </p> -->
-                            </div><!-- .header-bar-text -->
-                        </div><!-- .col -->
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="upper-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4">
+							<p>Welcome to Kassapoglou</p>
+						</div>
+						<!--<div class="col-xs-6 col-md-push-2 text-right">
+							<p>
+								<ul class="colorlib-social-icons">
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-facebook"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble"></i></a></li>
+								</ul>
+							</p>
+							<p class="btn-apply"><a href="#">Apply Now</a></p>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<div id="colorlib-logo"><a
+									href="https://kassapoglou.github.io/main/index.html">Kassapoglou</a></div>
+						</div>
+						<div class="col-md-10 text-right menu-1">
+							<ul>
+								<li><a href="https://kassapoglou.github.io/main/index.html">Home</a></li>
+								<li class="has-dropdown active">
+									<a href="https://kassapoglou.github.io/main/courses.html">Courses</a>
+									<ul class="dropdown">
+										<li><a href="https://kassapoglou.github.io/java/java-programming.html">Java</a>
+										</li>
+										<li><a
+												href="https://kassapoglou.github.io/python/python-programming.html">Python</a>
+										</li>
+										<li><a href="https://kassapoglou.github.io/go/go-programming.html">GO</a></li>
+										<li><a
+												href="https://kassapoglou.github.io/javascript/javascript-programming.html">JavaScript</a>
+										</li>
+										<li><a href="https://kassapoglou.github.io/maven/learning-maven.html">Apache
+												Maven</a></li>
+										<li><a href="https://kassapoglou.github.io/camel/apache-camel-programming.html">Apache
+												Camel</a></li>
+									</ul>
+								</li>
+								<!--<li><a href="about.html">About</a></li>-->
+								<!--	<li><a href="event.html">Events</a></li>
+								<li><a href="news.html">News</a></li> -->
+								<li><a href="https://kassapoglou.github.io/main/contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+					<li style="background-image: url(images/A_Java16.jpeg);">
+						<div class="overlay"></div>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+									<div class="slider-text-inner text-center">
+										<h1>ΜΑΘΑΙΝΩ ΔΩΡΕΑΝ JAVA</h1>
+										<h2><strong>ΕΝΟΤΗΤΑ 18 - VAR ARGS METHODS</strong></h2>
+										<h2><span><a href="https://kassapoglou.github.io/main/index.html">Home</a> | <a
+													href="https://kassapoglou.github.io/main/courses.html">Courses</a> |
+											<a href="https://kassapoglou.github.io/java/java-programming.html">JAVA PROGRAMMING</a></span></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</aside>
 
-                        <div
-                            class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
-                            <div class="header-bar-search">
-                                <form class="flex align-items-stretch">
-                                    <!--   <input type="search" placeholder="What would you like to learn?"> -->
-                                    <!--   <button type="submit" value="" class="flex justify-content-center align-items-center"><i class="fa fa-search"></i></button> -->
-                                </form>
-                            </div><!-- .header-bar-search -->
+		<div class="colorlib-classes">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-12">
+						<div class="row row-pb-lg">
+							<div class="col-md-12 animate-box">
+								<div class="classes class-single">
+									<div class="classes-img" style="background-image: url(images/A_Java15.jpeg);">
+										<span class="price text-center"><small>FREE</small></span>
+									</div>
+									<div class="desc desc2">
+										<h3 align="center"><a
+												href="https://kassapoglou.github.io/java/java-programming.html">ΕΝΟΤΗΤΑ 18 JAVA SE - VAR ARGS METHODS</a></h3>
+										<p>Στο σημερινό δωρεάν μάθημα java θα μιλήσουμε για το πως μπορούμε να
+											τροποποιήσουμε τις μεθόδους μας κατά τέτοιο τρόπο ώστε να δέχονται
+											μεταβλητό αριθμό μεταβλητών. </p>
 
-                            <div class="header-bar-menu">
-                                <ul class="flex justify-content-center align-items-center py-2 pt-md-0">
-                                    <!--  <li><a href="#">Register</a></li> -->
-                                    <!--    <li><a href="#">Login</a></li> -->
-                                </ul>
-                            </div><!-- .header-bar-menu -->
-                        </div><!-- .col -->
-                    </div><!-- .row -->
-                </div> <!-- .container-fluid -->
-            </div><!-- .top-header-bar -->
+										<p>Μέχρι τώρα έχουμε δει ότι για να δημιουργήσουμε σωστά μια μέθοδο
+											θα πρέπει να ορίσουμε εξ αρχής όλες τις παραμέτρους που θα δέχεται. Η Java
+											όμως μας δίνει την δυνατότητα να μπορούμε να δημιουργήσουμε μεθόδους στις
+											οποίες ο αριθμός των μεταβλητών τους δεν είναι σταθερός. Αυτός ο όρος
+											ονομάζεται <strong>variable-length arguments</strong> ή αλλιώς <strong>var-args</strong>. Ο
+											καλύτερος τρόπος όμως για να εξηγήσουμε πως ακριβώς δομείται μια τέτοια
+											μέθοδος αλλά και πως λειτουργεί είναι μέσω ενός παραδείγματος.</p>
 
-            <div class="nav-bar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-9 col-lg-3">
-                            <div class="site-branding">
-                                <h1 class="site-title"><a href="https://kassapoglou.github.io/main/"
-                                        rel="home">Kassa<span>poglou</span></a></h1>
-                            </div><!-- .site-branding -->
-                        </div><!-- .col -->
+										<p>Ας δημιουργήσουμε λοιπόν ένα καινούργιο project και ας το
+											ονομάσουμε VarArgsMethods. Το πακέτο το οποίο θα δημιουργήσετε θα
+											ονομάζεται com.mycompany. Μέσα στο πακέτο θα δημιουργήσουμε μια κλάση
+											με το όνομα MathUtil η οποία θα περιέχει τον εξής κώδικα:</p>
 
-                        <div class="col-3 col-lg-9 flex justify-content-end align-content-center">
-                            <nav class="site-navigation flex justify-content-end align-items-center">
-                                <ul class="flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                                    <li class="current-menu-item"><a href="index.html">ΑΡΧΙΚΗ</a></li>
-                                    <!-- <li><a href="https://kassapoglou.github.io/main/forum.html">Forum</a></li>-->
-                                    <li><a href="https://kassapoglou.github.io/main/">ΑΡΧΙΚΗ</a></li>
-                                    <li><a href="https://kassapoglou.github.io/java/java-programming.html">JAVA
-                                        </a></li>
-                                    <li><a href="https://kassapoglou.github.io/main/contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
-                                </ul>
-
-                                <div class="hamburger-menu d-lg-none">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div><!-- .hamburger-menu -->
-
-
-                            </nav><!-- .site-navigation -->
-                        </div><!-- .col -->
-                    </div><!-- .row -->
-                </div><!-- .container -->
-            </div><!-- .nav-bar -->
-        </header><!-- .site-header -->
-
-        <div class="page-header-overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <header class="entry-header">
-                            <h1 class="entry-title">ΕΝΟΤΗΤΑ 18 JAVA SE - Var-Args Methods</h1>
-
-                            <div class="entry-meta flex justify-content-center align-items-center">
-                                <div class="post-author"><a href="#">Michail Kassapoglou </a></div>
-
-                                <!--  <div class="post-comments"><a href="#">02 Comments</a></div> -->
-                            </div><!-- .entry-meta -->
-                        </header><!-- .entry-header -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .page-header-overlay -->
-    </div><!-- .page-header -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 offset-lg-1 col-lg-10">
-                <div class="featured-image">
-                    <!--  <img src="images/single-post.jpg" alt=""> -->
-
-                    <div class="posted-date position-absolute">
-                        <div class="day">04</div>
-                        <div class="month">Apr</div>
-                    </div><!-- .posted-date -->
-                </div><!-- .featured-image -->
-            </div><!-- .col -->
-        </div><!-- .row -->
-
-        <div class="row">
-            <div class="col-12 offset-lg-1 col-lg-1" style="height:0">
-                <div class="post-share">
-
-
-
-                </div><!-- .post-share -->
-            </div><!-- .col -->
-
-            <div class="col-12 col-lg-12">
-                <div class="single-post-wrap">
-                    <p>
-                        <h3>ΔΩΡΕΑΝ ΜΑΘΗΜΑΤΑ JAVA</h3>
-                    </p>
-                    <p>Στο σημερινό δωρεάν μάθημα java θα μιλήσουμε για το πως μπορούμε να
-                        τροποποιήσουμε τις μεθόδους μας κατά τέτοιο τρόπο ώστε να δέχονται
-                        μεταβλητό αριθμό μεταβλητών. </p>
-
-                    <p>Μέχρι τώρα έχουμε δει ότι για να δημιουργήσουμε σωστά μια μέθοδο
-                        θα πρέπει να ορίσουμε εξ αρχής όλες τις παραμέτρους που θα δέχεται. Η Java
-                        όμως μας δίνει την δυνατότητα να μπορούμε να δημιουργήσουμε μεθόδους στις
-                        οποίες ο αριθμός των μεταβλητών τους δεν είναι σταθερός. Αυτός ο όρος
-                        ονομάζεται <strong>variable-length arguments</strong> ή αλλιώς <strong>var-args</strong>. Ο
-                        καλύτερος τρόπος όμως για να εξηγήσουμε πως ακριβώς δομείται μια τέτοια
-                        μέθοδος αλλά και πως λειτουργεί είναι μέσω ενός παραδείγματος.</p>
-
-                    <p>Ας δημιουργήσουμε λοιπόν ένα καινούργιο project και ας το
-                        ονομάσουμε VarArgsMethods. Το πακέτο το οποίο θα δημιουργήσετε θα
-                        ονομάζεται com.mycompany. Μέσα στο πακέτο θα δημιουργήσουμε μια κλάση
-                        με το όνομα MathUtil η οποία θα περιέχει τον εξής κώδικα:</p>
-
-                    <p><strong>MathUtil.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtil.java</strong></p>
+										<pre class="prettyprint">
+											<xmp>
 
     package com.mycompany;
 
     public class MathUtil {
         public int max(int x, int y){
             int max = x;
-            
+
             if(y > max){
                 max = y;
             }
             return max;
         }
     }
-    
+											</xmp>
 </pre>
 
-                    <p>Σε αυτή την κλάση έχουμε δημιουργήσει μια απλή
-                        μέθοδο με το όνομα max η οποία, αφού δεχτεί δύο int αριθμούς
-                        θα μας επιστρέψει πίσω τον μεγαλύτερο από τους δύο αριθμούς. Μέχρι
-                        τώρα ακολουθούμε την θεωρία όπως ακριβώς την γνωρίζουμε.</p>
+										<p>Σε αυτή την κλάση έχουμε δημιουργήσει μια απλή
+											μέθοδο με το όνομα max η οποία, αφού δεχτεί δύο int αριθμούς
+											θα μας επιστρέψει πίσω τον μεγαλύτερο από τους δύο αριθμούς. Μέχρι
+											τώρα ακολουθούμε την θεωρία όπως ακριβώς την γνωρίζουμε.</p>
 
-                    <p>Δημιουργούμε μια δεύτερη κλάση με το όνομα MathUtilDemo η οποία περιέχει τον εξής κώδικα:</p>
+										<p>Δημιουργούμε μια δεύτερη κλάση με το όνομα MathUtilDemo η οποία περιέχει τον εξής κώδικα:</p>
 
-                    <p><strong>MathUtilDemo.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtilDemo.java</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     package com.mycompany;
 
     public class MathUtilDemo {
@@ -214,43 +223,47 @@
             MathUtil max_num = new MathUtil();
             int result = max_num.max(5, 10);
             System.out.println("The maximum number is: "+ result);
-                     
+
         }
     }
+											</xmp>
 </pre>
 
-                    <p><strong>Output</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>Output</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     The maximum number is: 10
+											</xmp>
 </pre>
 
-                    <p>Ούτε και αυτή η κλάση περιέχει κάτι καινούργιο. Δημιουργούμε ένα αντικείμενο
-                        από την κλάση MathUtil και αφού καλέσουμε την μέθοδο max περνώντας δύο int
-                        αριθμούς, λαμβάνουμε πίσω το αποτέλεσμα ποιος από τους δύο αριθμούς είναι ο μεγαλύτερος.</p>
+										<p>Ούτε και αυτή η κλάση περιέχει κάτι καινούργιο. Δημιουργούμε ένα αντικείμενο
+											από την κλάση MathUtil και αφού καλέσουμε την μέθοδο max περνώντας δύο int
+											αριθμούς, λαμβάνουμε πίσω το αποτέλεσμα ποιος από τους δύο αριθμούς είναι ο μεγαλύτερος.</p>
 
-                    <p>Τώρα παρουσιάζεται η ανάγκη να καλύψουμε την δυνατότητα να βρίσκουμε
-                        τον μεγαλύτερο αριθμό από τρεις αριθμούς. Με βάση την θεωρία την οποία
-                        γνωρίζουμε, αυτό που θα κάνατε θα ήταν να χρησιμοποιήσετε την λογική του
-                        overloading. Δηλαδή να δημιουργήσετε μια ακόμη μέθοδο με το ίδιο όνομα
-                        που θα δέχεται τρεις μεταβλητές. Η κλάση MathUtil τώρα θα έχει τον εξής κώδικα:</p>
+										<p>Τώρα παρουσιάζεται η ανάγκη να καλύψουμε την δυνατότητα να βρίσκουμε
+											τον μεγαλύτερο αριθμό από τρεις αριθμούς. Με βάση την θεωρία την οποία
+											γνωρίζουμε, αυτό που θα κάνατε θα ήταν να χρησιμοποιήσετε την λογική του
+											overloading. Δηλαδή να δημιουργήσετε μια ακόμη μέθοδο με το ίδιο όνομα
+											που θα δέχεται τρεις μεταβλητές. Η κλάση MathUtil τώρα θα έχει τον εξής κώδικα:</p>
 
-                    <p><strong>MathUtil.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtil.java</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     package com.mycompany;
 
     public class MathUtil {
         public int max(int x, int y){
             int max = x;
-            
+
             if(y > max){
                 max = y;
             }
             return max;
         }
-        
+
          public int max(int x, int y, int z){
              int max = x;
-             
+
              if(y>max){
                  max=y;
              }
@@ -260,13 +273,14 @@
              return max;
         }
     }
-    
+											</xmp>
 </pre>
 
-                    <p>Ενώ η κλάση MathUtilDemo μπορεί τώρα να καλέσει την max μέθοδο με τις τρεις παραμέτρους.</p>
+										<p>Ενώ η κλάση MathUtilDemo μπορεί τώρα να καλέσει την max μέθοδο με τις τρεις παραμέτρους.</p>
 
-                    <p><strong>MathUtilDemo.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtilDemo.java</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     package com.mycompany;
 
 public class MathUtilDemo {
@@ -274,36 +288,39 @@ public class MathUtilDemo {
         MathUtil max_num = new MathUtil();
         int result = max_num.max(5, 10, 15);
         System.out.println("The maximum number is: "+ result);
-                 
+
     }
 }
+											</xmp>
 </pre>
 
-                    <p><strong>Output</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>Output</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     The maximum number is: 15
+											</xmp>
 </pre>
 
-                    <p>Οπότε με το ίδιο σκεπτικό και με την θεωρία του overloading που γνωρίζουμε
-                        μέχρι τώρα λογικά θα πρέπει να γεμίζουμε την κλάση MathUtil με καινούργιες μεθόδους
-                        που ικανοποιούν τις καινούργιες απαιτήσεις. Αυτό σημαίνει ότι θα πρέπει ο
-                        προγραμματιστής να ξοδέψει έξτρα χρόνο απλά για να προσθέτει καινούργιες
-                        μεθόδους. Η java είδε αυτό το επαναλαμβανόμενο πρόβλημα, και για αυτό
-                        μας έδωσε την δυνατότητα να ορίζουμε μεταβλητό αριθμό μεταβλητών σε μια
-                        μέθοδο. Αυτό σημαίνει ότι αντί να δημιουργήσουμε μια μέθοδο που να δέχεται
-                        ένα int αριθμό, μια άλλη μέθοδο που θα δέχεται δύο int αριθμούς κτλ να
-                        αντικατασταθούν με μια μόνο μέθοδο. Ας δούμε λοιπόν πως θα μπορούσε να
-                        γραφτεί η MathUtil κλάση χρησιμοποιώντας var-args μεταβλητή στην μέθοδο.</p>
+										<p>Οπότε με το ίδιο σκεπτικό και με την θεωρία του overloading που γνωρίζουμε
+											μέχρι τώρα λογικά θα πρέπει να γεμίζουμε την κλάση MathUtil με καινούργιες μεθόδους
+											που ικανοποιούν τις καινούργιες απαιτήσεις. Αυτό σημαίνει ότι θα πρέπει ο
+											προγραμματιστής να ξοδέψει έξτρα χρόνο απλά για να προσθέτει καινούργιες
+											μεθόδους. Η java είδε αυτό το επαναλαμβανόμενο πρόβλημα, και για αυτό
+											μας έδωσε την δυνατότητα να ορίζουμε μεταβλητό αριθμό μεταβλητών σε μια
+											μέθοδο. Αυτό σημαίνει ότι αντί να δημιουργήσουμε μια μέθοδο που να δέχεται
+											ένα int αριθμό, μια άλλη μέθοδο που θα δέχεται δύο int αριθμούς κτλ να
+											αντικατασταθούν με μια μόνο μέθοδο. Ας δούμε λοιπόν πως θα μπορούσε να
+											γραφτεί η MathUtil κλάση χρησιμοποιώντας var-args μεταβλητή στην μέθοδο.</p>
 
-                    <p><strong>MathUtil.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtil.java</strong></p>
+										<pre class="prettyprint">
 <xmp>
     package com.mycompany;
 
     public class MathUtil {
         public int max(int...num){
             int max = 0;
-            
+
             for (int i=0; i<num.length;i++){
                 if(num[i]>max){
                     max=num[i];
@@ -314,28 +331,29 @@ public class MathUtilDemo {
 </xmp>
 </pre>
 
-                    <p>Όπως βλέπεται, το να ορίσουμε μια μέθοδο να χρησιμοποιεί var-args μεταβλητή
-                        δεν είναι τίποτα άλλο από το να γράψουμε τρεις τελείες αμέσως μετά το data
-                        type και το όνομα της παραμέτρου. Αυτός ο τρόπος μας επιτρέπει να καλέσουμε
-                        την μέθοδο με όσες παραμέτρους τύπου int θέλουμε συμπεριλαμβανομένου και του
-                        μηδέν – δηλαδή να μην περάσουμε καμία τιμή στην μέθοδο. Φυσικά στο δικό μας
-                        παράδειγμα αυτό δεν έχει πολύ αξία, όμως στην λογική του var-args αυτό επιτρέπεται.</p>
+										<p>Όπως βλέπεται, το να ορίσουμε μια μέθοδο να χρησιμοποιεί var-args μεταβλητή
+											δεν είναι τίποτα άλλο από το να γράψουμε τρεις τελείες αμέσως μετά το data
+											type και το όνομα της παραμέτρου. Αυτός ο τρόπος μας επιτρέπει να καλέσουμε
+											την μέθοδο με όσες παραμέτρους τύπου int θέλουμε συμπεριλαμβανομένου και του
+											μηδέν – δηλαδή να μην περάσουμε καμία τιμή στην μέθοδο. Φυσικά στο δικό μας
+											παράδειγμα αυτό δεν έχει πολύ αξία, όμως στην λογική του var-args αυτό επιτρέπεται.</p>
 
-                    <p>Αν προσέξετε τώρα τον κώδικα μέσα στο for loop, θα σας φανεί
-                        γνώριμος ο τρόπος με τον οποίο διαβάζουμε τον αριθμό των παραμέτρων
-                        και των τιμών τους που έχουν περαστεί στην μέθοδο. Εσωτερικά η Java
-                        αναγνωρίζει την var-args num μεταβλητή σαν array οπότε εμείς μπορούμε
-                        να χρησιμοποιήσουμε την λογική του index (όπως κάναμε και στους array) για
-                        να διαβάσουμε τις τιμές που έχουν περαστεί στην μέθοδο. Με την λογική αυτή
-                        λοιπόν, αν είχαμε περάσει τρεις τιμές, αυτές θα βρισκόντουσαν στο num[0],
-                        num[1], και num[2] αντίστοιχα. Επειδή όμως δεν γνωρίζουμε εξ αρχής πόσες
-                        τιμές θα περαστούν στην μέθοδο, για αυτό χρησιμοποιούμε το for loop.</p>
+										<p>Αν προσέξετε τώρα τον κώδικα μέσα στο for loop, θα σας φανεί
+											γνώριμος ο τρόπος με τον οποίο διαβάζουμε τον αριθμό των παραμέτρων
+											και των τιμών τους που έχουν περαστεί στην μέθοδο. Εσωτερικά η Java
+											αναγνωρίζει την var-args num μεταβλητή σαν array οπότε εμείς μπορούμε
+											να χρησιμοποιήσουμε την λογική του index (όπως κάναμε και στους array) για
+											να διαβάσουμε τις τιμές που έχουν περαστεί στην μέθοδο. Με την λογική αυτή
+											λοιπόν, αν είχαμε περάσει τρεις τιμές, αυτές θα βρισκόντουσαν στο num[0],
+											num[1], και num[2] αντίστοιχα. Επειδή όμως δεν γνωρίζουμε εξ αρχής πόσες
+											τιμές θα περαστούν στην μέθοδο, για αυτό χρησιμοποιούμε το for loop.</p>
 
-                    <p>Ας τρέξουμε πάλι την MathUtilDemo για να δούμε πως λειτουργεί το
-                        πρόγραμμα μας αν περάσουμε διαφορετικό αριθμό παραμέτρων κάθε φορά.</p>
+										<p>Ας τρέξουμε πάλι την MathUtilDemo για να δούμε πως λειτουργεί το
+											πρόγραμμα μας αν περάσουμε διαφορετικό αριθμό παραμέτρων κάθε φορά.</p>
 
-                    <p><strong>MathUtilDemo.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtilDemo.java</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     package com.mycompany;
 
     public class MathUtilDemo {
@@ -347,54 +365,57 @@ public class MathUtilDemo {
             System.out.println("The maximum number is: "+ result2);
             int result3 = max_num.max();
             System.out.println("The maximum number is: "+ result3);
-                     
+
         }
     }
+											</xmp>
 </pre>
 
-                    <p><strong>Output</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>Output</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     The maximum number is: 15
     The maximum number is: 20
     The maximum number is: 0
+											</xmp>
 </pre>
 
-                    <p>Η Java μας θέτει δύο περιορισμούς για το πως μπορούμε να ορίσουμε var-args μεθόδους.</p>
+										<p>Η Java μας θέτει δύο περιορισμούς για το πως μπορούμε να ορίσουμε var-args μεθόδους.</p>
 
-                    <p><strong>1.</strong> Μπορούμε να χρησιμοποιήσουμε μόνο μια var-args μεταβλητή
-                        στην μέθοδο. Οπότε απαγορεύεται να κάνουμε κάτι όπως αυτό:</p>
-                    <p><strong>public int max(int...num1, int...num2){</strong></p>
-                    <p><strong> //Code</strong></p>
-                    <p><strong> }</strong></p>
+										<p><strong>1.</strong> Μπορούμε να χρησιμοποιήσουμε μόνο μια var-args μεταβλητή
+											στην μέθοδο. Οπότε απαγορεύεται να κάνουμε κάτι όπως αυτό:</p>
+										<p><strong>public int max(int...num1, int...num2){</strong></p>
+										<p><strong> //Code</strong></p>
+										<p><strong> }</strong></p>
 
-                    <p><strong>2.</strong> Μπορούμε να χρησιμοποιήσουμε και άλλες παραμέτρους στον
-                        ορισμό της μεθόδου αρκεί όμως η var-args μεταβλητή να είναι τελευταία στην
-                        λίστα. Δηλαδή, μπορούμε να γράψουμε κάτι όπως:</p>
-                    <p><strong> public int max(int num1, int num2, int...num3){</strong></p>
-                    <p><strong> //Code</strong></p>
-                    <p><strong> }</strong></p>
+										<p><strong>2.</strong> Μπορούμε να χρησιμοποιήσουμε και άλλες παραμέτρους στον
+											ορισμό της μεθόδου αρκεί όμως η var-args μεταβλητή να είναι τελευταία στην
+											λίστα. Δηλαδή, μπορούμε να γράψουμε κάτι όπως:</p>
+										<p><strong> public int max(int num1, int num2, int...num3){</strong></p>
+										<p><strong> //Code</strong></p>
+										<p><strong> }</strong></p>
 
-                    <p>Βασικά ο δεύτερος κανόνας εκτός από απαίτηση της java είναι
-                        και χρήσιμος γιατί με αυτό τον τρόπο μπορούμε να ζητήσουμε στα σίγουρα
-                        ένα συγκεκριμένο αριθμό δεδομένων (πχ. δύο τιμές) ενώ οποιοσδήποτε αριθμός
-                        τιμών πάνω από δύο να είναι προαιρετικός.</p>
+										<p>Βασικά ο δεύτερος κανόνας εκτός από απαίτηση της java είναι
+											και χρήσιμος γιατί με αυτό τον τρόπο μπορούμε να ζητήσουμε στα σίγουρα
+											ένα συγκεκριμένο αριθμό δεδομένων (πχ. δύο τιμές) ενώ οποιοσδήποτε αριθμός
+											τιμών πάνω από δύο να είναι προαιρετικός.</p>
 
-                    <p>Τώρα ας θεωρήσουμε ότι καλύψαμε με μια var-args μέθοδο όλες τις int
-                        περιπτώσεις αλλά χρειαζόμαστε και τις double περιπτώσεις αριθμών. Οπότε
-                        χρειαζόμαστε ακόμα την λογική του overloading. Αυτό ισχύει με τις
-                        var-args μεθόδους? Φυσικά και ισχύει αρκεί να ικανοποιείται ο εξής
-                        απλός κανόνας – ότι το data type των παραμέτρων πρέπει να είναι διαφορετικός
-                        σε κάθε μια από τις μεθόδους. </p>
+										<p>Τώρα ας θεωρήσουμε ότι καλύψαμε με μια var-args μέθοδο όλες τις int
+											περιπτώσεις αλλά χρειαζόμαστε και τις double περιπτώσεις αριθμών. Οπότε
+											χρειαζόμαστε ακόμα την λογική του overloading. Αυτό ισχύει με τις
+											var-args μεθόδους? Φυσικά και ισχύει αρκεί να ικανοποιείται ο εξής
+											απλός κανόνας – ότι το data type των παραμέτρων πρέπει να είναι διαφορετικός
+											σε κάθε μια από τις μεθόδους. </p>
 
-                    <p><strong>MathUtil.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtil.java</strong></p>
+										<pre class="prettyprint">
 <xmp>
     package com.mycompany;
 
     public class MathUtil {
         public int max(int...num){
             int max = 0;
-            
+
             for (int i=0; i<num.length; i++){
                 if(num[i]>max){
                     max=num[i];
@@ -402,11 +423,11 @@ public class MathUtilDemo {
             }
             return max;
         }
-        
-        
+
+
         public double max(double...num){
             double max = 0;
-            
+
             for (int i=0; i<num.length; i++){
                 if(num[i]>max){
                     max=num[i];
@@ -418,42 +439,45 @@ public class MathUtilDemo {
 </xmp>
 </pre>
 
-                    <p>Υπάρχει όμως και η λογική ότι θα επιθυμούσατε να κάνετε overloading
-                        μια var-args μέθοδο με μια κανονική μέθοδο. Όπως το παρακάτω παράδειγμα:</p>
+										<p>Υπάρχει όμως και η λογική ότι θα επιθυμούσατε να κάνετε overloading
+											μια var-args μέθοδο με μια κανονική μέθοδο. Όπως το παρακάτω παράδειγμα:</p>
 
-                    <p><strong>MathUtil.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtil.java</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     package com.mycompany;
     public class MathUtil {
 
         public int max(int x, int y){
        //Code
         }
-   
+
        public int max(int...num){
              //Code
        }
+											</xmp>
 </pre>
 
-                    <p>Μπορείτε να μαντέψετε ποια από τις δύο μεθόδους θα ενεργοποιηθεί
-                        αν καλέσουμε την max(2, 4)? Η java θα κοιτάξει πρώτα να δει αν υπάρχει
-                        κάποια μέθοδο με τον ακριβή αριθμό παραμέτρων και data type που μπορεί
-                        να εκτελέσει τις τιμές που περάστηκαν στην μέθοδο. Αν υπάρχει (που στο παράδειγμα
-                        μας υπάρχει) τότε θα εκτελεστεί αυτή η μέθοδος. Αν δεν υπάρχει τότε η java θα
-                        ανατρέξει στην var-args μέθοδο.</p>
+										<p>Μπορείτε να μαντέψετε ποια από τις δύο μεθόδους θα ενεργοποιηθεί
+											αν καλέσουμε την max(2, 4)? Η java θα κοιτάξει πρώτα να δει αν υπάρχει
+											κάποια μέθοδο με τον ακριβή αριθμό παραμέτρων και data type που μπορεί
+											να εκτελέσει τις τιμές που περάστηκαν στην μέθοδο. Αν υπάρχει (που στο παράδειγμα
+											μας υπάρχει) τότε θα εκτελεστεί αυτή η μέθοδος. Αν δεν υπάρχει τότε η java θα
+											ανατρέξει στην var-args μέθοδο.</p>
 
-                    <p>Τέλος πριν κλείσουμε την ενότητα θα ήθελα να αναφερθώ στον τρόπο
-                        που πολλοί καινούργιοι προγραμματιστές γράφουν την μέθοδο main. Η main,
-                        όπως γνωρίζεται ήδη, δέχεται έναν array είδος String. Αυτός είναι ο πρώτος
-                        τρόπος με τον οποίο σχεδίασαν την java να μπορεί να δέχεται
-                        παραμέτρους ( τιμές με άλλα λόγια) από τον χρήστη κατά την διάρκεια
-                        εκτέλεσης του προγράμματος. Δηλαδή να μπορεί ο κώδικας σας να ρωτάει
-                        τον χρήστη να εισάγει κάποιες τιμές πριν συνεχίσει την εκτέλεση του. Τώρα
-                        που γνωρίζετε ότι εσωτερικά μια var-args μεταβλητή διαβάζεται από την java
-                        σαν array, μην σας φανεί παράξενο αν κάποιος γράψει την main κάπως έτσι.</p>
+										<p>Τέλος πριν κλείσουμε την ενότητα θα ήθελα να αναφερθώ στον τρόπο
+											που πολλοί καινούργιοι προγραμματιστές γράφουν την μέθοδο main. Η main,
+											όπως γνωρίζεται ήδη, δέχεται έναν array είδος String. Αυτός είναι ο πρώτος
+											τρόπος με τον οποίο σχεδίασαν την java να μπορεί να δέχεται
+											παραμέτρους ( τιμές με άλλα λόγια) από τον χρήστη κατά την διάρκεια
+											εκτέλεσης του προγράμματος. Δηλαδή να μπορεί ο κώδικας σας να ρωτάει
+											τον χρήστη να εισάγει κάποιες τιμές πριν συνεχίσει την εκτέλεση του. Τώρα
+											που γνωρίζετε ότι εσωτερικά μια var-args μεταβλητή διαβάζεται από την java
+											σαν array, μην σας φανεί παράξενο αν κάποιος γράψει την main κάπως έτσι.</p>
 
-                    <p><strong>MathUtilDemo.java</strong></p>
-                    <pre class="prettyprint">
+										<p><strong>MathUtilDemo.java</strong></p>
+										<pre class="prettyprint">
+											<xmp>
     package com.mycompany;
 
     public class MathUtilDemo {
@@ -463,58 +487,270 @@ public class MathUtilDemo {
             System.out.println("The maximum number is: "+ result);
         }
     }
+											</xmp>
 </pre>
+										<!--######################################################################################################################################################## -->
+								</div>
+							</div>
+						</div>
 
+						<!--<div class="row row-pb-lg animate-box">
+							<div class="col-md-12">
+								<h2 class="colorlib-heading-2">23 Comments</h2>
+								<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person1.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+						   	<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person2.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+						   	<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person3.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+							</div>
+						</div>-->
 
-                    <a><a href="https://kassapoglou.github.io/java/java-programming.html">
-                            <font color="#0000CC">Πίσω στις δωρεάν ενότητες Java Programming</font>
-                        </a></a>
-                    <img src="images/java-logo.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+						<!--<div class="row animate-box">
+							<div class="col-md-12">
+								<h2 class="colorlib-heading-2">Say something</h2>
+								<form action="#">
+									<div class="row form-group">
+										<div class="col-md-6">
+											<!-- <label for="fname">First Name</label> -->
+						<!--		<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+										</div>
+										<div class="col-md-6">
+											<!-- <label for="lname">Last Name</label> -->
+						<!--<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+										</div>
+									</div>
 
-                    <div class="author-box">
-                        <div class="author-info flex flex-wrap">
-                            <div class="author-avatar">
-                                <img src="images/michail.jpg" alt="">
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="email">Email</label> -->
+						<!--<input type="text" id="email" class="form-control" placeholder="Your email address">
+										</div>
+									</div>
 
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="subject">Subject</label> -->
+						<!--<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+										</div>
+									</div>
 
-                            </div><!-- .author-avatar -->
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="message">Message</label> -->
+						<!--	<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="submit" value="Post Comment" class="btn btn-primary">
+									</div>
+								</form>	
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
 
-                            <div class="author-details">
-                                <h3 class="author-name">Michail Kassapoglou <span>Admin</span></h3>
+		<!--<div id="colorlib-subscribe" class="subs-img" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
+						<h2>Subscribe Newsletter</h2>
+						<p>Subscribe our newsletter and get latest update</p>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="row">
+							<div class="col-md-12">
+							<form class="form-inline qbstp-header-subscribe">
+								<div class="col-three-forth">
+									<div class="form-group">
+										<input type="text" class="form-control" id="email" placeholder="Enter your email">
+									</div>
+								</div>
+								<div class="col-one-third">
+									<div class="form-group">
+										<button type="submit" class="btn btn-primary">Subscribe Now</button>
+									</div>
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<footer id="colorlib-footer">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 colorlib-widget">
+						<h4>PURPOSE</h4>
+						<p>Ο πρωταρχικός λόγος που με ώθησε στο να δημιουργήσω αυτή την
+							ιστοσελίδα και να προσφέρω δωρεάν μαθήματα είναι γιατί πιστεύω ότι
+							η γνώση, σε οποιοδήποτε επίπεδο, πρέπει να μεταδίδεται για να έχει αξία.</p>
+						<p>
+						<ul class="colorlib-social-icons">
+							<!--<li><a href="#"><i class="icon-twitter"></i></a></li>-->
+							<li><a href="https://www.facebook.com/kassapoglou/?ref=bookmarks"><i
+									class="icon-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/groups/4390739/"><i
+									class="icon-linkedin"></i></a></li>
+							<!--<li><a href="#"><i class="icon-dribbble"></i></a></li>-->
+						</ul>
+						</p>
+					</div>
+					<div class="col-md-3 colorlib-widget">
+						<h4>Quick Links</h4>
+						<p>
+						<ul class="colorlib-footer-links">
+							<!--<li><a href="#"><i class="icon-check"></i> About</a></li>-->
+							<!--<li><a href="#"><i class="icon-check"></i> Testimonials</a></li>-->
+							<li><a href="https://kassapoglou.github.io/main/"><i class="icon-check"></i>
+								Home</a></li>
+							<li><a href="https://kassapoglou.github.io/java/java-programming.html"><i
+									class="icon-check"></i> JAVA Programming</a></li>
+							<li><a href="https://kassapoglou.github.io/main/courses.html"><i
+									class="icon-check"></i> Courses</a></li>
+							<!--<li><a href="#"><i class="icon-check"></i> Event</a></li>
+                        <li><a href="#"><i class="icon-check"></i> News</a></li>-->
+							<li><a href="https://kassapoglou.github.io/main/contact.html"><i
+									class="icon-check"></i> Contact</a></li>
+						</ul>
+						</p>
+					</div>
 
-                                <div class="entry-content mt-3">
-                                    <p>Γεια σας, είμαι ο Μιχάλης Κασάπογλου και θα σας διδάξω με τον ποιο απλό
-                                        τρόπο να προγραμματίζετε σε Java. Ασχολούμαι με την τεχνική εκπαίδευση
-                                        σε διάφορες πλατφόρμες, λειτουργικά συστήματα και γλώσσες προγραμματισμού
-                                        πάνω από 20 έτη. Κατέχω έναν αρκετά μεγάλο αριθμό πιστοποιήσεων
-                                        και σαν Τraining Lead στην Intrasoft έχω την δυνατότητα να αναβαθμίζω συνεχώς
-                                        τις γνώσεις μου και να έχω άμεση επαφή με αληθινά projects και εξειδικευμένες
-                                        μεθόδους
-                                        ανάπτυξης εφαρμογών που έχουν υψηλές απαιτήσεις.
-                                        Για τυχόν ερωτήσεις σας μπορείτε να επικοινωνήσετε μαζί μου
-                                        στο <font color="#0000CC">Michail.Kassapoglou@gmail.com </font>
-                                    </p>
-                                    <p>Σας ευχαριστώ που επισκεφτήκατε τα δωρεάν μαθήματα προγραμματισμού JAVA.</p>
-                                </div><!-- .entry-content -->
-                            </div><!-- .author-details -->
-                        </div><!-- .author-info -->
-                    </div><!-- .author-box -->
+					<!--<div class="col-md-3 colorlib-widget">
+                    <h4>Recent Post</h4>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                </div> -->
 
+					<div class="col-md-3 colorlib-widget">
+						<h4>Contact Info</h4>
+						<ul class="colorlib-footer-links">
 
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
+							<li><a href="tel://6976434707"><i class="icon-phone"></i> 6976434707</a></li>
+							<li><a href="mailto:michail.kassapoglou@gmail.com"><i class="icon-envelope"></i>
+								michail.kassapoglou@gmail.com</a></li>
+							<li><a href="kassapoglou.github.io/main"><i class="icon-location4"></i>
+								kassapoglou.github.io/main</a></li>
+							<li><a href="https://www.facebook.com/kassapoglou/?ref=bookmarks"><i
+									class="icon-facebook2"></i> Facebook</a></li>
+							<li><a href="https://www.linkedin.com/groups/4390739/"><i class="icon-linkedin"></i>
+								Linkedin</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copy">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<p>
+								<small class="block">&copy;
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+									Copyright &copy;<script>
+										document.write(new Date().getFullYear());
+									</script> All rights reserved | This template is made with <i class="icon-heart"
+																								  aria-hidden="true"></i> by <a href="https://colorlib.com"
+																																target="_blank">Colorlib</a>
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								</small><br>
+								<small class="block">Demo Images: <a href="http://unsplash.co/"
+																	 target="_blank">Unsplash</a>, <a href="http://pexels.com/"
+																									  target="_blank">Pexels</a></small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
 
-
-
-
-        <script type='text/javascript' src='js/jquery.js'></script>
-        <script type='text/javascript' src='js/swiper.min.js'></script>
-        <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
-        <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
-        <script type='text/javascript' src='js/custom.js'></script>
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
 
 </body>
 
-</html>
+</html></html>
