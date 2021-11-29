@@ -1,63 +1,34 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-
 <head>
+	<!-- set the encoding of your site -->
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Δωρεάν Μαθήματα Java</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- set the HandheldFriendly -->
+	<meta name="HandheldFriendly" content="True">
+	<!-- set the description -->
 	<meta name="description"
-		  content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων στην γλώσσα προγραμματισμού Java">
+	content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων στην γλώσσα προγραμματισμού Java">
+	<!-- set the Keyword -->
 	<meta name="robots" content="index, follow">
-	<meta name="keywords" content="Java, Back-end development,
-              backend development, back-end programmer, back-end programming,
-              java programming, δωρεάν,
-               προγραμματισμός, δωρεάν μαθήματα, δωρεάν σεμινάρια, μαθήματα java, σεμινάρια java" />
+	<meta name="keywords" content="Java, Java SE, Java Standard Edition, δωρεάν, java seminars, java lessons,
+               java προγραμματισμός, δωρεάν μαθήματα java, δωρεάν σεμινάρια java, μαθήματα java, σεμινάρια java" />
 	<meta name="author" content="Michail Kassapoglou" />
-
-	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:url" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="" />
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sunburst"></script>
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
+	<!-- set the page title -->
+	<title>Δωρεάν Μαθήματα Java</title>
+	<!-- include google roboto font cdn link -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<!-- include the site bootstrap stylesheet -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/plugins.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/colors.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="style.css">
+	<!-- include the site responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -70,523 +41,853 @@
 		gtag('config', 'UA-150900548-1');
 	</script>
 </head>
+<style>
+	.numberCircle {
+		border-radius: 50%;
+		width: 36px;
+		height: 36px;
+		padding: 8px;
+	
+		background: #fff;
+		border: 2px solid #666;
+		color: #666;
+		text-align: center;
+	
+		font: 15px Arial, sans-serif;
+	}
+</style>
 <body>
-
-	<div class="colorlib-loader"></div>
-
-	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			<div class="upper-menu">
+	<!-- main container of all the page elements -->
+	<div id="wrapper">
+		<!-- header of the page -->
+		<header id="page-header">
+			<!-- top bar -->
+			<div class="top-bar bg-dark text-gray">
 				<div class="container">
-					<div class="row">
-						<div class="col-xs-4">
-							<p>Welcome to Kassapoglou</p>
-						</div>
-						<!--<div class="col-xs-6 col-md-push-2 text-right">
-							<p>
-								<ul class="colorlib-social-icons">
-									<li><a href="#"><i class="icon-twitter"></i></a></li>
-									<li><a href="#"><i class="icon-facebook"></i></a></li>
-									<li><a href="#"><i class="icon-linkedin"></i></a></li>
-									<li><a href="#"><i class="icon-dribbble"></i></a></li>
-								</ul>
-							</p>
-							<p class="btn-apply"><a href="#">Apply Now</a></p>
-						</div> -->
-					</div>
-				</div>
-			</div>
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-2">
-							<div id="colorlib-logo"><a
-									href="https://kassapoglou.github.io/main/index.html">Kassapoglou</a></div>
-						</div>
-						<div class="col-md-10 text-right menu-1">
-							<ul>
-								<li><a href="https://kassapoglou.github.io/main/index.html">Home</a></li>
-								<li class="has-dropdown active">
-									<a href="https://kassapoglou.github.io/main/courses.html">Courses</a>
-									<ul class="dropdown">
-										<li><a href="https://kassapoglou.github.io/java/java-programming.html">Java</a>
-										</li>
-										<li><a
-												href="https://kassapoglou.github.io/python/python-programming.html">Python</a>
-										</li>
-										<li><a href="https://kassapoglou.github.io/go/go-programming.html">GO</a></li>
-										<li><a
-												href="https://kassapoglou.github.io/javascript/javascript-programming.html">JavaScript</a>
-										</li>
-										<li><a href="https://kassapoglou.github.io/maven/learning-maven.html">Apache
-												Maven</a></li>
-										<li><a href="https://kassapoglou.github.io/camel/apache-camel-programming.html">Apache
-												Camel</a></li>
-									</ul>
+					<div class="row top-bar-holder">
+						<div class="col-xs-9 col">
+							<!-- bar links -->
+							<ul class="font-lato list-unstyled bar-links">
+								<li>
+									<a href="tel:+30 6976434707">
+										<strong class="dt element-block text-capitalize hd-phone">Phone :</strong>
+										<strong class="dd element-block hd-phone">+(30) 6976434707 </strong>
+										<i class="fas fa-phone-square hd-up-phone hidden-sm hidden-md hidden-lg"><span class="sr-only">phone</span></i>
+									</a>
 								</li>
-								<!--<li><a href="about.html">About</a></li>-->
-								<!--	<li><a href="event.html">Events</a></li>
-								<li><a href="news.html">News</a></li> -->
-								<li><a href="https://kassapoglou.github.io/main/contact.html">Contact</a></li>
+								<li>
+									<a href="mailto:michail.kassapoglou@gmail.com">
+										<strong class="dt element-block text-capitalize hd-phone">Email :</strong>
+										<strong class="dd element-block hd-phone">michail.kassapoglou@gmail.com</strong>
+										<i class="fas fa-envelope-square hd-up-phone hidden-sm hidden-md hidden-lg"><span class="sr-only">email</span></i>
+									</a>
+								</li>
 							</ul>
 						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-		<aside id="colorlib-hero">
-			<div class="flexslider">
-				<ul class="slides">
-					<li style="background-image: url(images/A_Java16.jpeg);">
-						<div class="overlay"></div>
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
-									<div class="slider-text-inner text-center">
-										<h1>ΜΑΘΑΙΝΩ ΔΩΡΕΑΝ JAVA</h1>
-										<h2><strong>ΕΝΟΤΗΤΑ 3 - HELLO WORLD CODE EXPLANATION</strong></h2>
-										<h2><span><a href="https://kassapoglou.github.io/main/index.html">Home</a> | <a
-													href="https://kassapoglou.github.io/main/courses.html">Courses</a> |
-											<a href="https://kassapoglou.github.io/java/java-programming.html">JAVA PROGRAMMING</a></span></h2>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</aside>
-
-		<div class="colorlib-classes">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 col-lg-12">
-						<div class="row row-pb-lg">
-							<div class="col-md-12 animate-box">
-								<div class="classes class-single">
-									<div class="classes-img" style="background-image: url(images/A_Java15.jpeg);">
-										<span class="price text-center"><small>FREE</small></span>
-									</div>
-																		<center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick" />
-<input type="hidden" name="hosted_button_id" value="GQD77W6K672RA" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1" height="1" />
-</form></center>
-									<div class="desc desc2">
-										<h3 align="center"><a
-												href="https://kassapoglou.github.io/java/java-programming.html">ΕΝΟΤΗΤΑ 3 JAVA SE - HELLO WORLD CODE EXPLANATION</a></h3>
-
-<p>Στο σημερινό δωρεάν μάθημα Java, θα αναλύσουμε γραμμή προς γραμμή τον κώδικα του Hello World
-	παραδείγματος που γράψαμε στην προηγούμενη ενότητα και τον ρόλο που έχει το JDK στην εκτέλεση των
-	προγραμμάτων μας.</p>
-
-<p>Πριν ξεκινήσουμε, ας δούμε άλλη μια φορά τον κώδικα που είχαμε δημιουργήσει.</p>
-
-										<p><strong>HelloWorld.java</strong></p>
-										<pre class="prettyprint"><xmp>
-package com.mycompany;
-
-public class Helloworld {
-    public static void main(String []args){
-        System.out.println("Hello World");
-    }
-}
-</xmp>
-</pre>
-										<p><strong>Output</strong></p>
-										<pre class="prettyprint"><xmp>
-Hello World
-</xmp>
-</pre>
-
-	<p>Στην πρώτη γραμμή δηλώνεται το <strong>πακέτο</strong> στο οποίο ανήκει η κλάση. Αμέσως μετά έχουμε
-		τον ορισμό της κλάσης. Η λέξη κλειδί <strong>class</strong> ορίζει ότι το όνομα HelloClass είναι κλάση και
-		ο κώδικας που θα ανήκει σε αυτήν ορίζεται από τα άγκιστρα ( { } ). Η λέξη κλειδί <strong>public</strong> μπροστά
-	από το class δηλώνει ότι άλλες κλάσεις, από το ίδιο ή διαφορετικό πακέτο, μπορούν να καλέσουν
-	μεταβλητές και μεθόδους που έχει να προσφέρει η δική μας κλάση. Αυτή είναι η πιο βασική αλλά
-	και συγχρόνως η πιο απλή λειτουργική μορφή μιας κλάσης.</p>
-
-<p>Όμως μια κλάση από μόνη της δεν κάνει μια εφαρμογή εκτελέσιμη. Αυτή την δυνατότητα την
-	αποκτάει η κλάση όταν συμπεριλάβει μια δυναμική μέθοδο που
-	προσφέρει η Java και ονομάζεται <strong>main</strong>.</p>
-
-<p>Η συγκεκριμένη μέθοδος είναι η αρχή εκτέλεσης κάθε προγράμματος Java. Η λέξη public, με
-	την οποία ξεκινάει ο ορισμός της, επιτρέπει στην Java να αποκτήσει πρόσβαση σε αυτήν και να
-	ξεκινήσει η εκτέλεση της. Η λέξη <strong>static</strong> επιτρέπει την εκτέλεση της μεθόδου χωρίς πρώτα να
-	χρειαστεί να δημιουργήσουμε αντικείμενο από την κλάση στην οποία περιέχεται. Η λέξη <strong>void</strong>
-	ενημερώνει την Java ότι η συγκεκριμένη μέθοδο δεν θα επιστρέψει τίποτα πίσω στο πρόγραμμα. Με
-	άλλα λόγια εκτελεί κώδικα ή δείχνει μηνύματα στην κονσόλα αλλά δεν περιμένουμε κάποιο αποτέλεσμα
-	πίσω το οποίο θα χρησιμοποιήσουμε για συνεχίσουμε με κάποιες άλλες πράξεις. Η λέξη
-	<strong>main()</strong> (μαζί με τις παρενθέσεις) ορίζει το όνομα της και την ιδιότητα της – δηλαδή ότι
-	είναι μέθοδος. Μέσα στην παρένθεση ορίζεται ένας String πίνακας σε περίπτωση που θέλουμε
-	να περάσουμε κάποιες τιμές στην εφαρμογή πριν την εκτέλεση της. Τέλος τα άγκιστρα ορίζουν
-	τον κώδικα που θα εκτελέσει η main. </p>
-
-<p>Η πιο πάνω εξήγηση μπορεί αυτή τη στιγμή να ακούγεται κάπως δύσκολη να την κατανοήσετε, αλλά
-	όταν προχωρήσουμε στην θεωρία μας, κάθε μια από τις πιο πάνω λέξεις κλειδιά της Java στις οποίες
-	αναφερθήκαμε θα ξεκαθαρίσει γιατί πολύ απλά θα τις χρησιμοποιήσετε και εσείς σε δικό μας κώδικα. Για
-	τώρα απλά κρατάμε το γεγονός ότι έχουμε μια κλάση μέσα σε ένα πακέτο και χρειαζόμαστε τον ορισμό της
-	main μεθόδου (ο οποίος δεν αλλάζει) μέσα στην κλάση για να τρέξουμε τον κώδικα μας. </p>
-
-<p>Τέλος, έχουμε το <strong>System</strong> που είναι μια στατική κλάση που παράγει ένα αντικείμενο
-	<strong>out</strong> στο οποίο ανήκει μια μέθοδο που ονομάζεται <strong>println( )</strong>. Ότι
-	βάλουμε μέσα στην println( ) μέθοδο
-	θα εκτυπωθεί στο terminal γιατί το default output του System.out αντικειμένου είναι η κονσόλα. </p>
-
-<p>Θα πρέπει να ξέρετε ότι η Java είναι case-sensitive που σημαίνει ότι έστω και ένα χαρακτήρα
-	να αλλάξουμε στα ονόματα των κλάσεων, μεθόδων ή μεταβλητών τότε η Java θα θεωρήσει ότι
-	αναφερόμαστε σε ένα καινούργιο στοιχείο. Για παράδειγμα μπορούμε να δημιουργήσουμε μια κλάση
-	με το όνομα HelloClass και μια ακόμα με το όνομα helloClass.</p>
-
-<p>Αυτό το εύκολο, σε εκτέλεση και λειτουργία, πρόγραμμα περιέχει πολύ θεωρία που δεν μπορούμε
-	ακόμα να αναλύσουμε σε βάθος γιατί πολύ απλά είναι πολύ νωρίς για να μιλήσουμε για όλη την
-	θεωρία του object-oriented προγραμματισμού. Αν κάποιους ορισμούς που χρησιμοποιήσαμε δεν σαν
-	είναι εντελώς ξεκάθαροι, μην ανησυχείτε γιατί θα επιστρέψουμε σε αυτούς πολλές φορές στα
-	επόμενα προγράμματα μας. Για τώρα απλά κρατάμε τα εξής: </p>
-
-<ul>
-	<li>Η Java είναι case sensitive </li>
-	<li>Το πιο απλό πρόγραμμα χρειάζεται την δημιουργία μιας κλάσης </li>
-	<li>Για να είναι εκτελέσιμη η κλάση και κατά συνέπεια η εφαρμογή μας χρειαζόμαστε την main( ) μέθοδο.</li>
-	<li>Η γραμμή που ορίζει την main( ) θα παραμείνει πάντα η ίδια για όλα τα προγράμματα. </li>
-	<li>Για να δείξουμε μηνύματα στην κονσόλα, χρησιμοποιούμε την println( ) μέθοδο. </li>
-</ul>
-
-<p>Στην πρώτη ενότητα είχαμε εγκαταστήσει μια από τις εκδόσεις της Java εκτελώντας ένα αρχείο
-	με το όνομα JDK. Η εγκατάσταση του JDK είχε δύο κύριους σκοπούς:</p>
-<ul>
-	<li>πρώτον να δημιουργηθεί ένα Java Virtual Machine στον υπολογιστή μας </li>
-	<li>και δεύτερον να μας δοθεί η δυνατότητα να δημιουργούμε, να κάνουμε compile και τέλος να τρέχουμε τα προγράμματα μας. </li>
-</ul>
-
-<p>Η ερώτηση όμως παραμένει – τι είναι το JVM? Θα έχετε ακούσει φαντάζομαι τον λόγο
-	που η Java έγινε διάσημη ανάμεσα στους προγραμματιστές – Γιατί κάθε εφαρμογή έχει την
-	δυνατότητα να τρέξει σε όλα τα λειτουργικά συστήματα με σχεδόν καμία αλλαγή στον
-	κώδικα. Πως όμως είναι αυτό εφικτό?</p>
-
-<p>Όταν εγκαταστήσαμε το JDK εγκαταστάθηκε στον υπολογιστή μας ένα Java Virtual Machine ή
-	αλλιώς JVM. Κάθε Java εφαρμογή που χτίζουμε και εκτελούμε τρέχει επάνω σε αυτό το JVM χωρίς
-	ποτέ να “βλέπει” το πραγματικό λειτουργικό σύστημα. Με πολύ απλά λόγια, το JVM είναι η CPU, η
-	μνήμη και το λειτουργικό σύστημα που νομίζει ότι βλέπει η Java εφαρμογή. Αν τώρα από
-	Windows, για παράδειγμα, θέλετε να τρέξετε την εφαρμογή σας σε ένα Linux υπολογιστή, δεν
-	έχετε παρά να εγκαταστήσετε το JDK για Linux και είσαστε έτοιμοι. Η Java εφαρμογή θα ψάξει
-	και θα βρει πάλι το JVM που χρειάζεται για να εκτελεστεί χωρίς να αντιληφθεί ότι το
-	λειτουργικό σύστημα έχει αλλάξει. </p>
-
-<p>Μπορούμε να δούμε όλη αυτή την λειτουργία με περισσότερη λεπτομέρεια. Θα χρειαστούμε
-	όμως την βοήθεια της πιο κάτω εικόνας:</p>
-
-<img src="java-unit3/java-unit3-1.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA"  class="center">
-<p></p>
-
-<p>Στην προηγούμενη ενότητα δημιουργήσαμε ένα απλό Hello World Java πρόγραμμα. Η κλάση μας
-	μέσα στην οποία είναι γραμμένος ο κώδικας μας έχει κατάληξη .java. Όλα τα αρχεία java
-	κώδικα από τα οποία αποτελείται μια εφαρμογή έχουν κατάληξη .java. Αυτό ονομάζεται Java
-	Source Code και είναι το πρώτο βήμα.</p>
-
-<p>Όταν κάναμε δεξί κλικ επάνω στο project και επιλέξαμε Run, στην πραγματικότητα αυτό
-	που έγινε ήταν το JDK να ελέγξει αν συντακτικά ο κώδικας μας ήταν εντάξει. Αν ήταν τότε
-	έκανε compile την κλάση μας και δημιούργησε ένα καινούργιο αρχείο με το ίδιο όνομα αλλά με
-	κατάληξη .class. Αν είχαμε μια εφαρμογή π.χ με τρεις κλάσεις τότε θα είχαμε την δημιουργία
-	τριών καινούργιων αρχείων με κατάληξη .class. Αν κοιτάξουμε μέσα στον target
-	φάκελλο (όπως δείχνει η παρακάτω εικόνα) θα δούμε την δημιουργία του .class αρχείου.</p>
-
-<img src="java-unit3/java-unit3-2.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA"  class="center">
-<p></p>
-
-<p>Τα καινούργια αυτά αρχεία περιέχουν των κώδικα μας σε ψηφιακή μορφή bytecode. Από εδώ
-	και πέρα αναλαμβάνει το JVM το οποίο έχει την ικανότητα να διαβάσει αυτά τα αρχεία και να
-	τα μετατρέψει σε γλώσσα μηχανής του αντίστοιχου λειτουργικού σύστημα στο οποίο τρέχει. </p>
-
-<p>Κάθε φορά που αλλάζει κάτι στον κώδικα και εκτελούμε την maven εντολή mvn clean
-	install , το maven καθαρίζει τα παλιά .class αρχεία και δημιουργεί καινούργια αφού
-	επαναλαμβάνει την διαδικασία του compilation. Επίσης δημιουργείται και ένα καινούργιο
-	αρχείο το οποίο έχει κατάληξη .jar, περιέχει όλες της κλάσης της εφαρμογής μας και είναι εκτελέσιμο.</p>
-
-<p>Αυτή είναι όλη η εφαρμογή μας πακεταρισμένη κάτω από ένα όνομα, με όλες τις κλάσεις
-	που χρειάζεται να τρέξει η εφαρμογή μας. Αν και είναι κάπως άστοχο το παράδειγμα, απλά για
-	να σας δώσω να καταλάβετε τι έχουμε δημιουργήσει, σκεφτείτε το σαν κάτι αντίστοιχο ενός .exe
-	αρχείου στα Windows. Δηλαδή τώρα έχουμε μια εκτελέσιμη εφαρμογή? Και αν ναι, αν εγκαταστήσουμε
-	αυτό το .jar αρχείο σε έναν άλλο υπολογιστή στο οποίο ήδη έχουμε εγκαταστήσει το JDK, πως
-	μπορούμε να το εκτελέσουμε? Η απάντηση είναι πολύ απλή: java -jar (και το όνομα του αρχείου). </p>
-
-<p>Πριν κλείσουμε αυτή το δωρεάν μάθημα Java ας κάνουμε μια γρήγορη ανακεφαλαίωση στο τι έχουμε
-	καλύψει σαν θεωρία. Κάθε φορά λοιπόν που εκτελείτε την εντολή mvn clean install, στην ουσία
-	δημιουργείται ένα .jar αρχείο, το οποίο αντιπροσωπεύει την εκτελέσιμη έκδοση της εφαρμογής. Μέσα
-	σε αυτό το .jar αρχείο (μπορείτε να το κάνετε unzip και να δείτε τι περιέχει) περιλαμβάνονται όλες
-	οι κλάσεις της εφαρμογής μας σε bytecode μορφή και κατάληξη .class. Αυτά τα bytecode αρχεία τα
-	διαβάζει ο Java Interpreter (το JVM με άλλα λόγια) και τα μετατρέπει σε γλώσσα μηχανής του
-	λειτουργικού σύστημα επάνω στο οποίο τρέχει η εφαρμογή μας. </p>
-
-
-<!--######################################################################################################################################################## -->
-								</div>
-							</div>
-						</div>
-									<center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick" />
-<input type="hidden" name="hosted_button_id" value="GQD77W6K672RA" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1" height="1" />
-</form></center>
-						<!--<div class="row row-pb-lg animate-box">
-							<div class="col-md-12">
-								<h2 class="colorlib-heading-2">23 Comments</h2>
-								<div class="review">
-						   		<div class="user-img" style="background-image: url(images/person1.jpg)"></div>
-						   		<div class="desc">
-						   			<h4>
-						   				<span class="text-left">Jacob Webb</span>
-						   				<span class="text-right">24 March 2018</span>
-						   			</h4>
-						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
-						   			<p class="star">
-					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
-						   			</p>
-						   		</div>
-						   	</div>
-						   	<div class="review">
-						   		<div class="user-img" style="background-image: url(images/person2.jpg)"></div>
-						   		<div class="desc">
-						   			<h4>
-						   				<span class="text-left">Jacob Webb</span>
-						   				<span class="text-right">24 March 2018</span>
-						   			</h4>
-						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
-						   			<p class="star">
-					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
-						   			</p>
-						   		</div>
-						   	</div>
-						   	<div class="review">
-						   		<div class="user-img" style="background-image: url(images/person3.jpg)"></div>
-						   		<div class="desc">
-						   			<h4>
-						   				<span class="text-left">Jacob Webb</span>
-						   				<span class="text-right">24 March 2018</span>
-						   			</h4>
-						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
-						   			<p class="star">
-					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
-						   			</p>
-						   		</div>
-						   	</div>
-							</div>
-						</div>-->
-
-						<!--<div class="row animate-box">
-							<div class="col-md-12">
-								<h2 class="colorlib-heading-2">Say something</h2>
-								<form action="#">
-									<div class="row form-group">
-										<div class="col-md-6">
-											<!-- <label for="fname">First Name</label> -->
-						<!--		<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-										</div>
-										<div class="col-md-6">
-											<!-- <label for="lname">Last Name</label> -->
-						<!--<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-										</div>
-									</div>
-
-									<div class="row form-group">
-										<div class="col-md-12">
-											<!-- <label for="email">Email</label> -->
-						<!--<input type="text" id="email" class="form-control" placeholder="Your email address">
-										</div>
-									</div>
-
-									<div class="row form-group">
-										<div class="col-md-12">
-											<!-- <label for="subject">Subject</label> -->
-						<!--<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-										</div>
-									</div>
-
-									<div class="row form-group">
-										<div class="col-md-12">
-											<!-- <label for="message">Message</label> -->
-						<!--	<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
-										</div>
-									</div>
-									<div class="form-group">
-										<input type="submit" value="Post Comment" class="btn btn-primary">
-									</div>
-								</form>	
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!--<div id="colorlib-subscribe" class="subs-img" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-						<h2>Subscribe Newsletter</h2>
-						<p>Subscribe our newsletter and get latest update</p>
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="col-md-6 col-md-offset-3">
-						<div class="row">
-							<div class="col-md-12">
-							<form class="form-inline qbstp-header-subscribe">
-								<div class="col-three-forth">
-									<div class="form-group">
-										<input type="text" class="form-control" id="email" placeholder="Enter your email">
-									</div>
-								</div>
-								<div class="col-one-third">
-									<div class="form-group">
-										<button type="submit" class="btn btn-primary">Subscribe Now</button>
-									</div>
-								</div>
-							</form>
-							</div>
+						<div class="col-xs-3 col justify-end">
+							<!-- user links -->
+							<!--<ul class="list-unstyled user-links fw-bold font-lato">-->
+							<!--	<li><a href="#popup1" class="lightbox">Login</a> <span class="sep">|</span> <a href="#popup2" class="lightbox">Register</a></li>-->
+							<!--</ul>-->
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>-->
-		<footer id="colorlib-footer">
-			<div class="container">
-				<div class="row row-pb-md">
-					<div class="col-md-3 colorlib-widget">
-						<h4>PURPOSE</h4>
-						<p>Ο πρωταρχικός λόγος που με ώθησε στο να δημιουργήσω αυτή την
-							ιστοσελίδα και να προσφέρω δωρεάν μαθήματα είναι γιατί πιστεύω ότι
-							η γνώση, σε οποιοδήποτε επίπεδο, πρέπει να μεταδίδεται για να έχει αξία.</p>
-						<p>
-						<ul class="colorlib-social-icons">
-							<!--<li><a href="#"><i class="icon-twitter"></i></a></li>-->
-							<li><a href="https://www.facebook.com/kassapoglou/?ref=bookmarks"><i
-									class="icon-facebook"></i></a></li>
-							<li><a href="https://www.linkedin.com/groups/4390739/"><i
-									class="icon-linkedin"></i></a></li>
-							<!--<li><a href="#"><i class="icon-dribbble"></i></a></li>-->
-						</ul>
-						</p>
-					</div>
-					<div class="col-md-3 colorlib-widget">
-						<h4>Quick Links</h4>
-						<p>
-						<ul class="colorlib-footer-links">
-							<!--<li><a href="#"><i class="icon-check"></i> About</a></li>-->
-							<!--<li><a href="#"><i class="icon-check"></i> Testimonials</a></li>-->
-							<li><a href="https://kassapoglou.github.io/main/"><i class="icon-check"></i>
-								Home</a></li>
-							<li><a href="https://kassapoglou.github.io/java/java-programming.html"><i
-									class="icon-check"></i> JAVA Programming</a></li>
-							<li><a href="https://kassapoglou.github.io/main/courses.html"><i
-									class="icon-check"></i> Courses</a></li>
-							<!--<li><a href="#"><i class="icon-check"></i> Event</a></li>
-                        <li><a href="#"><i class="icon-check"></i> News</a></li>-->
-							<li><a href="https://kassapoglou.github.io/main/contact.html"><i
-									class="icon-check"></i> Contact</a></li>
-						</ul>
-						</p>
-					</div>
-
-					<!--<div class="col-md-3 colorlib-widget">
-                    <h4>Recent Post</h4>
-                    <div class="f-blog">
-                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
-                        </a>
-                        <div class="desc">
-                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
-                            <p class="admin"><span>18 April 2018</span></p>
-                        </div>
-                    </div>
-                    <div class="f-blog">
-                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
-                        </a>
-                        <div class="desc">
-                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
-                            <p class="admin"><span>18 April 2018</span></p>
-                        </div>
-                    </div>
-                    <div class="f-blog">
-                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
-                        </a>
-                        <div class="desc">
-                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
-                            <p class="admin"><span>18 April 2018</span></p>
-                        </div>
-                    </div>
-                </div> -->
-
-					<div class="col-md-3 colorlib-widget">
-						<h4>Contact Info</h4>
-						<ul class="colorlib-footer-links">
-
-							<li><a href="tel://6976434707"><i class="icon-phone"></i> 6976434707</a></li>
-							<li><a href="mailto:michail.kassapoglou@gmail.com"><i class="icon-envelope"></i>
-								michail.kassapoglou@gmail.com</a></li>
-							<li><a href="kassapoglou.github.io/main"><i class="icon-location4"></i>
-								kassapoglou.github.io/main</a></li>
-							<li><a href="https://www.facebook.com/kassapoglou/?ref=bookmarks"><i
-									class="icon-facebook2"></i> Facebook</a></li>
-							<li><a href="https://www.linkedin.com/groups/4390739/"><i class="icon-linkedin"></i>
-								Linkedin</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="copy">
+			<!-- header holder -->
+			<div class="header-holder">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12 text-center">
-							<p>
-								<small class="block">&copy;
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-									Copyright &copy;<script>
-										document.write(new Date().getFullYear());
-									</script> All rights reserved | This template is made with <i class="icon-heart"
-																								  aria-hidden="true"></i> by <a href="https://colorlib.com"
-																																target="_blank">Colorlib</a>
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								</small><br>
-								<small class="block">Demo Images: <a href="http://unsplash.co/"
-																	 target="_blank">Unsplash</a>, <a href="http://pexels.com/"
-																									  target="_blank">Pexels</a></small>
-							</p>
+						<div class="col-xs-6 col-sm-3">
+							<!-- logo -->
+							<div class="logo">
+								<a href="index.html">
+									<img src="images/logo.png" alt="KASSAPOGLOU">
+								</a>
+							</div>
 						</div>
+						<div class="col-xs-6 col-sm-9 static-block">
+							<!-- nav -->
+							<nav id="nav" class="navbar navbar-default">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<!-- navbar collapse -->
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<!-- main navigation -->
+									<ul class="nav navbar-nav navbar-right main-navigation text-uppercase font-lato">
+										<li class="dropdown">
+											<a href="https://kassapoglou.github.io/main/">ΑΡΧΙΚΗ</a>
+											<!-- <ul class="dropdown-menu"> -->
+												<!--<li><a href="home.html">Home</a></li>-->
+											<!--	<li><a href="home2.html">Home 2</a></li>
+												<li><a href="home3.html">Home 3</a></li>-->
+											<!--</ul> -->
+										</li>
+										<li class="dropdown">
+											<a href="https://kassapoglou.github.io/main/training-events.html" >ΠΡΟΓΡΑΜΜΑ</a>
+											<!--<ul class="dropdown-menu"> -->
+												<!--<li><a href="courses-list.html">Course List</a></li>-->
+												<!--<li><a href="course-single.html">Course Single</a></li>-->
+										<!--	</ul> -->
+										</li>
+										<ul class="nav navbar-nav navbar-right main-navigation text-uppercase font-lato">
+											<li class="dropdown">
+												<a href="https://kassapoglou.github.io/main/course-list-all.html">ΜΑΘΗΜΑΤΑ</a>
+												<!-- <ul class="dropdown-menu"> -->
+													<!--<li><a href="home.html">Home</a></li>-->
+												<!--	<li><a href="home2.html">Home 2</a></li>
+													<li><a href="home3.html">Home 3</a></li>-->
+												<!--</ul> -->
+											</li>
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ΧΟΡΗΓΟΙ</a>
+												<!--<ul class="dropdown-menu"> -->
+													<!--<li><a href="courses-list.html">Course List</a></li>-->
+													<!--<li><a href="course-single.html">Course Single</a></li>-->
+											<!--	</ul> -->
+											</li>
+										<li class="dropdown">
+											<!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ΠΡΟΓΡΑΜΜΑ</a>-->
+											<!--<ul class="dropdown-menu">-->
+												<!--<li><a href="events-list.html">Event List</a></li>-->
+												<!--<li><a href="event-sigle.html">Event Single</a></li>-->
+											<!--</ul>-->
+										</li> 
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ΤΕΧΝΟΛΟΓΙΑ</a>
+										<!--	<ul class="dropdown-menu">-->
+											<!--	<li><a href="404.html">404 Page</a></li>
+												<li><a href="about-us.html">About us</a></li>
+												<li><a href="forum.html">Forum Page</a></li>
+												<li><a href="forum-single.html">Forum Single</a></li>
+												<li><a href="instructors-list.html">Instructors List</a></li>
+												<li><a href="instructor-single.html">Instructors Single</a></li>
+												<li><a href="login-register.html">Login &amp; Register</a></li> -->
+										<!--	</ul>-->
+										</li>
+										<li class="dropdown">
+											<a href="https://kassapoglou.github.io/main/contact.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+										<!--	<ul class="dropdown-menu">
+												<li><a href="blog.html">Blog List</a></li>
+												<li><a href="blog-single.html">Blog Single</a></li>
+											</ul> -->
+										</li>
+									<!--	<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+											<ul class="dropdown-menu">
+												<li><a href="shop.html">Shop List</a></li>
+												<li><a href="single-product.html">Shop Single</a></li>
+												<li><a href="cartage.html">Cart Page</a></li>
+												<li><a href="checkout.html">Checkout</a></li>
+											</ul>
+										</li>-->
+										
+									</ul>
+								</div>
 					</div>
 				</div>
 			</div>
-		</footer>
-	</div>
+		</header>
+		<!-- contain main informative part of the site -->
+		<main id="main">
+			<!-- heading banner -->
+			<header class="heading-banner text-white bgCover" style="background-image: url(images/A_Java6.jpeg);">
+				<div class="container holder">
+					<div class="align">
+						<h1>JAVA + VS Code</h1>
+					</div>
+				</div>
+			</header>
+			<!-- breadcrumb nav -->
+			<nav class="breadcrumb-nav">
+				<div class="container">
+					<!-- breadcrumb -->
+					<ol class="breadcrumb">
+						<li><a href="https://kassapoglou.github.io/main/">ΑΡΧΙΚΗ</a></li>
+						<li><a href="https://kassapoglou.github.io/main/course-list-all.html">ΣΕΜΙΝΑΡΙΑ</a></li>
+						<li class="active"><a href="https://kassapoglou.github.io/java/java-programming.html">JAVA</a></li>
+					</ol>
+				</div>
+			</nav>
+			<!-- two columns -->
+			<div id="two-columns" class="container">
+				<div class="row">
+					<!-- content -->
+					<article id="content" class="col-xs-12 col-md-9">
+						<!-- content h1 -->
+						<h1 class="content-h1 fw-semi">ΕΝΟΤΗΤΑ 3 - "HELLO WORLD" CODE EXPLANATION</h1>
+						<!-- view header -->
+						<header class="view-header row">
+							<div class="col-xs-12 col-sm-9 d-flex">
+								<div class="d-col">
+									<!-- post author -->
+									<div class="post-author">
+										<div class="alignleft no-shrink rounded-circle">
+											<a href="#"><img src="michail.jpg" class="rounded-circle" alt="image description"></a>
+										</div>
+										<div class="description-wrap">
+											<h2 class="author-heading"><a href="#">Εισηγητής</a></h2>
+											<h3 class="author-heading-subtitle text-uppercase">ΜΙΧΑΛΗΣ ΚΑΣΑΠΟΓΛΟΥ</h3>
+										</div>
+									</div>
+								</div>
+								<div class="d-col">
+									<!-- post author -->
+									<div class="post-author">
+										<div class="alignleft no-shrink icn-wrap">
+											<i class="far fa-bookmark"></i>
+										</div>
+										<div class="description-wrap">
+											<h2 class="author-heading"><a href="#">Κατηγορία</a></h2>
+											<h3 class="author-heading-subtitle text-uppercase">PROGRAMMING</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--<div class="col-xs-12 col-sm-3">
+								<div class="rating-holder">
+									<ul class="star-rating list-unstyled justify-end">
+										<li><span class="fas fa-star"><span class="sr-only">star</span></span></li>
+										<li><span class="fas fa-star"><span class="sr-only">star</span></span></li>
+										<li><span class="fas fa-star"><span class="sr-only">star</span></span></li>
+										<li><span class="fas fa-star"><span class="sr-only">star</span></span></li>
+										<li><span class="fas fa-star"><span class="sr-only">star</span></span></li>
+									</ul>
+									<strong class="element-block text-right subtitle fw-normal">(2 Reviews)</strong>
+								</div>
+							</div>-->
+						</header>
+						<div class="aligncenter content-aligncenter">
+							<img src="images/vscodejava.png" alt="image description">
+						</div>
+						<h3 class="content-h3">ΕΙΣΑΓΩΓΗ</h3>
+					<p>Στο σημερινό δωρεάν μάθημα Java με VS Code θα αναλύσουμε γραμμή προς 
+						γραμμή τον κώδικα του Hello World παραδείγματος που το Apache Maven
+						δημιουργήσε αυτόματα για εμάς όταν δημιουργήθηκε το Java Project. Επίσης σε 
+						αυτή την ενότητα θα δούμε και τον ρόλο που έχει το JDK στην εκτέλεση των προγραμμάτων μας.</p>
+						<h3 class="content-h3">ΑΝΑΛΥΣΗ ΤΟΥ ΚΩΔΙΚΑ</h3>
+						<p>Πριν ξεκινήσουμε, ας δούμε άλλη μια φορά τον κώδικα που έχει ήδη δημιουργηθεί αυτόματα μέσα στην κλάση <strong>App.java</strong>
+							όταν δημιουργήσαμε το Java Maven Project.</p>
+						<p><strong>App.java</strong></p>
+						<script src="https://gist.github.com/kassapoglou/90e32551e47abd6e2bd2fb632fcb6e7b.js"></script>
+						<p><strong>Output</strong></p>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
-	</div>
+						<img src="java-unit3/java-unit3-1.PNG" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+					<p></p>
+					<div class="numberCircle">1</div>
+					<p>Στην γραμμή 1 ορίζουμε το πακέτο (<strong>package</strong>) μέσα στο οποίο ανήκει η κλάση μας. 
+						Κάθε κλάση πρέπει να ανήκει μέσα σε ένα πακέτο. Το όνομα του πακέτου
+						το είχατε ορίσει όταν είχατε δώσει το όνομα για το <strong>group id</strong> κατά 
+						την δημιουργία του Java Maven Proejct.
+					</p>
+					<p>Ένα πακέτο ορίζεται από την λέξη package και αμέσως μετά το όνομα του πακέτου.
+						Για να ολοκληρωθεί η δήλωση του πακέτου θα πρέπει να τελειώσουμε την γραμμή 
+						του κώδικα μας με ένα <strong>semicolon (;)</strong>;
+					</p>
+					<p>Το όνομα του πακέτου μπορεί να αποτελείται από ένα ή περισσότερα μέρη. Στο δικό μας
+						παράδειγμα το όνομα του πακέτου αποτελείται από <strong>com.example</strong>. Στην πραγματικότητα ένα 
+						πακέτο είναι ένας φάκελος στον σκληρό σας δίσκο. Χρησιμοποιούμε τα πακέτα για να
+						ομαδοποιήσουμε πολλαπλές κλάσεις που έχουν μια κοινή λειτουργία. Για παράδειγμα,
+						σε ένα πακέτο μπορεί να έχουμε μόνο τις κλάσεις που αναφέρονται σε κώδικα που επικοινωνεί με 
+						μια βάση δεδoμένων, ενώ σε άλλο πακέτο να έχουμε κλάσεις που να περικλύουν την λογική του κώδικα μας
+						όπως αριθμητικές πράξεις. Αν και θα μπορούσαμε να έχουμε όλες τις κλάσεις μιας εφαρμογής σε ένα μόνο πακέτο,
+						αυτό θα μας δυσκόλευε όταν μεγάλωνε ο κώδικας μας γιατί δεν θα ήταν αμέσως ορατή η χρήση 
+						της κάθε κλάσης. Στην αρχή θα χρησιμοποιήσουμε αυτό το πακέτο για τον απλό κώδικα που θα
+						αναπτύξουμε, αλλά αργότερα θα δημιουργήσουμε νέα πακέτα για να οργανώσουμε καλύτερα την εφαρμογή μας.
+					</p>
+					<img src="java-unit3/java-unit3-2.PNG" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+					<p></p>
+					
+					<div class="numberCircle">3</div>
+<p>Στην γραμμή 3 ορίζουμε την πρώτη μας κλάσης. Κάθε 
+κώδικας που γράφουμε στην java πρέπει να ανήκει μέσα σε μια κλάση. Αυτή είναι άλλωστε η λογική
+της Java για αυτό και ονομάζεται αντικειμενοστραφή γλώσσα προγραμματισμού.
+Η λέξη κλειδί <strong>class</strong> ορίζει ότι το όνομα <strong>App</strong> είναι κλάση 
+και ο κώδικας που θα ανήκει σε αυτήν ορίζεται από τα άγκιστρα ( <strong>{ }</strong> ). Η λέξη 
+κλειδί <strong>public</strong> μπροστά από το class δηλώνει ότι άλλες κλάσεις, από το ίδιο ή 
+διαφορετικό πακέτο, μπορούν να καλέσουν μεταβλητές και μεθόδους που έχει να προσφέρει η δική μας 
+κλάση. Επειδή η λέξη public ορίζει το είδος της πρόσβασης που άλλα μέρη της εφαρμογής έχουν 
+στην συγκεκριμένη κλάση ανήκει σε μια ευρύτερη κατηγορία που ονομάζουμε <strong>access modifiers</strong>.
+Υπάρχουν και άλλοι access modifiers που θα αναλύσουμε σε μελλοντικές ενότητες. Για τώρα θα
+χρησιμοποιήσουμε την λέξη public.
+</p>
+<p>Το όνομα της κλάσης πρέπει να ξεκινάει με γράμμα και μετά μπορεί να περιέχει και αριθμούς.
+	Το <strong>naming convention</strong> που χρησιμοποιούμε για να δίνουμε ονόματα στις κλάσεις είναι το εξής:
+	το πρώτο γράμμα της κάθε λέξης είναι κεφαλαίο. Αυτός το τρόπος ονοματολογίας των κλάσεων ονομάζεται 
+	<strong>"CamelCase"</strong>.  
+</p>
+<p>Ακόμα ένα στοιχείο που πρέπει να γνωρίζεται για τις κλάσεις είναι ότι για κάθε κλάση
+	δημιουργείται και το αντίστοιχο αρχείο στον σκληρό σας δίσκο με το ίδιο όνομα και με κατάληξη .java.
+	Για την κλάση App, στο folder που είναι δημιουργημένο το project σας θα βρείτε το αρχείο <strong>App.java</strong>.
+</p>
+<div class="numberCircle">4</div>
+<p>Όμως μια κλάση από μόνη της δεν κάνει μια εφαρμογή εκτελέσιμη. Αυτή την 
+	δυνατότητα την αποκτάει η κλάση, και κατά συνέπεια ολόκληρη η εφαρμογή, όταν συμπεριλάβουμε μια δυναμική μέθοδο 
+	που προσφέρει η Java και ονομάζεται <strong>main</strong>.</p>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+<p>Πριν προχωρήσουμε στην ανάλυση της main, θα πρέπει να επισημάνουμε το γεγονός ότι η Java είναι <strong>case sensitive</strong>.
+	Αυτό με απλά λόγια σημαίνει ότι η λέξη Main και η λέξη main για την Java είναι δύο διαφορετικά ονόματα.
+	Προσέχουμε λοιπόν το πως γράφουμε το όνομα της main για μπορέσει να λειτουργήσει σωστά η εφαρμογή μας.
+</p>
 
-</body>
+<p> Η μέθοδος <strong>main</strong> είναι η αρχή εκτέλεσης κάθε προγράμματος Java. Η 
+	λέξη <strong>public</strong>, με την οποία ξεκινάει ο ορισμός της, επιτρέπει στο JVM της 
+	Java να αποκτήσει πρόσβαση σε αυτήν και να ξεκινήσει η εκτέλεση της. Η λέξη <strong>static</strong>
+	 επιτρέπει την εκτέλεση της μεθόδου χωρίς πρώτα να χρειαστεί να δημιουργήσουμε αντικείμενο 
+	 από την κλάση στην οποία περιέχεται. Η λέξη <strong>void</strong> ενημερώνει την Java ότι 
+	 η συγκεκριμένη μέθοδο δεν θα επιστρέψει τίποτα πίσω στο πρόγραμμα. Με άλλα λόγια εκτελεί 
+	 τον κώδικα ή δείχνει μηνύματα στην κονσόλα αλλά δεν περιμένουμε κάποιο αποτέλεσμα πίσω το 
+	 οποίο θα χρησιμοποιήσουμε για συνεχίσουμε με κάποιες άλλες πράξεις. Η λέξη <strong>main()</strong>
+	  (μαζί με τις παρενθέσεις) ορίζει το όνομα της και την ιδιότητα της – δηλαδή ότι είναι μέθοδος. Μέσα 
+	  στην παρένθεση ορίζεται ένας String <strong>array</strong> σε περίπτωση που θέλουμε να 
+	  περάσουμε κάποιες τιμές στην εφαρμογή πριν την εκτέλεση της. Τέλος τα άγκιστρα (<strong> { }</strong>)
+	   ορίζουν τον κώδικα που θα εκτελέσει η main.</p>
 
-</html></html>
+<p>Η πιο παραπάνω επεξήγηση του κώδικα μπορεί αυτή τη στιγμή να ακούγεται κάπως δύσκολη, αλλά όταν προχωρήσουμε 
+	στην θεωρία μας, κάθε μια από τις λέξεις κλειδιά της main στις οποίες αναφερθήκαμε θα ξεκαθαρίσει 
+	γιατί πολύ απλά θα τις χρησιμοποιήσετε και εσείς σε δικό μας κώδικα. Για τώρα απλά κρατάμε 
+	το γεγονός ότι έχουμε μια κλάση μέσα σε ένα πακέτο και χρειαζόμαστε τον ορισμό της main 
+	μεθόδου (ο οποίος δεν αλλάζει) μέσα στην κλάση για να τρέξουμε τον κώδικα μας.</p>	
+	
+	<div class="numberCircle">5</div>
+<p>Τέλος, έχουμε το <strong>System</strong> που είναι μια στατική κλάση και παράγει 
+	ένα αντικείμενο <strong>out</strong> στο οποίο ανήκει μια μέθοδο που 
+	ονομάζεται <strong>println( )</strong>. Ότι κείμενο περάσουμε σαν παράμετρο μέσα στην 
+	println( ) μέθοδο θα 
+	εμφανιστεί σαν αποτέλεσμα στο terminal γιατί είναι το default output του System.out 
+	αντικειμένου. Προσέχουμε να ολοκληρώσουμε την εντολή με semicolon ( ; ).</p>
+
+<p>Αυτό το εύκολο, σε εκτέλεση και λειτουργία, πρόγραμμα περιέχει πολύ θεωρία 
+	που δεν μπορούμε ακόμα να αναλύσουμε σε βάθος γιατί πολύ απλά είναι πολύ νωρίς 
+	για να μιλήσουμε για όλη την θεωρία του object-oriented προγραμματισμού. Αν κάποιοι από τους 
+	ορισμούς που χρησιμοποιήσαμε δεν είναι εντελώς ξεκάθαροι, μην ανησυχείτε γιατί 
+	θα επιστρέψουμε σε αυτούς πολλές φορές στα επόμενα προγράμματα μας. Για τώρα απλά κρατάμε τα εξής:</p>
+<ol>
+	<li>Η Java είναι case sensitive.</li>
+	<li>Το πιο απλό πρόγραμμα χρειάζεται την δημιουργία μιας κλάσης.</li>
+	<li>Κάθε κλάση δημιουργείται μέσα σε ένα πακέτο.</li>
+	<li>Για να είναι εκτελέσιμη η εφαρμογή μας χρειαζόμαστε την main( ) μέθοδο.</li>
+	<li>Η γραμμή που ορίζει την main( ) θα παραμείνει πάντα η ίδια για όλα τα προγράμματα.</li>
+	<li>Για να δείξουμε μηνύματα στην κονσόλα, χρησιμοποιούμε την println( ) μέθοδο.</li>
+</ol>
+
+<p>Ας παραμείνουμε για λίγο ακόμα στην μέθοδο <strong>println( )</strong>. Για να μπορεί 
+	η συγκεκριμένη μέθοδο να εμφανίσει στο terminal
+	ένα text κείμενο (ή String όπως ονομάζεται επίσημα στην Java) θα πρέπει το κείμενο να βρίσκεται μέσα σε
+	double quotes (<strong>" "</strong>). Επίσης, αν γράψετε την println( ) χωρίς να περάσετε κάποια
+	παράμετρο μέσα στην παρένθεση, το αποτέλεσμα θα είναι να έχουμε μια κενή γραμμή όταν εμφανίζεται στο
+	terminal.
+</p>
+
+<p>Υπάρχουν επίσης σημεία του κώδικα στα οποία ίσως να θέλετε να προσθέσετε κάποια έξτρα σχόλια
+	έτσι ώστε όταν αναλύσετε τον ίδιο κώδικα μερικούς μήνες αργότερα να σας βοηθήσουν να καταλάβετε
+	γρήγορα την λογική του κώδικα. Τα <strong>comments</strong> είναι ένας σωστός και επαγγελματικός
+	τρόπος να βοηθάμε και τους υπόλοιπους προγραμματιστές που ασχολούνται με τον κώδικα μας. Αν
+	θέλουμε να γράψουμε ένα σχόλιο σε μια μόνο γραμμή χρησιμοποιούμε <strong> // </strong> ενώ για
+	σχόλια που αναπτύσσονται σε περισσότερες από μια γραμμή μπορούμε να χρησιμοποιήσουμε <strong> /*   */</strong>
+</p>
+
+<p>Τα σχόλια είναι πολύ χρήσιμα στον προγραμματισμό γενικότερα γιατί πρώτον δεν τυπώνονται στο αποτέλεσμα, αλλά 
+	και κυρίως γιατί μπορούμε γρήγορα να απομονώσουμε και να απενεργοποιήσουμε γραμμές κώδικα.
+</p>
+
+<p>Ας εφαρμόσουμε όσα μάθαμε στον κώδικα του προγράμματος μας. Γράφετε τον παρακάτω κώδικα,
+	και αφού εκτελέσετε τις εντολές <strong>clean</strong> και <strong>install</strong> 
+	του Maven τότε τρέχετε τον κώδικα όπως
+	ήδη έχουμε περιγράψει στην προηγούμενη ενότητα.
+</p>
+<p><strong>App.java</strong></p>
+<script src="https://gist.github.com/kassapoglou/d13ac2954cf16aa57eaff88399a6d1b2.js"></script>
+<p><strong>Output</strong></p>
+<img src="java-unit3/java-unit3-3.PNG" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+<p></p>
+
+<h3 class="content-h3">JAVA VIRTUAL MACHINE</h3>
+<p>Στην πρώτη ενότητα είχαμε εγκαταστήσει μια από τις εκδόσεις της Java εκτελώντας ένα αρχείο με το όνομα OpenJDK. 
+	Η εγκατάσταση του OpenJDK είχε δύο κύριους σκοπούς:</p>
+<ol>
+	<li>πρώτον να δημιουργηθεί ένα Java Virtual Machine στον υπολογιστή μας</li>
+	<li>και κατά δεύτερον να μας δοθεί η δυνατότητα να δημιουργούμε, να κάνουμε compile και τέλος να τρέχουμε τα Java προγράμματα μας.</li>
+</ol>
+<p>Η ερώτηση όμως παραμένει – τι είναι το JVM? Θα έχετε 
+	ακούσει φαντάζομαι τον λόγο που η Java έγινε διάσημη ανάμεσα στην κοινότητα των 
+	προγραμματιστών – Γιατί κάθε εφαρμογή έχει την δυνατότητα να τρέξει 
+	σε όλα τα λειτουργικά συστήματα με σχεδόν καμία αλλαγή στον κώδικα. Πως όμως 
+	είναι αυτό εφικτό?</p>
+
+<p>Όταν εγκαταστήσαμε το JDK εγκαταστάθηκε στον υπολογιστή μας ένα <strong>Java Virtual Machine</strong>
+	 ή αλλιώς <strong>JVM</strong>. Κάθε Java εφαρμογή που χτίζουμε και εκτελούμε 
+	 τρέχει επάνω σε αυτό το JVM χωρίς ποτέ να “βλέπει” το πραγματικό λειτουργικό 
+	 σύστημα. Με πολύ απλά λόγια, το JVM είναι η CPU, η μνήμη και το λειτουργικό 
+	 σύστημα που νομίζει ότι βλέπει η Java εφαρμογή. Αν τώρα από Windows, για 
+	 παράδειγμα, θέλετε να τρέξετε την εφαρμογή σας σε ένα Linux υπολογιστή, δεν 
+	 έχετε παρά να εγκαταστήσετε το JDK για Linux και είσαστε έτοιμοι. Η Java 
+	 εφαρμογή θα ψάξει και θα βρει πάλι το JVM που χρειάζεται για να εκτελεστεί 
+	 χωρίς να αντιληφθεί ότι το λειτουργικό σύστημα έχει αλλάξει.</p>
+
+<p>Μπορούμε να δούμε όλη αυτή την λειτουργία με περισσότερη 
+	λεπτομέρεια. Θα χρειαστούμε όμως την βοήθεια της πιο κάτω εικόνας:</p>
+
+	<img src="java-unit3/java-unit3-4.png" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+	<p></p>
+
+<p>Έχουμε δημιουργήσει ένα απλό Java πρόγραμμα. Η κλάση μας μέσα στην 
+	οποία είναι γραμμένος ο κώδικας μας έχει κατάληξη <strong>.java</strong>. Όλα 
+	τα αρχεία java κώδικα από τα οποία αποτελείται μια εφαρμογή έχουν κατάληξη .java. Αυτό 
+	ονομάζεται <strong>Java Source Code</strong> και είναι το πρώτο βήμα.</p>
+
+<p>Όταν εκτελέσαμε την clean και install εντολή στο project, στην πραγματικότητα 
+	αυτό που έγινε ήταν το OpenJDK να ελέγξει αν συντακτικά ο κώδικας μας ήταν 
+	εντάξει. Αφού το πρόγραμμα δεν είχε λάθη, τότε έκανε compile την κλάση μας και 
+	δημιούργησε ένα καινούργιο αρχείο με το ίδιο όνομα αλλά με 
+	κατάληξη <strong>.class</strong>. Αν είχαμε μια εφαρμογή π.χ με τρεις 
+	κλάσεις τότε θα είχαμε την δημιουργία τριών καινούργιων αρχείων με 
+	κατάληξη .class. Αν κοιτάξουμε μέσα στον target φάκελλο 
+	(όπως δείχνει η παρακάτω εικόνα) θα δούμε την δημιουργία του .class αρχείου.</p>
+
+	<img src="java-unit3/java-unit3-5.PNG" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+	<p></p>
+	<img src="java-unit3/java-unit3-6.PNG" alt="Δωρεάν Μαθήματα και Σεμινάρια JAVA" class="center">
+	<p></p>
+
+<p>Τα καινούργια αυτά αρχεία περιέχουν των κώδικα μας σε 
+	ψηφιακή μορφή <strong>bytecode</strong>. Από εδώ και πέρα αναλαμβάνει 
+	το JVM το οποίο έχει την ικανότητα να διαβάσει αυτά τα αρχεία και να τα 
+	μετατρέψει σε γλώσσα μηχανής του αντίστοιχου λειτουργικού σύστημα στο οποίο τρέχει.</p>
+
+<p>Κάθε φορά που αλλάζει κάτι στον κώδικα και εκτελούμε την maven 
+	εντολή <strong>mvn clean install</strong>
+	 , το maven καθαρίζει τα παλιά .class αρχεία και δημιουργεί καινούργια 
+	 αφού επαναλαμβάνει την διαδικασία του compilation. Επίσης δημιουργείται 
+	 και ένα καινούργιο αρχείο το οποίο έχει κατάληξη <strong>.jar</strong>, περιέχει 
+	 όλες τις κλάσεις 
+	 της εφαρμογής μας και είναι εκτελέσιμο.</p>
+
+<p>Αυτή είναι όλη η εφαρμογή μας πακεταρισμένη κάτω από ένα όνομα και με κατάληξη .jar, με 
+	όλες τις κλάσεις που χρειάζεται να τρέξει η εφαρμογή μας. Αν και είναι
+	 κάπως άστοχο το παράδειγμα, απλά για να σας δώσω να καταλάβετε τι έχουμε 
+	 δημιουργήσει, σκεφτείτε το σαν κάτι αντίστοιχο ενός .exe αρχείου στα Windows. Δηλαδή 
+	 τώρα έχουμε μια εκτελέσιμη εφαρμογή? Και αν ναι, αν εκτελέσουμε αυτό το .jar 
+	 αρχείο σε έναν άλλο υπολογιστή στο οποίο ήδη έχουμε εγκαταστήσει το OpenJDK, πως 
+	 μπορούμε να το εκτελέσουμε? Η απάντηση είναι πολύ 
+	 απλή: <strong>java -jar (και το όνομα του αρχείου)</strong>.</p>
+
+<p>Πριν κλείσουμε αυτή το δωρεάν μάθημα Java ας κάνουμε μια γρήγορη 
+	ανακεφαλαίωση στο τι έχουμε καλύψει σαν θεωρία. Κάθε φορά λοιπόν που 
+	εκτελείτε την εντολή mvn clean install, στην ουσία δημιουργείται ένα .jar αρχείο, το 
+	οποίο αντιπροσωπεύει την εκτελέσιμη έκδοση της εφαρμογής. Μέσα σε αυτό 
+	το .jar αρχείο (μπορείτε να το κάνετε unzip και να δείτε τι περιέχει) περιλαμβάνονται 
+	όλες οι κλάσεις της εφαρμογής μας σε bytecode μορφή και κατάληξη .class. Αυτά τα 
+	bytecode αρχεία τα διαβάζει ο Java Interpreter (το JVM με άλλα λόγια) και τα 
+	μετατρέπει σε γλώσσα μηχανής του λειτουργικού σύστημα επάνω στο οποίο 
+	τρέχει η εφαρμογή μας.</p>
+
+<p>Μην ξεχάσετε να κάνετε ένα μικρό <strong>donation</strong> έτσι ώστε αυτό το site να μεγαλώσει ακόμα πιο πολύ και να έχει περισσότερες δυνατότητες στην Online παράδοση δωρεάν μαθημάτων.</p>
+
+
+
+					<!--<h3 class="content-h3">ΤΙ ΘΑ ΜΑΘΕΤΕ</h3>
+						<p>Στο πρώτο μέρος, των δωρεάν Python μαθημάτων, θα μάθετε όλες τις βασικές έννοιες που χρειάζεστε για να γράψετε τα πρώτα σας προγράμματα στην γλώσσα προγραμματισμού Python. Στην πραγματικότητα, η θεωρία που θα μάθετε, είναι σχεδόν η ίδια που θα μαθαίνατε σε οποιαδήποτε άλλη γλώσσα προγραμματισμού. </p>
+						<p>Θα αρχίσετε τα πρώτα σας βήματα στον προγραμματισμό με Python μαθαίνοντας τα διάφορα είδη data που υπάρχουν στην Python και πως μπορείτε να αποθηκεύσετε δεδομένα σε lists και dictionaries. Επίσης θα μάθετε πως να δημιουργήσετε ένα collection of data και πως μπορείτε να το χρησιμοποιήσετε με τον καλύτερο τρόπο στον κώδικα σας. Μετά θα προχωρήσουμε σε while loops και if statements έτσι ώστε να δώσουμε αυτόνομη λογική στα προγράμματα μας.</p>
+						<p>Θα συνεχίζετε να χτίζετε τις γνώσεις σας προχωρώντας  στην δημιουργία functions και να αλληλεπιδράτε με το πρόγραμμα σας όπως να ζητάτε από τον τελικό χρήστη να εισάγει δεδομένα κατά την εκτέλεση της εφαρμογής.</p>
+						<p>Κλάσεις και κληρονομικότητα θα σας απασχολήσουν για αρκετές ενότητες καλύπτοντας όλη την βασική θεωρία του αντικειμενοστραφή προγραμματισμού. Φυσικά κάθε κώδικας χρειάζεται να προστατευτεί από τυχόν λάθη στην εισαγωγή δεδομένων, όποτε θα μάθετε πως να διαχειρίζεστε τα ποιο κοινά λάθη που μπορεί να τύχουν καθώς η εφαρμογή σας εκτελείτε.</p>
+						<p>Στο δεύτερο μέρος των δωρεάν μαθημάτων θα μάθετε να γράφετε multi-threading και multi-processing κώδικα και να αναγνωρίζετε τις διάφορες τους. Επίσης θα εξοικειωθείτε με την έννοια του testing και ποιες βιβλιοθήκες να χρησιμοποιήσετε για να δοκιμάσετε τον κώδικα σας. Τέλος θα μάθετε κάποιες προχωρημένες έννοιες όπως Generators και Iterators, lambda expressions, και web scraping.</p>-->
+						<!--<ul class="listDefault list-unstyled">
+							<li>Thomas Edison may have been behind the invention.</li>
+							<li>Edison worked alongside partners, both financial and commercial, to get his best inventions off the ground,</li>
+							<li>Battling challenging cost targets and the need to build.</li>
+						</ul>
+						<p>Quasar the only home we've ever known extraordinary claims require extraordinary evidence billions billions Drake Eqa tion. Stirred by starlight! At the edge of forever. Rich in mystery Sea of Tranquility. Are creatures of the cosmos descend from astronomers. Trillion and billions upon billions upon billions upon billions upon billions. upon billions upon billions!</p>-->
+						
+						<!-- sectionRow -->
+						<section class="sectionRow">
+							
+							<!-- sectionRowPanelGroup -->
+							<div class="panel-group sectionRowPanelGroup" id="accordion" role="tablist" aria-multiselectable="true">
+								<!-- panel -->
+							
+								
+						
+
+						
+
+								
+
+									
+
+										
+
+											
+
+												
+
+													
+
+														
+														
+
+																
+
+																
+
+																
+
+
+
+																					
+
+
+																						
+
+																								
+
+																								
+
+																									
+
+
+
+																													
+
+																														
+
+																														
+
+																																
+
+																																	
+
+																																		
+
+
+
+								<!-- panel -->
+								
+								<!-- panel -->
+							
+								<!-- panel -->
+								
+								<!-- panel -->
+							
+							</div>
+							
+							
+						</section>
+
+						
+						<!-- sectionRow -->
+					
+						<!-- bookmarkFoot -->
+						<div class="bookmarkFoot">
+							<div class="bookmarkCol">
+								<ul class="socail-networks list-unstyled">
+									<li><a href="#" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
+									<li><a href="#" class="linkedin"><span class="fab fa-linkedin"></span></a></li>
+									
+								</ul>
+							</div>
+							<div class="bookmarkCol text-right">
+								<a href="#" class="btn btn-theme btn-warning text-uppercase fw-bold">Bookmark this course</a>
+							</div>
+						</div>
+						<h2>ΕΙΣΗΓΗΤΗΣ</h2>
+						<!-- instructorInfoBox -->
+						<div class="instructorInfoBox">
+							<div class="alignleft">
+								<a href="#"><img src="michail.jpg" alt="Merry Jhonson"></a>
+							</div>
+							<div class="description-wrap">
+								<h3 class="fw-normal"><a href="#"></a></h3>
+								<h4 class="fw-normal">Μιχάλης Κασάπογλου</h4>
+								<p>Ο Μιχάλης Κασάπογλου, είναι ένας από τους πιο έμπειρους τεχνικούς εκπαιδευτές στον χώρο του προγραμματισμού με πάνω από 20 χρόνια εμπειρία. Έχει εργαστεί σαν IT Operations Manager, Senior Programmer, και Training Team Leader ενώ κατέχει και αρκετές πιστοποιήσεις που καλύπτουν ένα μεγάλο φάσμα τεχνολογιών στο προγραμματισμό, σε βάσεις δεδομένων και cloud. Στον ελεύθερο του χρόνο διατηρεί ένα τεχνολογικό blog στο οποίο θα βρείτε αρκετά δωρεάν μαθήματα προγραμματισμού για αρχάριους.
+									</p>
+								<!--<a href="#" class="btn btn-default font-lato fw-semi text-uppercase">View Profile</a>-->
+							</div>
+						</div>
+					
+						<!-- reviewsList -->
+					
+						<!-- reviesSubmissionForm -->
+					
+					</article>
+					<!-- sidebar -->
+					<aside class="col-xs-12 col-md-3" id="sidebar">
+						<!-- widget course select -->
+						<section class="widget widget_box widget_course_select">
+							<header class="widgetHead text-center bg-theme">
+								<h3 class="text-uppercase">ΜΑΘΑΙΝΩ ΔΩΡΕΑΝ JAVA</h3>
+							</header>
+							<strong class="price element-block font-lato" data-label="price:">FREE</strong>
+							<ul class="list-unstyled font-lato">
+								<!--<li><i class="far fa-user icn no-shrink"></i> 199 Students</li>-->
+								<!--<li><i class="far fa-clock icn no-shrink"></i> ΔΙΑΡΚΕΙΑ: 30 ΗΜΕΡΕΣ</li>-->
+								<!--<li><i class="fas fa-bullhorn icn no-shrink"></i> ΑΡΙΘΜΟΣ ΜΑΘΗΜΑΤΩΝ: 50</li>-->
+								<!--<li><i class="far fa-play-circle icn no-shrink"></i> Video: 12 hours</li>-->
+								<!--<li><i class="far fa-address-card icn no-shrink"></i> Certificate of Completion</li>-->
+							</ul>
+						</section>
+
+						<div class="one-third color-3 animate-box">
+							<span class="icon"><i class="icon-paypal"></i></span>
+							<div class="desc">
+								<h3>Γίνε Χορηγός στη Γνώση</h3>
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="GQD77W6K672RA" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1" height="1" />
+</form></a></p>
+							</div>
+						</div>
+						<!-- widget categories -->
+						<section class="widget widget_categories">
+							<h3>ΚΑΤΗΓΟΡΙΕΣ ΜΑΘΗΜΑΤΩΝ</h3>
+							<ul class="list-unstyled text-capitalize font-lato">
+								<li class="cat-item active cat-item-1"><a href="#">Programming</a></li>
+								<li class="cat-item cat-item-2"><a href="#">DevOps</a></li>
+								<li class="cat-item cat-item-3"><a href="#">Web Design</a></li>
+								<li class="cat-item cat-item-4"><a href="#">Tools</a></li>
+								<li class="cat-item cat-item-5"><a href="#">Mobile</a></li>
+								<li class="cat-item cat-item-6"><a href="#">Databases</a></li>
+								<!--<li class="cat-item cat-item-7"><a href="#">IT &amp; Software</a></li>-->
+							</ul>
+						</section>
+						<!-- widget intro -->
+					<!--	<section class="widget widget_intro">
+							<h3>Course Intro</h3>
+							<div class="aligncenter overlay">
+								<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
+								<img src="http://placehold.it/260x220" alt="image description">
+							</div>
+						</section>-->
+						<!-- widget popular posts -->
+						<section class="widget widget_popular_posts">
+							<h3>ΔΗΜΟΦΙΛΗ ΣΕΜΙΝΑΡΙΑ</h3>
+							<!-- widget cources list -->
+							<ul class="widget-cources-list list-unstyled">
+								<li>
+									<a href="https://kassapoglou.github.io/jakarta/jakartaee.html">
+										<div class="alignleft">
+											<img src="jakarta.png" alt="image description">
+										</div>
+										<div class="description-wrap">
+											<h4>Εισαγωγή στην Java EE (Jakarta Enterprise)</h4>
+											<strong class="price text-primary element-block font-lato text-uppercase">ΔΩΡΕΑΝ</strong>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="https://kassapoglou.github.io/javascript/javascript-programming.html">
+										<div class="alignleft">
+											<img src="javascript.png" alt="Δωρεάν μαθήματα JavaScript">
+										</div>
+										<div class="description-wrap">
+											<h4>Web προγραμματισμός με JavaScript</h4>
+											<strong class="price text-primary element-block font-lato text-uppercase">ΔΩΡΕΑΝ</strong>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="https://kassapoglou.github.io/java/java-programming.html">
+										<div class="alignleft">
+											<img src="java.svg" alt="Δωρεάν μαθήματα Java">
+										</div>
+										<div class="description-wrap">
+											<h4>Βασικές αρχές προγραμματισμού με Java</h4>
+											<strong class="price text-primary element-block font-lato text-uppercase">ΔΩΡΕΑΝ</strong>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</section>
+						<div class="one-third color-3 animate-box">
+							<span class="icon"><i class="icon-paypal"></i></span>
+							<div class="desc">
+								<h3>Γίνε Χορηγός στη Γνώση</h3>
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="GQD77W6K672RA" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1" height="1" />
+</form></a></p>
+							</div>
+						</div>
+						<!-- widget tags -->
+						<!--<nav class="widget widget_tags">
+							<h3>Tags</h3>-->
+							<!-- tag clouds -->
+							<!--<ul class="list-unstyled tag-clouds font-lato">
+								<li><a href="#">Future</a></li>
+								<li><a href="#">Science</a></li>
+								<li><a href="#">Coding</a></li>
+								<li><a href="#">Education</a></li>
+								<li><a href="#">Technology</a></li>
+							</ul>
+						</nav>-->
+					</aside>
+				</div>
+			</div>
+		</main>
+		<!-- footer area container -->
+				<!-- footer area container -->
+				<div class="footer-area bg-dark text-gray">
+					<!-- aside -->
+					<aside class="aside container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-3 col">
+								<div class="logo"><a href="home.html"><img src="images/logo.png" alt="studyLMS"></a></div>
+								<p>Ο πρωταρχικός λόγος που με ώθησε στο να δημιουργήσω αυτή την ιστοσελίδα και να προσφέρω δωρεάν μαθήματα είναι γιατί πιστεύω ότι η γνώση, σε οποιοδήποτε επίπεδο, πρέπει να μεταδίδεται για να έχει αξία.</p>
+								<a href="#" class="btn btn-default text-uppercase">ΞΕΚΙΝΗΣΤΕ ΤΑ ΜΑΘΗΜΑΤΑ</a>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 col hidden-xs">
+								<h3>ΔΗΜΟΦΙΛΗ ΜΑΘΗΜΑΤΑ</h3>
+								<!-- widget cources list -->
+								<ul class="widget-cources-list list-unstyled">
+									<li>
+										<a href="https://kassapoglou.github.io/python/python.html">
+											<div class="alignleft">
+												<img src="python.png" alt="Δωρεάν μαθήματα Python">
+											</div>
+											<div class="description-wrap">
+												<h4>Μαθαίνω Python Προγραμματισμό</h4>
+												<strong class="price text-primary element-block font-lato text-uppercase">ΔΩΡΕΑΝ</strong>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="https://kassapoglou.github.io/javascript/javascript-programming.html">
+											<div class="alignleft">
+												<img src="javascript.png" alt="Δωρεάν μαθήματα JavaScript">
+											</div>
+											<div class="description-wrap">
+												<h4>Μαθαίνω JavaScript προγραμματισμό</h4>
+												<strong class="price text-primary element-block font-lato text-uppercase">ΔΩΡΕΑΝ</strong>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="https://kassapoglou.github.io/java/java-programming.html">
+											<div class="alignleft">
+												<img src="java.svg" alt="Δωρεάν μαθήματα Java">
+											</div>
+											<div class="description-wrap">
+												<h4>Μαθαίνω Java Προγραμματισμό</h4>
+												<strong class="price text-primary element-block font-lato text-uppercase">ΔΩΡΕΑΝ</strong>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<nav class="col-xs-12 col-sm-6 col-md-3 col">
+								<h3>ΣΥΝΔΕΣΜΟΙ</h3>
+								<!-- fooer navigation -->
+								<ul class="fooer-navigation list-unstyled">
+									<li><a href="https://kassapoglou.github.io/main/">ΑΡΧΙΚΗ</a></li>
+									<li><a href="#">ΠΡΟΓΡΑΜΜΑ</a></li>
+									<li><a href="#">ΜΑΘΗΜΑΤΑ</li>
+									<li><a href="#">ΧΟΡΗΓΟΙ</a></li>
+									<li><a href="#">ΤΕΧΝΟΛΟΓΙΑ</a></li>
+									<li><a href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+									
+								</ul>
+							</nav>
+							<div class="col-xs-12 col-sm-6 col-md-3 col">
+								<h3>ΕΠΙΚΟΙΝΩΝΙΑ</h3>
+								<p>Μπορείτε να επικοινωνήσετε μαζί μου με τους εξής τρόπους:</p>
+								<!-- ft address -->
+								<address class="ft-address">
+									<dl>
+										<!--<dt><span class="fas fa-map-marker"><span class="sr-only">marker</span></span></dt>
+										<dd>Address: 9015 Sunset Boulevard United Kingdom</dd>-->
+										<dt><span class="fas fa-phone-square"><span class="sr-only">phone</span></span></dt>
+										<dd>Call: <a href="tel:+2156237532">+30 6976434707</a></dd>
+										<dt><span class="fas fa-envelope-square"><span class="sr-only">email</span></span></dt>
+										<dd>Email: <a href="mailto:michail.kassapoglou@gmail.com">michail.kassapoglou@gmail.com</a></dd>
+									</dl>
+								</address>
+							</div>
+						</div>
+					</aside>
+					<!-- page footer -->
+					<footer id="page-footer" class="font-lato">
+						<div class="container">
+							<div class="row holder">
+								<div class="col-xs-12 col-sm-push-6 col-sm-6">
+									<ul class="socail-networks list-unstyled">
+										<li><a href="#"><span class="fab fa-facebook"></span></a></li>
+										
+										<li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+									</ul>
+								</div>
+								<div class="col-xs-12 col-sm-pull-6 col-sm-6">
+									<!--<p><a href="#">Studylms</a> | &copy; 2018 <a href="#">DesignFalls</a>, All rights reserved</p>-->
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+				<!-- back top of the page -->
+				<span id="back-top" class="text-center fa fa-caret-up"></span>
+				<!-- loader of the page -->
+				<div id="loader" class="loader-holder">
+					<div class="block"><img src="images/svg/hearts.svg" width="100" alt="loader"></div>
+				</div>
+			</div>
+			<div class="popup-holder">
+				<div id="popup1" class="lightbox-demo">
+					<form action="#" class="user-log-form">
+						<h2>Login Form</h2>
+						<div class="form-group">
+							<input type="text" class="form-control element-block" placeholder="Username or email address *">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control element-block" placeholder="Password *">
+						</div>
+						<div class="btns-wrap">
+							<div class="wrap">
+								<label for="rem" class="custom-check-wrap fw-normal font-lato">
+									<input type="checkbox" id="rem" class="customFormReset">
+									<span class="fake-label element-block">Remember me</span>
+								</label>
+								<button type="submit" class="btn btn-theme btn-warning fw-bold font-lato text-uppercase">Login</button>
+							</div>
+							<div class="wrap text-right">
+								<p>
+									<a href="#" class="forget-link">Lost your Password?</a>
+								</p>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div id="popup2" class="lightbox-demo">
+					<form action="#" class="user-log-form">
+						<h2>Register Form</h2>
+						<div class="form-group">
+							<input type="email" class="form-control element-block" placeholder="Email address *">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control element-block" placeholder="Password *">
+						</div>
+						<div class="btns-wrap">
+							<div class="wrap">
+								<button type="submit" class="btn btn-theme btn-warning fw-bold font-lato text-uppercase">Register</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- include jQuery -->
+			<script src="js/jquery.js"></script>
+			<!-- include jQuery -->
+			<script src="js/plugins.js"></script>
+			<!-- include jQuery -->
+			<script src="js/jquery.main.js"></script>
+			<!-- include jQuery -->
+			<script type="text/javascript" src="js/init.js"></script>
+		</body>
+		</html>
